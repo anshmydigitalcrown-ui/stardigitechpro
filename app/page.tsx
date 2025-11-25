@@ -73,41 +73,106 @@ export default function Home() {
       {/* Services Overview */}
       <section className="py-20 bg-[#2596be]">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="section-title">Our Core Services</h2>
-            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-              Comprehensive digital marketing solutions designed to maximize your online performance
+          <div className="text-center mb-16">
+            <h2 className="section-title">Our Performance Marketing Services</h2>
+            <p className="text-white text-lg max-w-3xl mx-auto">
+              Comprehensive digital marketing solutions designed to drive measurable results and accelerate your business growth
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="card group hover:border-primary border-2 border-transparent">
-              <div className="text-primary text-4xl mb-4">🎯</div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Service 1 */}
+            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🎯</div>
               <h3 className="text-xl font-bold text-white mb-3">PPC Management</h3>
-              <p className="text-gray-300 mb-4">
-                Strategic paid advertising campaigns on Google Ads, Facebook, and more to drive qualified traffic and conversions.
+              <p className="text-white text-opacity-90 text-sm mb-4">
+                Strategic paid advertising campaigns to drive qualified traffic and maximize conversions
               </p>
-              <Link href="/service" className="text-primary font-semibold hover:underline">
-                Learn More →
+              <Link href="/service" className="inline-flex items-center text-white font-semibold hover:gap-2 transition-all">
+                Learn More <span className="ml-1">→</span>
               </Link>
             </div>
-            <div className="card group hover:border-primary border-2 border-transparent">
-              <div className="text-secondary text-4xl mb-4">📈</div>
+
+            {/* Service 2 */}
+            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📈</div>
               <h3 className="text-xl font-bold text-white mb-3">SEO Optimization</h3>
-              <p className="text-gray-300 mb-4">
-                Boost your organic rankings with proven SEO strategies that increase visibility and drive sustainable growth.
+              <p className="text-white text-opacity-90 text-sm mb-4">
+                Boost organic rankings with proven SEO strategies that increase visibility and traffic
               </p>
-              <Link href="/service" className="text-primary font-semibold hover:underline">
-                Learn More →
+              <Link href="/service" className="inline-flex items-center text-white font-semibold hover:gap-2 transition-all">
+                Learn More <span className="ml-1">→</span>
               </Link>
             </div>
-            <div className="card group hover:border-primary border-2 border-transparent">
-              <div className="text-accent text-4xl mb-4">📱</div>
+
+            {/* Service 3 */}
+            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📱</div>
               <h3 className="text-xl font-bold text-white mb-3">Social Media Marketing</h3>
-              <p className="text-gray-300 mb-4">
-                Engage your audience and build brand loyalty with targeted social media campaigns across all platforms.
+              <p className="text-white text-opacity-90 text-sm mb-4">
+                Engage your audience and build brand loyalty across all social media platforms
               </p>
-              <Link href="/service" className="text-primary font-semibold hover:underline">
-                Learn More →
+              <Link href="/service" className="inline-flex items-center text-white font-semibold hover:gap-2 transition-all">
+                Learn More <span className="ml-1">→</span>
+              </Link>
+            </div>
+
+            {/* Service 4 */}
+            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">✍️</div>
+              <h3 className="text-xl font-bold text-white mb-3">Content Marketing</h3>
+              <p className="text-white text-opacity-90 text-sm mb-4">
+                Create compelling content that resonates with your audience and drives conversions
+              </p>
+              <Link href="/service" className="inline-flex items-center text-white font-semibold hover:gap-2 transition-all">
+                Learn More <span className="ml-1">→</span>
+              </Link>
+            </div>
+
+            {/* Service 5 */}
+            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🔄</div>
+              <h3 className="text-xl font-bold text-white mb-3">Conversion Rate Optimization</h3>
+              <p className="text-white text-opacity-90 text-sm mb-4">
+                Turn more visitors into customers with data-driven CRO strategies
+              </p>
+              <Link href="/service" className="inline-flex items-center text-white font-semibold hover:gap-2 transition-all">
+                Learn More <span className="ml-1">→</span>
+              </Link>
+            </div>
+
+            {/* Service 6 */}
+            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📊</div>
+              <h3 className="text-xl font-bold text-white mb-3">Analytics & Reporting</h3>
+              <p className="text-white text-opacity-90 text-sm mb-4">
+                Make informed decisions with comprehensive analytics and transparent reporting
+              </p>
+              <Link href="/service" className="inline-flex items-center text-white font-semibold hover:gap-2 transition-all">
+                Learn More <span className="ml-1">→</span>
+              </Link>
+            </div>
+
+            {/* Service 7 */}
+            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📧</div>
+              <h3 className="text-xl font-bold text-white mb-3">Email Marketing</h3>
+              <p className="text-white text-opacity-90 text-sm mb-4">
+                Nurture leads and maintain customer relationships with targeted email campaigns
+              </p>
+              <Link href="/service" className="inline-flex items-center text-white font-semibold hover:gap-2 transition-all">
+                Learn More <span className="ml-1">→</span>
+              </Link>
+            </div>
+
+            {/* Service 8 */}
+            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🛒</div>
+              <h3 className="text-xl font-bold text-white mb-3">E-commerce Marketing</h3>
+              <p className="text-white text-opacity-90 text-sm mb-4">
+                Boost your online store's performance with specialized e-commerce strategies
+              </p>
+              <Link href="/service" className="inline-flex items-center text-white font-semibold hover:gap-2 transition-all">
+                Learn More <span className="ml-1">→</span>
               </Link>
             </div>
           </div>
