@@ -24,14 +24,17 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 group">
-            <Image
-              src="/logo.webp.webp"
-              alt="STAR DIGITECH PRO Logo"
-              width={65}
-              height={65}
-              className="object-contain transition-transform duration-300 group-hover:scale-110"
-            />
-            <span className="text-xl md:text-2xl font-bold text-white hidden sm:block group-hover:text-primary transition-colors duration-300">
+            <div className="relative">
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary via-[#1d7ba8] to-primary rounded-full opacity-30 blur-sm group-hover:opacity-50 transition-opacity duration-300"></div>
+              <Image
+                src="/logo.webp.webp"
+                alt="STAR DIGITECH PRO Logo"
+                width={65}
+                height={65}
+                className="relative object-contain transition-transform duration-300 group-hover:scale-110 brightness-110"
+              />
+            </div>
+            <span className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-100 to-white hidden sm:block group-hover:from-primary group-hover:via-[#1d7ba8] group-hover:to-primary transition-all duration-300 tracking-wide">
               STAR DIGITECH PRO
             </span>
           </Link>
