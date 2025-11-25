@@ -315,6 +315,128 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Company Info Section */}
+      <section className="py-20 bg-gradient-to-br from-[#020617] via-slate-900 to-[#020617]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              {/* Left Content */}
+              <div>
+                <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-4 py-2 mb-6">
+                  <span className="relative flex h-3 w-3">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
+                  </span>
+                  <span className="text-sm text-gray-300 font-medium">Leading Digital Marketing Agency in Noida</span>
+                </div>
+                
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+                  Your Trusted Partner for <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-[#1d7ba8] to-primary">Digital Growth</span>
+                </h2>
+                
+                <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+                  STAR DIGITECH PRO is a premier performance marketing agency based in Noida, specializing in data-driven digital marketing solutions. With over 5 years of industry experience and 500+ successful campaigns, we've helped businesses across various sectors achieve remarkable growth.
+                </p>
+                
+                <p className="text-gray-300 text-lg mb-8 leading-relaxed">
+                  Our team of certified digital marketing experts combines creativity with analytics to deliver measurable results. We don't just run campaigns – we build long-term partnerships focused on sustainable growth and maximum ROI.
+                </p>
+
+                <div className="grid grid-cols-2 gap-6 mb-8">
+                  <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
+                    <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#1d7ba8] mb-2">5+</div>
+                    <div className="text-sm text-gray-400">Years of Excellence</div>
+                  </div>
+                  <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
+                    <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#1d7ba8] mb-2">500+</div>
+                    <div className="text-sm text-gray-400">Successful Campaigns</div>
+                  </div>
+                  <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
+                    <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#1d7ba8] mb-2">200+</div>
+                    <div className="text-sm text-gray-400">Happy Clients</div>
+                  </div>
+                  <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
+                    <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#1d7ba8] mb-2">300%</div>
+                    <div className="text-sm text-gray-400">Average ROI Growth</div>
+                  </div>
+                </div>
+
+                <Link
+                  href="/about"
+                  className="group inline-flex items-center justify-center px-8 py-4 font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 shadow-lg hover:shadow-2xl hover:shadow-primary/50 hover:scale-105"
+                >
+                  <span className="flex items-center gap-2">
+                    Learn More About Us
+                    <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+
+              {/* Right Content - Features */}
+              <div className="space-y-6">
+                <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-primary to-[#1d7ba8] rounded-xl flex items-center justify-center text-2xl shadow-lg">
+                      🎯
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-white mb-2">Performance-Focused</h3>
+                      <p className="text-gray-300 text-sm leading-relaxed">
+                        We focus on metrics that matter – conversions, leads, and revenue growth. Every campaign is optimized for maximum performance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-primary to-[#1d7ba8] rounded-xl flex items-center justify-center text-2xl shadow-lg">
+                      💡
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-white mb-2">Innovative Solutions</h3>
+                      <p className="text-gray-300 text-sm leading-relaxed">
+                        Stay ahead with cutting-edge marketing strategies, latest tools, and innovative approaches tailored to your industry.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-primary to-[#1d7ba8] rounded-xl flex items-center justify-center text-2xl shadow-lg">
+                      📊
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-white mb-2">Transparent Reporting</h3>
+                      <p className="text-gray-300 text-sm leading-relaxed">
+                        Get complete visibility into your campaigns with detailed reports, real-time dashboards, and regular performance reviews.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-primary to-[#1d7ba8] rounded-xl flex items-center justify-center text-2xl shadow-lg">
+                      🤝
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-white mb-2">Dedicated Support</h3>
+                      <p className="text-gray-300 text-sm leading-relaxed">
+                        Work with a dedicated account manager who understands your business and is committed to your success.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us */}
       <section className="py-20 bg-[#020617] bg-opacity-90">
         <div className="container mx-auto px-4">
