@@ -14,6 +14,13 @@ export default function Home() {
                 <br />
                 <span className="text-primary">Drive Results with Data-Driven Campaigns</span>
               </h1>
+              <div className="flex items-center justify-center md:justify-start gap-3 mb-6">
+                <div className="h-1 w-16 bg-gradient-to-r from-primary to-transparent rounded-full"></div>
+                <p className="text-sm md:text-base text-gray-400 font-medium uppercase tracking-wider">
+                  ROI-Focused | Data-Driven | Result-Oriented
+                </p>
+                <div className="h-1 w-16 bg-gradient-to-l from-primary to-transparent rounded-full"></div>
+              </div>
               <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl">
                 Transform your business with performance marketing strategies that deliver measurable ROI. We specialize in data-driven campaigns, conversion optimization, and performance-based advertising tailored for your growth in Noida.
               </p>
