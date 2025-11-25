@@ -25,11 +25,11 @@ const Header = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
             <Image
-              src="/logo.jpg"
-              alt="STAR DIGITECH PRO"
+              src="/logo.webp.webp"
+              alt="STAR DIGITECH PRO Logo"
               width={50}
               height={50}
-              className=""
+              className="object-contain"
             />
             <span className="text-xl font-bold text-white hidden sm:block">
               STAR DIGITECH PRO
