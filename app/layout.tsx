@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "STAR DIGITECH PRO | Digital Marketing Agency in Noida",
-  description: "Leading digital marketing agency in Noida offering ROI-focused marketing solutions, SEO, PPC, social media marketing, and more.",
-  keywords: "digital marketing Noida, SEO services, PPC management, social media marketing, STAR DIGITECH PRO",
+  title: "STAR DIGITECH PRO | Performance Marketing in Noida | Digital Marketing Agency",
+  description: "Leading performance marketing agency in Noida offering ROI-focused marketing solutions, data-driven campaigns, PPC management, SEO, and performance-based advertising strategies.",
+  keywords: "performance marketing Noida, performance marketing agency, digital marketing Noida, PPC management Noida, ROI-focused marketing, conversion optimization, performance advertising, SEO services Noida, STAR DIGITECH PRO",
   authors: [{ name: "STAR DIGITECH PRO" }],
   creator: "STAR DIGITECH PRO",
   publisher: "STAR DIGITECH PRO",
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     url: 'https://stardigitechpro.vercel.app',
-    title: 'STAR DIGITECH PRO | Digital Marketing Agency in Noida',
-    description: 'Leading digital marketing agency in Noida offering ROI-focused marketing solutions, SEO, PPC, social media marketing, and more.',
+    title: 'STAR DIGITECH PRO | Performance Marketing in Noida',
+    description: 'Leading performance marketing agency in Noida offering ROI-focused marketing solutions, data-driven campaigns, and performance-based advertising strategies.',
     siteName: 'STAR DIGITECH PRO',
     images: [{
       url: '/logo.jpg',
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'STAR DIGITECH PRO | Digital Marketing Agency in Noida',
-    description: 'Leading digital marketing agency in Noida offering ROI-focused marketing solutions, SEO, PPC, social media marketing, and more.',
+    title: 'STAR DIGITECH PRO | Performance Marketing in Noida',
+    description: 'Leading performance marketing agency in Noida offering ROI-focused marketing solutions, data-driven campaigns, and performance-based advertising strategies.',
     images: ['/logo.jpg'],
   },
   verification: {
