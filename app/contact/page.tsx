@@ -52,13 +52,13 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 via-white to-secondary/10 py-20">
+      <section className="bg-gradient-to-br from-primary/10 via-slate-800 to-secondary/10 py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-dark mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Let's Grow Your Business Together
             </h1>
-            <p className="text-lg md:text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-300">
               Ready to take your digital marketing to the next level? Contact our team of experts in Noida for a free consultation.
             </p>
           </div>
@@ -72,10 +72,10 @@ export default function ContactPage() {
             {/* Contact Form */}
             <div>
               <div className="card">
-                <h2 className="text-3xl font-bold text-dark mb-6">Send Us a Message</h2>
+                <h2 className="text-3xl font-bold text-white mb-6">Send Us a Message</h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-dark mb-2">
+                    <label htmlFor="name" className="block text-sm font-medium text-white mb-2">
                       Full Name *
                     </label>
                     <input
@@ -92,7 +92,7 @@ export default function ContactPage() {
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-dark mb-2">
+                      <label htmlFor="email" className="block text-sm font-medium text-white mb-2">
                         Email Address *
                       </label>
                       <input
@@ -107,7 +107,7 @@ export default function ContactPage() {
                       />
                     </div>
                     <div>
-                      <label htmlFor="phone" className="block text-sm font-medium text-dark mb-2">
+                      <label htmlFor="phone" className="block text-sm font-medium text-white mb-2">
                         Phone Number
                       </label>
                       <input
@@ -123,7 +123,7 @@ export default function ContactPage() {
                   </div>
 
                   <div>
-                    <label htmlFor="company" className="block text-sm font-medium text-dark mb-2">
+                    <label htmlFor="company" className="block text-sm font-medium text-white mb-2">
                       Company Name
                     </label>
                     <input
@@ -139,7 +139,7 @@ export default function ContactPage() {
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <label htmlFor="service" className="block text-sm font-medium text-dark mb-2">
+                      <label htmlFor="service" className="block text-sm font-medium text-white mb-2">
                         Service Interested In *
                       </label>
                       <select
@@ -163,7 +163,7 @@ export default function ContactPage() {
                       </select>
                     </div>
                     <div>
-                      <label htmlFor="budget" className="block text-sm font-medium text-dark mb-2">
+                      <label htmlFor="budget" className="block text-sm font-medium text-white mb-2">
                         Monthly Budget
                       </label>
                       <select
@@ -184,7 +184,7 @@ export default function ContactPage() {
                   </div>
 
                   <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-dark mb-2">
+                    <label htmlFor="message" className="block text-sm font-medium text-white mb-2">
                       Message *
                     </label>
                     <textarea
@@ -219,8 +219,8 @@ export default function ContactPage() {
             {/* Contact Information */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-3xl font-bold text-dark mb-6">Get In Touch</h2>
-                <p className="text-gray-600 mb-8">
+                <h2 className="text-3xl font-bold text-white mb-6">Get In Touch</h2>
+                <p className="text-gray-300 mb-8">
                   We're here to answer your questions and help you achieve your digital marketing goals. Reach out to us through any of the following channels.
                 </p>
 
@@ -234,8 +234,8 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-dark mb-1">Office Address</h3>
-                      <p className="text-gray-600">
+                      <h3 className="text-lg font-semibold text-white mb-1">Office Address</h3>
+                      <p className="text-gray-300">
                         Sector 62, Noida<br />
                         Uttar Pradesh - 201309<br />
                         India
@@ -251,8 +251,8 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-dark mb-1">Email Us</h3>
-                      <p className="text-gray-600">
+                      <h3 className="text-lg font-semibold text-white mb-1">Email Us</h3>
+                      <p className="text-gray-300">
                         info@performancemarketing.com<br />
                         sales@performancemarketing.com
                       </p>
@@ -267,8 +267,8 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-dark mb-1">Call Us</h3>
-                      <p className="text-gray-600">
+                      <h3 className="text-lg font-semibold text-white mb-1">Call Us</h3>
+                      <p className="text-gray-300">
                         +91 (XXX) XXX-XXXX<br />
                         Mon - Fri: 9:00 AM - 6:00 PM IST
                       </p>
@@ -283,8 +283,8 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-dark mb-1">Business Hours</h3>
-                      <p className="text-gray-600">
+                      <h3 className="text-lg font-semibold text-white mb-1">Business Hours</h3>
+                      <p className="text-gray-300">
                         Monday - Friday: 9:00 AM - 6:00 PM<br />
                         Saturday: 10:00 AM - 4:00 PM<br />
                         Sunday: Closed
@@ -296,8 +296,8 @@ export default function ContactPage() {
 
               {/* Map or Additional Info */}
               <div className="card bg-gradient-to-br from-primary/5 to-secondary/5">
-                <h3 className="text-xl font-bold text-dark mb-4">Why Contact Us?</h3>
-                <ul className="space-y-3 text-gray-600">
+                <h3 className="text-xl font-bold text-white mb-4">Why Contact Us?</h3>
+                <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="text-primary mr-2 mt-1">✓</span>
                     <span>Free initial consultation to understand your needs</span>
@@ -322,32 +322,32 @@ export default function ContactPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-light">
+      <section className="py-20 bg-slate-800">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="section-title text-center mb-12">Frequently Asked Questions</h2>
             <div className="space-y-6">
               <div className="card">
-                <h3 className="text-xl font-bold text-dark mb-2">How quickly can we get started?</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-bold text-white mb-2">How quickly can we get started?</h3>
+                <p className="text-gray-300">
                   Once we understand your goals and requirements, we can typically launch initial campaigns within 1-2 weeks.
                 </p>
               </div>
               <div className="card">
-                <h3 className="text-xl font-bold text-dark mb-2">What is your minimum contract period?</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-bold text-white mb-2">What is your minimum contract period?</h3>
+                <p className="text-gray-300">
                   We recommend a minimum 3-month engagement to see meaningful results, though we offer flexible terms based on your needs.
                 </p>
               </div>
               <div className="card">
-                <h3 className="text-xl font-bold text-dark mb-2">Do you work with businesses outside Noida?</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-bold text-white mb-2">Do you work with businesses outside Noida?</h3>
+                <p className="text-gray-300">
                   Yes! While we're based in Noida, we serve clients across India and internationally through our digital services.
                 </p>
               </div>
               <div className="card">
-                <h3 className="text-xl font-bold text-dark mb-2">What makes you different from other agencies?</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-bold text-white mb-2">What makes you different from other agencies?</h3>
+                <p className="text-gray-300">
                   Our focus on transparent reporting, data-driven strategies, and proven ROI sets us apart. We treat your budget as our own.
                 </p>
               </div>

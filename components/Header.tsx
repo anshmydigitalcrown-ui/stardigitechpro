@@ -19,7 +19,7 @@ const Header = () => {
   const isActive = (path: string) => pathname === path;
 
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
+    <header className="bg-slate-900 shadow-lg sticky top-0 z-50 border-b border-slate-800">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -31,7 +31,7 @@ const Header = () => {
               height={50}
               className=""
             />
-            <span className="text-xl font-bold text-dark hidden sm:block">
+            <span className="text-xl font-bold text-white hidden sm:block">
               STAR DIGITECH PRO
             </span>
           </Link>
@@ -45,7 +45,7 @@ const Header = () => {
                   className={`font-medium transition-colors duration-300 ${
                     isActive(link.href)
                       ? "text-primary border-b-2 border-primary"
-                      : "text-dark hover:text-primary"
+                      : "text-gray-300 hover:text-primary"
                   }`}
                 >
                   {link.label}
@@ -65,8 +65,8 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden text-dark focus:outline-none"
-            aria-label="Toggle menu"
+            className="md:hidden text-white focus:outline-none"
+            aria-label="Toggle menu">
           >
             <svg
               className="w-6 h-6"
@@ -88,7 +88,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4">
+          <div className="md:hidden mt-4 pb-4 border-t border-slate-800">
             <ul className="flex flex-col space-y-4">
               {navLinks.map((link) => (
                 <li key={link.href}>
@@ -98,7 +98,7 @@ const Header = () => {
                     className={`block font-medium transition-colors duration-300 ${
                       isActive(link.href)
                         ? "text-primary"
-                        : "text-dark hover:text-primary"
+                        : "text-gray-300 hover:text-primary"
                     }`}
                   >
                     {link.label}

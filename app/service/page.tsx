@@ -175,33 +175,33 @@ export default function ServicePage() {
         }}
       />
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 via-white to-secondary/10 py-20">
+      <section className="bg-gradient-to-br from-primary/10 via-slate-800 to-secondary/10 py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-dark mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Our Digital Marketing Services
           </h1>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
             Comprehensive performance marketing solutions designed to accelerate your business growth in Noida and beyond
           </p>
         </div>
       </section>
 
       {/* Services Grid */}
-      <section className="py-20">
+      <section className="py-20 bg-slate-900">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {services.map((service) => (
               <div key={service.id} className="card hover:scale-[1.02] transition-transform duration-300">
                 <div className="text-5xl mb-4">{service.icon}</div>
-                <h2 className="text-2xl font-bold text-dark mb-3">{service.title}</h2>
-                <p className="text-gray-600 mb-6">{service.description}</p>
+                <h2 className="text-2xl font-bold text-white mb-3">{service.title}</h2>
+                <p className="text-gray-300 mb-6">{service.description}</p>
                 <div className="space-y-2">
-                  <h3 className="font-semibold text-dark mb-3">Key Features:</h3>
+                  <h3 className="font-semibold text-white mb-3">Key Features:</h3>
                   <ul className="space-y-2">
                     {service.features.map((feature, index) => (
                       <li key={index} className="flex items-start">
                         <span className="text-primary mr-2 mt-1">✓</span>
-                        <span className="text-gray-600">{feature}</span>
+                        <span className="text-gray-300">{feature}</span>
                       </li>
                     ))}
                   </ul>
@@ -213,11 +213,11 @@ export default function ServicePage() {
       </section>
 
       {/* Process Section */}
-      <section className="py-20 bg-light">
+      <section className="py-20 bg-slate-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Our Process</h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
               A proven methodology that delivers consistent results
             </p>
           </div>
@@ -226,8 +226,8 @@ export default function ServicePage() {
               <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 1
               </div>
-              <h3 className="text-xl font-bold text-dark mb-2">Discovery</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-bold text-white mb-2">Discovery</h3>
+              <p className="text-gray-300">
                 We analyze your business, goals, and target audience to create a customized strategy
               </p>
             </div>
@@ -235,8 +235,8 @@ export default function ServicePage() {
               <div className="w-16 h-16 bg-secondary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 2
               </div>
-              <h3 className="text-xl font-bold text-dark mb-2">Strategy</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-bold text-white mb-2">Strategy</h3>
+              <p className="text-gray-300">
                 Develop comprehensive marketing plans with clear KPIs and timelines
               </p>
             </div>
@@ -244,8 +244,8 @@ export default function ServicePage() {
               <div className="w-16 h-16 bg-accent text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 3
               </div>
-              <h3 className="text-xl font-bold text-dark mb-2">Execution</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-bold text-white mb-2">Execution</h3>
+              <p className="text-gray-300">
                 Launch and manage campaigns with continuous monitoring and optimization
               </p>
             </div>
@@ -253,8 +253,8 @@ export default function ServicePage() {
               <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 4
               </div>
-              <h3 className="text-xl font-bold text-dark mb-2">Reporting</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-bold text-white mb-2">Reporting</h3>
+              <p className="text-gray-300">
                 Provide transparent reports and data-driven insights for continuous improvement
               </p>
             </div>

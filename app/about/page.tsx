@@ -75,13 +75,13 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 via-white to-secondary/10 py-20">
+      <section className="bg-gradient-to-br from-primary/10 via-slate-800 to-secondary/10 py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-dark mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               About STAR DIGITECH PRO
             </h1>
-            <p className="text-lg md:text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-300">
               We're a team of passionate digital marketing experts dedicated to helping businesses in Noida achieve exceptional growth through performance-driven strategies.
             </p>
           </div>
@@ -94,7 +94,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="section-title">Our Story</h2>
-              <div className="space-y-4 text-gray-600">
+              <div className="space-y-4 text-gray-300">
                 <p>
                   Founded in 2019, STAR DIGITECH PRO emerged from a simple belief: that every marketing rupee should deliver measurable results. We started with a small team of dedicated professionals who were frustrated with traditional marketing agencies that couldn't prove ROI.
                 </p>
@@ -126,20 +126,20 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-20 bg-light">
+      <section className="py-20 bg-slate-800">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="card bg-gradient-to-br from-primary/5 to-primary/10 border-l-4 border-primary">
               <div className="text-4xl mb-4">🎯</div>
-              <h3 className="text-2xl font-bold text-dark mb-4">Our Mission</h3>
-              <p className="text-gray-600">
+              <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
+              <p className="text-gray-300">
                 To empower businesses in Noida with digital marketing strategies that drive measurable growth, maximize ROI, and create lasting competitive advantages in the digital landscape.
               </p>
             </div>
             <div className="card bg-gradient-to-br from-secondary/5 to-secondary/10 border-l-4 border-secondary">
               <div className="text-4xl mb-4">🚀</div>
-              <h3 className="text-2xl font-bold text-dark mb-4">Our Vision</h3>
-              <p className="text-gray-600">
+              <h3 className="text-2xl font-bold text-white mb-4">Our Vision</h3>
+              <p className="text-gray-300">
                 To become India's most trusted digital marketing agency, known for innovation, transparency, and exceptional results that transform businesses and set new industry standards.
               </p>
             </div>
@@ -152,7 +152,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Our Core Values</h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
               The principles that guide every decision we make and every campaign we run
             </p>
           </div>
@@ -160,8 +160,8 @@ export default function AboutPage() {
             {values.map((value, index) => (
               <div key={index} className="card text-center hover:shadow-2xl transition-shadow">
                 <div className="text-5xl mb-4">{value.icon}</div>
-                <h3 className="text-xl font-bold text-dark mb-3">{value.title}</h3>
-                <p className="text-gray-600">{value.description}</p>
+                <h3 className="text-xl font-bold text-white mb-3">{value.title}</h3>
+                <p className="text-gray-300">{value.description}</p>
               </div>
             ))}
           </div>
@@ -194,33 +194,33 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Our Achievements</h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
               Milestones that reflect our commitment to excellence
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-5xl font-bold text-primary mb-2">500+</div>
-              <div className="text-gray-600 font-medium">Successful Campaigns</div>
+              <div className="text-gray-300 font-medium">Successful Campaigns</div>
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold text-secondary mb-2">₹50Cr+</div>
-              <div className="text-gray-600 font-medium">Ad Spend Managed</div>
+              <div className="text-gray-300 font-medium">Ad Spend Managed</div>
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold text-accent mb-2">300%</div>
-              <div className="text-gray-600 font-medium">Avg. ROI Increase</div>
+              <div className="text-gray-300 font-medium">Avg. ROI Increase</div>
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold text-primary mb-2">98%</div>
-              <div className="text-gray-600 font-medium">Client Satisfaction</div>
+              <div className="text-gray-300 font-medium">Client Satisfaction</div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-light">
+      <section className="py-20 bg-slate-800">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="section-title text-center mb-12">Why Partner With Us?</h2>
@@ -230,8 +230,8 @@ export default function AboutPage() {
                   ✓
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-dark mb-2">Local Expertise</h3>
-                  <p className="text-gray-600">
+                  <h3 className="text-xl font-bold text-white mb-2">Local Expertise</h3>
+                  <p className="text-gray-300">
                     Deep understanding of the Noida market, consumer behavior, and local business landscape
                   </p>
                 </div>
@@ -241,8 +241,8 @@ export default function AboutPage() {
                   ✓
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-dark mb-2">Proven Track Record</h3>
-                  <p className="text-gray-600">
+                  <h3 className="text-xl font-bold text-white mb-2">Proven Track Record</h3>
+                  <p className="text-gray-300">
                     5+ years of consistently delivering exceptional results for businesses of all sizes
                   </p>
                 </div>
@@ -252,8 +252,8 @@ export default function AboutPage() {
                   ✓
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-dark mb-2">Cutting-Edge Technology</h3>
-                  <p className="text-gray-600">
+                  <h3 className="text-xl font-bold text-white mb-2">Cutting-Edge Technology</h3>
+                  <p className="text-gray-300">
                     Leveraging the latest tools and platforms to maximize campaign performance
                   </p>
                 </div>
@@ -263,8 +263,8 @@ export default function AboutPage() {
                   ✓
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-dark mb-2">Dedicated Support</h3>
-                  <p className="text-gray-600">
+                  <h3 className="text-xl font-bold text-white mb-2">Dedicated Support</h3>
+                  <p className="text-gray-300">
                     A dedicated account manager and support team available whenever you need us
                   </p>
                 </div>

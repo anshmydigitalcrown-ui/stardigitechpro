@@ -5,16 +5,16 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary/10 via-white to-secondary/10 py-20 md:py-32">
+      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="flex-1 text-center md:text-left">
-              <h1 className="text-4xl md:text-6xl font-bold text-dark mb-6 leading-tight">
+              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
                 Drive Results with
                 <span className="text-primary"> STAR DIGITECH PRO</span>
                 <br />Digital Marketing in Noida
               </h1>
-              <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl">
+              <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl">
                 Transform your digital presence with data-driven marketing strategies that deliver measurable ROI. We specialize in results-oriented campaigns tailored for your business growth.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -23,7 +23,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="/service"
-                  className="bg-white text-primary border-2 border-primary hover:bg-primary hover:text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300"
+                  className="bg-slate-700 text-white border-2 border-primary hover:bg-primary hover:text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300"
                 >
                   Explore Services
                 </Link>
@@ -47,7 +47,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-dark text-white">
+      <section className="py-16 bg-slate-950 text-white border-y border-slate-800">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
@@ -71,19 +71,19 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-20">
+      <section className="py-20 bg-slate-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Our Core Services</h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
               Comprehensive digital marketing solutions designed to maximize your online performance
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="card group hover:border-primary border-2 border-transparent">
               <div className="text-primary text-4xl mb-4">🎯</div>
-              <h3 className="text-xl font-bold text-dark mb-3">PPC Management</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-bold text-white mb-3">PPC Management</h3>
+              <p className="text-gray-300 mb-4">
                 Strategic paid advertising campaigns on Google Ads, Facebook, and more to drive qualified traffic and conversions.
               </p>
               <Link href="/service" className="text-primary font-semibold hover:underline">
@@ -92,8 +92,8 @@ export default function Home() {
             </div>
             <div className="card group hover:border-primary border-2 border-transparent">
               <div className="text-secondary text-4xl mb-4">📈</div>
-              <h3 className="text-xl font-bold text-dark mb-3">SEO Optimization</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-bold text-white mb-3">SEO Optimization</h3>
+              <p className="text-gray-300 mb-4">
                 Boost your organic rankings with proven SEO strategies that increase visibility and drive sustainable growth.
               </p>
               <Link href="/service" className="text-primary font-semibold hover:underline">
@@ -102,8 +102,8 @@ export default function Home() {
             </div>
             <div className="card group hover:border-primary border-2 border-transparent">
               <div className="text-accent text-4xl mb-4">📱</div>
-              <h3 className="text-xl font-bold text-dark mb-3">Social Media Marketing</h3>
-              <p className="text-gray-600 mb-4">
+              <h3 className="text-xl font-bold text-white mb-3">Social Media Marketing</h3>
+              <p className="text-gray-300 mb-4">
                 Engage your audience and build brand loyalty with targeted social media campaigns across all platforms.
               </p>
               <Link href="/service" className="text-primary font-semibold hover:underline">
@@ -115,11 +115,11 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-light">
+      <section className="py-20 bg-slate-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Why Choose Us</h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
               We're not just another marketing agency. We're your growth partner.
             </p>
           </div>
@@ -129,8 +129,8 @@ export default function Home() {
                 ✓
               </div>
               <div>
-                <h3 className="text-xl font-bold text-dark mb-2">Data-Driven Approach</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-bold text-white mb-2">Data-Driven Approach</h3>
+                <p className="text-gray-300">
                   Every decision backed by analytics and real-time performance metrics
                 </p>
               </div>
@@ -140,8 +140,8 @@ export default function Home() {
                 ✓
               </div>
               <div>
-                <h3 className="text-xl font-bold text-dark mb-2">Transparent Reporting</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-bold text-white mb-2">Transparent Reporting</h3>
+                <p className="text-gray-300">
                   Clear, comprehensive reports showing exactly where your budget goes
                 </p>
               </div>
@@ -151,8 +151,8 @@ export default function Home() {
                 ✓
               </div>
               <div>
-                <h3 className="text-xl font-bold text-dark mb-2">ROI Focused</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-bold text-white mb-2">ROI Focused</h3>
+                <p className="text-gray-300">
                   We optimize campaigns for maximum return on your investment
                 </p>
               </div>
@@ -162,8 +162,8 @@ export default function Home() {
                 ✓
               </div>
               <div>
-                <h3 className="text-xl font-bold text-dark mb-2">Expert Team</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-bold text-white mb-2">Expert Team</h3>
+                <p className="text-gray-300">
                   Certified professionals with years of experience in performance marketing
                 </p>
               </div>
@@ -173,8 +173,8 @@ export default function Home() {
                 ✓
               </div>
               <div>
-                <h3 className="text-xl font-bold text-dark mb-2">Custom Solutions</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-bold text-white mb-2">Custom Solutions</h3>
+                <p className="text-gray-300">
                   Tailored strategies that align with your unique business goals
                 </p>
               </div>
@@ -184,8 +184,8 @@ export default function Home() {
                 ✓
               </div>
               <div>
-                <h3 className="text-xl font-bold text-dark mb-2">24/7 Support</h3>
-                <p className="text-gray-600">
+                <h3 className="text-xl font-bold text-white mb-2">24/7 Support</h3>
+                <p className="text-gray-300">
                   Dedicated support team always available to address your concerns
                 </p>
               </div>
