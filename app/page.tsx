@@ -33,10 +33,10 @@ export default function Home() {
               <div className="relative w-full max-w-lg">
                 <div className="absolute -inset-4 bg-gradient-to-r from-primary to-secondary rounded-full blur-3xl opacity-20"></div>
                 <Image
-                  src="/logo.jpg"
+                  src="/hero.webg.webp"
                   alt="Performance Marketing Services"
-                  width={500}
-                  height={500}
+                  width={600}
+                  height={600}
                   className="relative rounded-2xl shadow-2xl"
                   priority
                 />
