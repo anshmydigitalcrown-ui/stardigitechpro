@@ -89,7 +89,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Story */}
-      <section className="py-20">
+      <section className="py-20 bg-[#2596be]">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -126,7 +126,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-20 bg-slate-800">
+      <section className="py-20 bg-[#2596be] bg-opacity-90">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="card bg-gradient-to-br from-primary/5 to-primary/10 border-l-4 border-primary">
@@ -148,7 +148,7 @@ export default function AboutPage() {
       </section>
 
       {/* Core Values */}
-      <section className="py-20">
+      <section className="py-20 bg-[#2596be] bg-opacity-90">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Our Core Values</h2>
@@ -275,7 +275,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary to-secondary text-white">
+      <section className="py-20 bg-[#2596be] bg-opacity-95 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Ready to Grow Your Business?

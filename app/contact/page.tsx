@@ -322,7 +322,7 @@ export default function ContactPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-slate-800">
+      <section className="py-20 bg-[#2596be] bg-opacity-90">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="section-title text-center mb-12">Frequently Asked Questions</h2>

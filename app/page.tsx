@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 md:py-32">
+      <section className="relative bg-[#2596be] py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="flex-1 text-center md:text-left">
@@ -23,7 +23,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="/service"
-                  className="bg-slate-700 text-white border-2 border-primary hover:bg-primary hover:text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300"
+                  className="bg-white bg-opacity-20 text-white border-2 border-white hover:bg-white hover:text-[#2596be] font-semibold py-3 px-6 rounded-lg transition-all duration-300"
                 >
                   Explore Services
                 </Link>
@@ -47,7 +47,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-slate-950 text-white border-y border-slate-800">
+      <section className="py-16 bg-[#2596be] bg-opacity-90 text-white border-y border-white border-opacity-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
@@ -71,7 +71,7 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-20 bg-slate-900">
+      <section className="py-20 bg-[#2596be]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Our Core Services</h2>
@@ -115,7 +115,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-slate-800">
+      <section className="py-20 bg-[#2596be] bg-opacity-90">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Why Choose Us</h2>

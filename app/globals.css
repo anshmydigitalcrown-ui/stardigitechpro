@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 241, 245, 249;
-  --background-start-rgb: 15, 23, 42;
-  --background-end-rgb: 15, 23, 42;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 37, 150, 190;
+  --background-end-rgb: 37, 150, 190;
 }
 
 body {
@@ -27,6 +27,6 @@ body {
   }
   
   .card {
-    @apply bg-slate-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-slate-700;
+    @apply bg-[#2596be] bg-opacity-80 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-white border-opacity-20;
   }
 }
