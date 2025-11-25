@@ -20,18 +20,20 @@ const Header = () => {
 
   return (
     <header className="bg-slate-900 shadow-lg sticky top-0 z-50 border-b border-slate-800">
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3">
-            <Image
-              src="/logo.webp.webp"
-              alt="STAR DIGITECH PRO Logo"
-              width={50}
-              height={50}
-              className="object-contain"
-            />
-            <span className="text-xl font-bold text-white hidden sm:block">
+          <Link href="/" className="flex items-center space-x-3 group">
+            <div className="bg-white rounded-lg p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
+              <Image
+                src="/logo.webp.webp"
+                alt="STAR DIGITECH PRO Logo"
+                width={45}
+                height={45}
+                className="object-contain"
+              />
+            </div>
+            <span className="text-xl md:text-2xl font-bold text-white hidden sm:block group-hover:text-primary transition-colors duration-300">
               STAR DIGITECH PRO
             </span>
           </Link>
