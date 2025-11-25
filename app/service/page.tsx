@@ -3,6 +3,15 @@ import Link from "next/link";
 export const metadata = {
   title: "Our Services | STAR DIGITECH PRO",
   description: "Explore our comprehensive digital marketing services including PPC, SEO, social media marketing, content marketing, and more.",
+  openGraph: {
+    title: "Our Services | STAR DIGITECH PRO",
+    description: "Explore our comprehensive digital marketing services including PPC, SEO, social media marketing, content marketing, and more.",
+    url: 'https://stardigitechpro.vercel.app/service',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://stardigitechpro.vercel.app/service',
+  },
 };
 
 export default function ServicePage() {
@@ -123,6 +132,48 @@ export default function ServicePage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            serviceType: 'Digital Marketing Services',
+            provider: {
+              '@type': 'Organization',
+              name: 'STAR DIGITECH PRO',
+            },
+            areaServed: 'Noida, India',
+            hasOfferCatalog: {
+              '@type': 'OfferCatalog',
+              name: 'Digital Marketing Services',
+              itemListElement: [
+                {
+                  '@type': 'Offer',
+                  itemOffered: {
+                    '@type': 'Service',
+                    name: 'PPC Management',
+                  },
+                },
+                {
+                  '@type': 'Offer',
+                  itemOffered: {
+                    '@type': 'Service',
+                    name: 'SEO Optimization',
+                  },
+                },
+                {
+                  '@type': 'Offer',
+                  itemOffered: {
+                    '@type': 'Service',
+                    name: 'Social Media Marketing',
+                  },
+                },
+              ],
+            },
+          }),
+        }}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary/10 via-white to-secondary/10 py-20">
         <div className="container mx-auto px-4 text-center">

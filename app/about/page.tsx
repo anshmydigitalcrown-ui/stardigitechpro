@@ -4,6 +4,15 @@ import Image from "next/image";
 export const metadata = {
   title: "About Us | STAR DIGITECH PRO",
   description: "Learn about our mission, values, and team dedicated to delivering exceptional digital marketing results in Noida.",
+  openGraph: {
+    title: "About Us | STAR DIGITECH PRO",
+    description: "Learn about our mission, values, and team dedicated to delivering exceptional digital marketing results in Noida.",
+    url: 'https://stardigitechpro.vercel.app/about',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://stardigitechpro.vercel.app/about',
+  },
 };
 
 export default function AboutPage() {
