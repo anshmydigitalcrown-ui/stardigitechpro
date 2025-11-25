@@ -219,6 +219,162 @@ export default function PPCManagementPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-[#020617]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-white text-lg max-w-3xl mx-auto">
+                Get answers to common questions about our PPC management services
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Left Column */}
+              <div className="space-y-6">
+                {/* FAQ 1 */}
+                <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                    <span className="flex-1">What is PPC advertising?</span>
+                  </h3>
+                  <p className="text-white text-sm leading-relaxed pl-10">
+                    PPC (Pay-Per-Click) is an online advertising model where you pay only when someone clicks on your ad. It's a cost-effective way to drive targeted traffic to your website.
+                  </p>
+                </div>
+
+                {/* FAQ 2 */}
+                <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                    <span className="flex-1">How much should I budget for PPC?</span>
+                  </h3>
+                  <p className="text-white text-sm leading-relaxed pl-10">
+                    PPC budgets vary based on industry, competition, and goals. We recommend starting with at least ₹30,000-50,000 per month for effective campaigns with measurable results.
+                  </p>
+                </div>
+
+                {/* FAQ 3 */}
+                <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                    <span className="flex-1">How long before I see results?</span>
+                  </h3>
+                  <p className="text-white text-sm leading-relaxed pl-10">
+                    Unlike SEO, PPC delivers immediate results. You'll start seeing traffic and clicks within 24-48 hours of campaign launch. Optimization for best ROI takes 2-4 weeks.
+                  </p>
+                </div>
+
+                {/* FAQ 4 */}
+                <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                    <span className="flex-1">Which platform is best for my business?</span>
+                  </h3>
+                  <p className="text-white text-sm leading-relaxed pl-10">
+                    It depends on your target audience. Google Ads is great for search intent, Facebook/Instagram for B2C, and LinkedIn for B2B. We'll recommend the best platform mix for your goals.
+                  </p>
+                </div>
+
+                {/* FAQ 5 */}
+                <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                    <span className="flex-1">Do you charge setup fees?</span>
+                  </h3>
+                  <p className="text-white text-sm leading-relaxed pl-10">
+                    We charge a one-time setup fee for new campaigns, which includes account setup, keyword research, ad creation, and tracking implementation. Contact us for details.
+                  </p>
+                </div>
+
+                {/* FAQ 6 */}
+                <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                    <span className="flex-1">What is Quality Score in Google Ads?</span>
+                  </h3>
+                  <p className="text-white text-sm leading-relaxed pl-10">
+                    Quality Score is Google's rating of ad relevance and landing page quality. Higher scores lead to lower costs and better ad positions. We optimize for high Quality Scores.
+                  </p>
+                </div>
+              </div>
+
+              {/* Right Column */}
+              <div className="space-y-6">
+                {/* FAQ 7 */}
+                <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                    <span className="flex-1">Can I control my daily budget?</span>
+                  </h3>
+                  <p className="text-white text-sm leading-relaxed pl-10">
+                    Yes! You have full control over your daily and monthly budget. We set up campaigns to never exceed your specified budget limits and provide daily spending reports.
+                  </p>
+                </div>
+
+                {/* FAQ 8 */}
+                <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                    <span className="flex-1">How do you track conversions?</span>
+                  </h3>
+                  <p className="text-white text-sm leading-relaxed pl-10">
+                    We implement comprehensive conversion tracking using Google Analytics, Google Tag Manager, and platform-specific pixels to track every lead, sale, and action.
+                  </p>
+                </div>
+
+                {/* FAQ 9 */}
+                <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                    <span className="flex-1">What's your management fee structure?</span>
+                  </h3>
+                  <p className="text-white text-sm leading-relaxed pl-10">
+                    Our management fees are transparent and based on your monthly ad spend. We offer competitive rates with no hidden charges. Contact us for a custom quote.
+                  </p>
+                </div>
+
+                {/* FAQ 10 */}
+                <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                    <span className="flex-1">Do you provide regular reports?</span>
+                  </h3>
+                  <p className="text-white text-sm leading-relaxed pl-10">
+                    Yes! You receive detailed monthly reports with insights on clicks, conversions, ROI, and recommendations. Plus, you get 24/7 access to real-time dashboards.
+                  </p>
+                </div>
+
+                {/* FAQ 11 */}
+                <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                    <span className="flex-1">Can I pause campaigns anytime?</span>
+                  </h3>
+                  <p className="text-white text-sm leading-relaxed pl-10">
+                    Absolutely! You can pause, adjust, or stop campaigns at any time. There are no long-term contracts or cancellation penalties.
+                  </p>
+                </div>
+
+                {/* FAQ 12 */}
+                <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
+                  <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                    <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                    <span className="flex-1">Do you handle ad creative design?</span>
+                  </h3>
+                  <p className="text-white text-sm leading-relaxed pl-10">
+                    Yes! Our team creates compelling ad copy, designs display ads, and optimizes landing pages to maximize your campaign performance and conversions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-b from-[#020617] to-slate-900">
         <div className="container mx-auto px-4">
