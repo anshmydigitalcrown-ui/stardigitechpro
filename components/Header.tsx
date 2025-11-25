@@ -19,16 +19,16 @@ const Header = () => {
   const isActive = (path: string) => pathname === path;
 
   return (
-    <header className="bg-slate-900 shadow-lg sticky top-0 z-50 border-b border-slate-700">
-      <nav className="container mx-auto px-4 py-4">
+    <header className="bg-[#020617] shadow-lg sticky top-0 z-50 border-b border-slate-800">
+      <nav className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 group">
             <Image
               src="/logo.webp.webp"
               alt="STAR DIGITECH PRO Logo"
-              width={55}
-              height={55}
+              width={65}
+              height={65}
               className="object-contain transition-transform duration-300 group-hover:scale-110"
             />
             <span className="text-xl md:text-2xl font-bold text-white hidden sm:block group-hover:text-primary transition-colors duration-300">
@@ -42,10 +42,10 @@ const Header = () => {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className={`font-medium transition-colors duration-300 ${
+                  className={`font-medium text-base transition-colors duration-300 ${
                     isActive(link.href)
-                      ? "text-primary border-b-2 border-primary"
-                      : "text-gray-300 hover:text-primary"
+                      ? "text-white border-b-2 border-white"
+                      : "text-gray-400 hover:text-white"
                   }`}
                 >
                   {link.label}
@@ -57,7 +57,7 @@ const Header = () => {
           {/* CTA Button */}
           <Link
             href="/contact"
-            className="hidden md:block btn-primary"
+            className="hidden md:block bg-white text-[#020617] font-semibold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-md"
           >
             Get Started
           </Link>
@@ -65,7 +65,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden flex items-center justify-center w-10 h-10 text-white bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-slate-600"
+            className="md:hidden flex items-center justify-center w-11 h-11 text-white bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 border border-white border-opacity-20"
             aria-label="Toggle menu"
           >
             <svg
