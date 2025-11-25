@@ -19,21 +19,21 @@ const Header = () => {
   const isActive = (path: string) => pathname === path;
 
   return (
-    <header className="bg-slate-900 shadow-lg sticky top-0 z-50 border-b border-slate-800">
-      <nav className="container mx-auto px-4 py-3">
+    <header className="bg-gradient-to-r from-blue-900 via-slate-900 to-blue-900 shadow-lg sticky top-0 z-50 border-b border-blue-800">
+      <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 group">
-            <div className="bg-white rounded-lg p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
+            <div className="bg-white rounded-xl p-3 shadow-lg group-hover:shadow-xl transition-all duration-300">
               <Image
                 src="/logo.webp.webp"
                 alt="STAR DIGITECH PRO Logo"
-                width={45}
-                height={45}
+                width={60}
+                height={60}
                 className="object-contain"
               />
             </div>
-            <span className="text-xl md:text-2xl font-bold text-white hidden sm:block group-hover:text-primary transition-colors duration-300">
+            <span className="text-xl md:text-2xl font-bold text-white hidden sm:block group-hover:text-blue-400 transition-colors duration-300">
               STAR DIGITECH PRO
             </span>
           </Link>
