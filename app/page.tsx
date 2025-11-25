@@ -67,30 +67,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 bg-[#020617] bg-opacity-90 text-white border-y border-slate-700">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-primary mb-2">500+</div>
-              <div className="text-gray-300">Successful Campaigns</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-primary mb-2">300%</div>
-              <div className="text-gray-300">Average ROI Growth</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-primary mb-2">200+</div>
-              <div className="text-gray-300">Happy Clients</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-primary mb-2">5+</div>
-              <div className="text-gray-300">Years of Excellence</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Services Overview */}
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">
