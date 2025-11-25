@@ -344,19 +344,19 @@ export default function Home() {
 
                 <div className="grid grid-cols-2 gap-6 mb-8">
                   <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
-                    <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#1d7ba8] mb-2">5+</div>
+                    <div className="text-3xl font-bold text-white mb-2">5+</div>
                     <div className="text-sm text-white">Years of Excellence</div>
                   </div>
                   <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
-                    <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#1d7ba8] mb-2">500+</div>
+                    <div className="text-3xl font-bold text-white mb-2">500+</div>
                     <div className="text-sm text-white">Successful Campaigns</div>
                   </div>
                   <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
-                    <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#1d7ba8] mb-2">200+</div>
+                    <div className="text-3xl font-bold text-white mb-2">200+</div>
                     <div className="text-sm text-white">Happy Clients</div>
                   </div>
                   <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
-                    <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#1d7ba8] mb-2">300%</div>
+                    <div className="text-3xl font-bold text-white mb-2">300%</div>
                     <div className="text-sm text-white">Average ROI Growth</div>
                   </div>
                 </div>
