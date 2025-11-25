@@ -13,15 +13,15 @@ const Footer = () => {
             <div className="flex items-center space-x-3 mb-4">
               <Image
                 src="/logo.jpg"
-                alt="Performance Marketing in Noida"
+                alt="STAR DIGITECH PRO"
                 width={50}
                 height={50}
-                className="rounded-lg"
+                className=""
               />
-              <span className="text-xl font-bold">Performance Marketing</span>
+              <span className="text-xl font-bold">STAR DIGITECH PRO</span>
             </div>
             <p className="text-gray-300 mb-4">
-              Leading performance marketing agency in Noida, delivering ROI-focused digital marketing solutions to help businesses grow online.
+              Leading digital marketing agency in Noida, delivering ROI-focused marketing solutions to help businesses grow online.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-primary transition-colors">
@@ -102,7 +102,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
-          <p>&copy; {currentYear} Performance Marketing in Noida. All rights reserved.</p>
+          <p>&copy; {currentYear} STAR DIGITECH PRO. All rights reserved.</p>
         </div>
       </div>
     </footer>

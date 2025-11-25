@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Our Services | Performance Marketing in Noida",
+  title: "Our Services | STAR DIGITECH PRO",
   description: "Explore our comprehensive digital marketing services including PPC, SEO, social media marketing, content marketing, and more.",
 };
 

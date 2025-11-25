@@ -2,8 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-  title: "About Us | Performance Marketing in Noida",
-  description: "Learn about our mission, values, and team dedicated to delivering exceptional performance marketing results in Noida.",
+  title: "About Us | STAR DIGITECH PRO",
+  description: "Learn about our mission, values, and team dedicated to delivering exceptional digital marketing results in Noida.",
 };
 
 export default function AboutPage() {
@@ -70,7 +70,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-dark mb-6">
-              About Performance Marketing in Noida
+              About STAR DIGITECH PRO
             </h1>
             <p className="text-lg md:text-xl text-gray-600">
               We're a team of passionate digital marketing experts dedicated to helping businesses in Noida achieve exceptional growth through performance-driven strategies.
@@ -87,7 +87,7 @@ export default function AboutPage() {
               <h2 className="section-title">Our Story</h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  Founded in 2019, Performance Marketing in Noida emerged from a simple belief: that every marketing rupee should deliver measurable results. We started with a small team of dedicated professionals who were frustrated with traditional marketing agencies that couldn't prove ROI.
+                  Founded in 2019, STAR DIGITECH PRO emerged from a simple belief: that every marketing rupee should deliver measurable results. We started with a small team of dedicated professionals who were frustrated with traditional marketing agencies that couldn't prove ROI.
                 </p>
                 <p>
                   Today, we've grown into one of Noida's most trusted performance marketing agencies, serving over 200 clients across various industries. Our success stems from our unwavering commitment to data-driven strategies and transparent reporting.
@@ -124,14 +124,14 @@ export default function AboutPage() {
               <div className="text-4xl mb-4">🎯</div>
               <h3 className="text-2xl font-bold text-dark mb-4">Our Mission</h3>
               <p className="text-gray-600">
-                To empower businesses in Noida with performance marketing strategies that drive measurable growth, maximize ROI, and create lasting competitive advantages in the digital landscape.
+                To empower businesses in Noida with digital marketing strategies that drive measurable growth, maximize ROI, and create lasting competitive advantages in the digital landscape.
               </p>
             </div>
             <div className="card bg-gradient-to-br from-secondary/5 to-secondary/10 border-l-4 border-secondary">
               <div className="text-4xl mb-4">🚀</div>
               <h3 className="text-2xl font-bold text-dark mb-4">Our Vision</h3>
               <p className="text-gray-600">
-                To become India's most trusted performance marketing agency, known for innovation, transparency, and exceptional results that transform businesses and set new industry standards.
+                To become India's most trusted digital marketing agency, known for innovation, transparency, and exceptional results that transform businesses and set new industry standards.
               </p>
             </div>
           </div>

@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Performance Marketing in Noida | Digital Marketing Services",
-  description: "Leading performance marketing agency in Noida offering ROI-focused digital marketing solutions, SEO, PPC, social media marketing, and more.",
-  keywords: "performance marketing, digital marketing Noida, SEO services, PPC management, social media marketing",
+  title: "STAR DIGITECH PRO | Digital Marketing Agency in Noida",
+  description: "Leading digital marketing agency in Noida offering ROI-focused marketing solutions, SEO, PPC, social media marketing, and more.",
+  keywords: "digital marketing Noida, SEO services, PPC management, social media marketing, STAR DIGITECH PRO",
 };
 
 export default function RootLayout({

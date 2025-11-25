@@ -11,8 +11,8 @@ export default function Home() {
             <div className="flex-1 text-center md:text-left">
               <h1 className="text-4xl md:text-6xl font-bold text-dark mb-6 leading-tight">
                 Drive Results with
-                <span className="text-primary"> Performance Marketing</span>
-                <br />in Noida
+                <span className="text-primary"> STAR DIGITECH PRO</span>
+                <br />Digital Marketing in Noida
               </h1>
               <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl">
                 Transform your digital presence with data-driven marketing strategies that deliver measurable ROI. We specialize in results-oriented campaigns tailored for your business growth.

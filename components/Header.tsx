@@ -26,13 +26,13 @@ const Header = () => {
           <Link href="/" className="flex items-center space-x-3">
             <Image
               src="/logo.jpg"
-              alt="Performance Marketing in Noida"
+              alt="STAR DIGITECH PRO"
               width={50}
               height={50}
-              className="rounded-lg"
+              className=""
             />
             <span className="text-xl font-bold text-dark hidden sm:block">
-              Performance Marketing
+              STAR DIGITECH PRO
             </span>
           </Link>
 
