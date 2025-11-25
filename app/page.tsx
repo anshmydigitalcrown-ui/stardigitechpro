@@ -331,7 +331,7 @@ export default function Home() {
                 </div>
                 
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
-                  Your Trusted Partner for <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-[#1d7ba8] to-primary">Digital Growth</span>
+                  Your Trusted Partner for Digital Growth
                 </h2>
                 
                 <p className="text-white text-lg mb-6 leading-relaxed">
