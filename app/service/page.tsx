@@ -15,120 +15,6 @@ export const metadata = {
 };
 
 export default function ServicePage() {
-  const services = [
-    {
-      id: 1,
-      icon: "🎯",
-      title: "PPC Management",
-      description: "Maximize your ROI with strategic pay-per-click advertising campaigns across Google Ads, Bing, and social media platforms.",
-      features: [
-        "Google Ads & Bing Ads Management",
-        "Campaign Strategy & Planning",
-        "Keyword Research & Optimization",
-        "Ad Copy Creation & A/B Testing",
-        "Conversion Rate Optimization",
-        "Detailed Performance Analytics"
-      ]
-    },
-    {
-      id: 2,
-      icon: "📈",
-      title: "Search Engine Optimization",
-      description: "Improve your organic visibility and drive sustainable traffic with comprehensive SEO strategies tailored to your business.",
-      features: [
-        "Technical SEO Audit & Fixes",
-        "On-Page Optimization",
-        "Off-Page & Link Building",
-        "Local SEO for Noida Businesses",
-        "Content Strategy & Optimization",
-        "Keyword Research & Analysis"
-      ]
-    },
-    {
-      id: 3,
-      icon: "📱",
-      title: "Social Media Marketing",
-      description: "Build brand awareness and engage your target audience across all major social media platforms with creative campaigns.",
-      features: [
-        "Facebook & Instagram Marketing",
-        "LinkedIn B2B Marketing",
-        "Twitter & YouTube Promotion",
-        "Content Creation & Scheduling",
-        "Community Management",
-        "Social Media Analytics"
-      ]
-    },
-    {
-      id: 4,
-      icon: "✍️",
-      title: "Content Marketing",
-      description: "Create compelling content that resonates with your audience and drives conversions through every stage of the buyer's journey.",
-      features: [
-        "Content Strategy Development",
-        "Blog Writing & Management",
-        "Video Content Production",
-        "Infographics & Visual Content",
-        "E-books & Whitepapers",
-        "Email Marketing Campaigns"
-      ]
-    },
-    {
-      id: 5,
-      icon: "🔄",
-      title: "Conversion Rate Optimization",
-      description: "Turn more visitors into customers with data-driven CRO strategies that optimize every touchpoint of your customer journey.",
-      features: [
-        "Landing Page Optimization",
-        "A/B & Multivariate Testing",
-        "User Experience Analysis",
-        "Heat Mapping & Session Recording",
-        "Funnel Optimization",
-        "Performance Tracking"
-      ]
-    },
-    {
-      id: 6,
-      icon: "📊",
-      title: "Analytics & Reporting",
-      description: "Make informed decisions with comprehensive analytics and transparent reporting that shows exactly how your campaigns perform.",
-      features: [
-        "Google Analytics Setup & Tracking",
-        "Custom Dashboard Creation",
-        "Monthly Performance Reports",
-        "ROI & KPI Tracking",
-        "Competitor Analysis",
-        "Data-Driven Recommendations"
-      ]
-    },
-    {
-      id: 7,
-      icon: "📧",
-      title: "Email Marketing",
-      description: "Nurture leads and maintain customer relationships with targeted email campaigns that drive engagement and conversions.",
-      features: [
-        "Email Campaign Strategy",
-        "List Segmentation & Management",
-        "Template Design & Coding",
-        "Automation Workflows",
-        "A/B Testing & Optimization",
-        "Deliverability Monitoring"
-      ]
-    },
-    {
-      id: 8,
-      icon: "🛒",
-      title: "E-commerce Marketing",
-      description: "Boost your online store's performance with specialized e-commerce marketing strategies that increase sales and customer lifetime value.",
-      features: [
-        "Product Feed Optimization",
-        "Shopping Ads Management",
-        "Retargeting Campaigns",
-        "Cart Abandonment Recovery",
-        "Customer Retention Strategies",
-        "Marketplace Integration"
-      ]
-    }
-  ];
 
   return (
     <>
@@ -189,38 +75,186 @@ export default function ServicePage() {
       {/* Services Grid */}
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {services.map((service) => (
-              <div key={service.id} className="card hover:scale-[1.02] transition-transform duration-300">
-                <div className="text-5xl mb-4">{service.icon}</div>
-                <h2 className="text-2xl font-bold text-white mb-3">{service.title}</h2>
-                <p className="text-gray-300 mb-6">{service.description}</p>
-                <div className="space-y-2">
-                  <h3 className="font-semibold text-white mb-3">Key Features:</h3>
-                  <ul className="space-y-2">
-                    {service.features.map((feature, index) => (
-                      <li key={index} className="flex items-start">
-                        <span className="text-primary mr-2 mt-1">✓</span>
-                        <span className="text-gray-300">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="mt-8 flex justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <div className="space-y-6">
+              {/* Service 1 */}
+              <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🎯</div>
+                <h3 className="text-xl font-bold text-white mb-3">PPC Management</h3>
+                <p className="text-white text-opacity-90 text-sm mb-4">
+                  Strategic paid advertising campaigns to drive qualified traffic and maximize conversions
+                </p>
+                <div className="mt-6 flex justify-center">
                   <Link
                     href="/contact"
-                    className="group relative inline-flex items-center justify-center px-8 py-3.5 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-2xl hover:shadow-primary/50 hover:scale-105"
+                    className="group relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-xl hover:shadow-primary/50 hover:scale-105"
                   >
                     <span className="relative z-10 flex items-center gap-2">
                       Book Now
-                      <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                       </svg>
                     </span>
                   </Link>
                 </div>
               </div>
-            ))}
+
+              {/* Service 2 */}
+              <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📈</div>
+                <h3 className="text-xl font-bold text-white mb-3">SEO Optimization</h3>
+                <p className="text-white text-opacity-90 text-sm mb-4">
+                  Boost organic rankings with proven SEO strategies that increase visibility and traffic
+                </p>
+                <div className="mt-6 flex justify-center">
+                  <Link
+                    href="/contact"
+                    className="group relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-xl hover:shadow-primary/50 hover:scale-105"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      Book Now
+                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      </svg>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+
+              {/* Service 3 */}
+              <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📱</div>
+                <h3 className="text-xl font-bold text-white mb-3">Social Media Marketing</h3>
+                <p className="text-white text-opacity-90 text-sm mb-4">
+                  Engage your audience and build brand loyalty across all social media platforms
+                </p>
+                <div className="mt-6 flex justify-center">
+                  <Link
+                    href="/contact"
+                    className="group relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-xl hover:shadow-primary/50 hover:scale-105"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      Book Now
+                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      </svg>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+
+              {/* Service 4 */}
+              <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">✍️</div>
+                <h3 className="text-xl font-bold text-white mb-3">Content Marketing</h3>
+                <p className="text-white text-opacity-90 text-sm mb-4">
+                  Create compelling content that resonates with your audience and drives conversions
+                </p>
+                <div className="mt-6 flex justify-center">
+                  <Link
+                    href="/contact"
+                    className="group relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-xl hover:shadow-primary/50 hover:scale-105"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      Book Now
+                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      </svg>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-6">
+              {/* Service 5 */}
+              <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🔄</div>
+                <h3 className="text-xl font-bold text-white mb-3">Conversion Rate Optimization</h3>
+                <p className="text-white text-opacity-90 text-sm mb-4">
+                  Turn more visitors into customers with data-driven CRO strategies
+                </p>
+                <div className="mt-6 flex justify-center">
+                  <Link
+                    href="/contact"
+                    className="group relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-xl hover:shadow-primary/50 hover:scale-105"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      Book Now
+                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      </svg>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+
+              {/* Service 6 */}
+              <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📊</div>
+                <h3 className="text-xl font-bold text-white mb-3">Analytics & Reporting</h3>
+                <p className="text-white text-opacity-90 text-sm mb-4">
+                  Make informed decisions with comprehensive analytics and transparent reporting
+                </p>
+                <div className="mt-6 flex justify-center">
+                  <Link
+                    href="/contact"
+                    className="group relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-xl hover:shadow-primary/50 hover:scale-105"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      Book Now
+                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      </svg>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+
+              {/* Service 7 */}
+              <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📧</div>
+                <h3 className="text-xl font-bold text-white mb-3">Email Marketing</h3>
+                <p className="text-white text-opacity-90 text-sm mb-4">
+                  Nurture leads and maintain customer relationships with targeted email campaigns
+                </p>
+                <div className="mt-6 flex justify-center">
+                  <Link
+                    href="/contact"
+                    className="group relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-xl hover:shadow-primary/50 hover:scale-105"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      Book Now
+                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      </svg>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+
+              {/* Service 8 */}
+              <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🛒</div>
+                <h3 className="text-xl font-bold text-white mb-3">E-commerce Marketing</h3>
+                <p className="text-white text-opacity-90 text-sm mb-4">
+                  Boost your online store's performance with specialized e-commerce strategies
+                </p>
+                <div className="mt-6 flex justify-center">
+                  <Link
+                    href="/contact"
+                    className="group relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-xl hover:shadow-primary/50 hover:scale-105"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      Book Now
+                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      </svg>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
