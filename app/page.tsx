@@ -26,7 +26,7 @@ export default function Home() {
               </div>
 
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                Performance Marketing in <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-[#1d7ba8] to-primary">Noida</span>
+                Performance Marketing in <span className="text-white">Noida</span>
                 <br />
                 <span className="text-3xl md:text-4xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
                   Drive Results with Data-Driven Campaigns
