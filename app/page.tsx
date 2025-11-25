@@ -754,71 +754,71 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
             {/* Left Column - 6 FAQs */}
             <div className="space-y-6">
               {/* FAQ 1 */}
-              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
                 <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0">Q.</span>
-                  What is performance marketing?
+                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What is performance marketing?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                <p className="text-white text-sm leading-relaxed pl-10">
                   Performance marketing is a data-driven approach where advertisers pay only for specific actions like clicks, leads, or sales. It focuses on measurable results and ROI optimization.
                 </p>
               </div>
 
               {/* FAQ 2 */}
-              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
                 <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0">Q.</span>
-                  How long does it take to see results?
+                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How long does it take to see results?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                <p className="text-white text-sm leading-relaxed pl-10">
                   Initial results can be seen within 2-4 weeks, but significant improvements typically occur after 3-6 months of consistent optimization and strategy refinement.
                 </p>
               </div>
 
               {/* FAQ 3 */}
-              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
                 <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0">Q.</span>
-                  What is your pricing model?
+                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What is your pricing model?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                <p className="text-white text-sm leading-relaxed pl-10">
                   We offer flexible pricing based on your business needs, including monthly retainers, performance-based fees, and project-based pricing. Contact us for a custom quote.
                 </p>
               </div>
 
               {/* FAQ 4 */}
-              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
                 <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0">Q.</span>
-                  Do you work with small businesses?
+                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Do you work with small businesses?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                <p className="text-white text-sm leading-relaxed pl-10">
                   Yes! We work with businesses of all sizes, from startups to enterprises. Our strategies are tailored to fit your budget and growth objectives.
                 </p>
               </div>
 
               {/* FAQ 5 */}
-              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
                 <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0">Q.</span>
-                  Which platforms do you manage?
+                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Which platforms do you manage?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                <p className="text-white text-sm leading-relaxed pl-10">
                   We manage campaigns across Google Ads, Facebook, Instagram, LinkedIn, Twitter, YouTube, and other major advertising platforms based on your target audience.
                 </p>
               </div>
 
               {/* FAQ 6 */}
-              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
                 <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0">Q.</span>
-                  Can I track campaign performance?
+                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Can I track campaign performance?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                <p className="text-white text-sm leading-relaxed pl-10">
                   Absolutely! We provide detailed monthly reports, real-time dashboards, and transparent analytics so you can track every metric and KPI that matters to your business.
                 </p>
               </div>
@@ -827,67 +827,67 @@ export default function Home() {
             {/* Right Column - 6 FAQs */}
             <div className="space-y-6">
               {/* FAQ 7 */}
-              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
                 <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0">Q.</span>
-                  What makes you different from other agencies?
+                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What makes you different from other agencies?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                <p className="text-white text-sm leading-relaxed pl-10">
                   We focus on data-driven results, transparent reporting, and personalized strategies. Our team has proven expertise in Noida's market with 500+ successful campaigns.
                 </p>
               </div>
 
               {/* FAQ 8 */}
-              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
                 <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0">Q.</span>
-                  Do you provide SEO services?
+                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Do you provide SEO services?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                <p className="text-white text-sm leading-relaxed pl-10">
                   Yes, we offer comprehensive SEO services including technical audits, on-page optimization, link building, and local SEO to boost your organic visibility.
                 </p>
               </div>
 
               {/* FAQ 9 */}
-              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
                 <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0">Q.</span>
-                  What is your contract duration?
+                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What is your contract duration?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                <p className="text-white text-sm leading-relaxed pl-10">
                   We typically recommend 6-12 month contracts for best results, but we also offer flexible month-to-month options. No long-term commitments required.
                 </p>
               </div>
 
               {/* FAQ 10 */}
-              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
                 <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0">Q.</span>
-                  How do you measure success?
+                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How do you measure success?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                <p className="text-white text-sm leading-relaxed pl-10">
                   We measure success through KPIs like conversion rates, cost per acquisition, ROI, click-through rates, and other metrics aligned with your specific business goals.
                 </p>
               </div>
 
               {/* FAQ 11 */}
-              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
                 <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0">Q.</span>
-                  Do you offer free consultations?
+                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Do you offer free consultations?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                <p className="text-white text-sm leading-relaxed pl-10">
                   Yes! We provide a free initial consultation to understand your business, analyze your current marketing efforts, and propose a tailored strategy.
                 </p>
               </div>
 
               {/* FAQ 12 */}
-              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
                 <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0">Q.</span>
-                  Can you help with social media marketing?
+                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Can you help with social media marketing?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                <p className="text-white text-sm leading-relaxed pl-10">
                   Absolutely! We create and manage engaging social media campaigns across all major platforms to build your brand presence and drive conversions.
                 </p>
               </div>
