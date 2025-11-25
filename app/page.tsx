@@ -394,6 +394,158 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-[#020617] bg-opacity-95">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="section-title">Frequently Asked Questions</h2>
+            <p className="text-gray-300 text-lg max-w-3xl mx-auto">
+              Get answers to common questions about our performance marketing services
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+            {/* Left Column - 6 FAQs */}
+            <div className="space-y-6">
+              {/* FAQ 1 */}
+              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-primary flex-shrink-0">Q.</span>
+                  What is performance marketing?
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                  Performance marketing is a data-driven approach where advertisers pay only for specific actions like clicks, leads, or sales. It focuses on measurable results and ROI optimization.
+                </p>
+              </div>
+
+              {/* FAQ 2 */}
+              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-primary flex-shrink-0">Q.</span>
+                  How long does it take to see results?
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                  Initial results can be seen within 2-4 weeks, but significant improvements typically occur after 3-6 months of consistent optimization and strategy refinement.
+                </p>
+              </div>
+
+              {/* FAQ 3 */}
+              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-primary flex-shrink-0">Q.</span>
+                  What is your pricing model?
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                  We offer flexible pricing based on your business needs, including monthly retainers, performance-based fees, and project-based pricing. Contact us for a custom quote.
+                </p>
+              </div>
+
+              {/* FAQ 4 */}
+              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-primary flex-shrink-0">Q.</span>
+                  Do you work with small businesses?
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                  Yes! We work with businesses of all sizes, from startups to enterprises. Our strategies are tailored to fit your budget and growth objectives.
+                </p>
+              </div>
+
+              {/* FAQ 5 */}
+              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-primary flex-shrink-0">Q.</span>
+                  Which platforms do you manage?
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                  We manage campaigns across Google Ads, Facebook, Instagram, LinkedIn, Twitter, YouTube, and other major advertising platforms based on your target audience.
+                </p>
+              </div>
+
+              {/* FAQ 6 */}
+              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-primary flex-shrink-0">Q.</span>
+                  Can I track campaign performance?
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                  Absolutely! We provide detailed monthly reports, real-time dashboards, and transparent analytics so you can track every metric and KPI that matters to your business.
+                </p>
+              </div>
+            </div>
+
+            {/* Right Column - 6 FAQs */}
+            <div className="space-y-6">
+              {/* FAQ 7 */}
+              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-primary flex-shrink-0">Q.</span>
+                  What makes you different from other agencies?
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                  We focus on data-driven results, transparent reporting, and personalized strategies. Our team has proven expertise in Noida's market with 500+ successful campaigns.
+                </p>
+              </div>
+
+              {/* FAQ 8 */}
+              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-primary flex-shrink-0">Q.</span>
+                  Do you provide SEO services?
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                  Yes, we offer comprehensive SEO services including technical audits, on-page optimization, link building, and local SEO to boost your organic visibility.
+                </p>
+              </div>
+
+              {/* FAQ 9 */}
+              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-primary flex-shrink-0">Q.</span>
+                  What is your contract duration?
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                  We typically recommend 6-12 month contracts for best results, but we also offer flexible month-to-month options. No long-term commitments required.
+                </p>
+              </div>
+
+              {/* FAQ 10 */}
+              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-primary flex-shrink-0">Q.</span>
+                  How do you measure success?
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                  We measure success through KPIs like conversion rates, cost per acquisition, ROI, click-through rates, and other metrics aligned with your specific business goals.
+                </p>
+              </div>
+
+              {/* FAQ 11 */}
+              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-primary flex-shrink-0">Q.</span>
+                  Do you offer free consultations?
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                  Yes! We provide a free initial consultation to understand your business, analyze your current marketing efforts, and propose a tailored strategy.
+                </p>
+              </div>
+
+              {/* FAQ 12 */}
+              <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-primary flex-shrink-0">Q.</span>
+                  Can you help with social media marketing?
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-7">
+                  Absolutely! We create and manage engaging social media campaigns across all major platforms to build your brand presence and drive conversions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
