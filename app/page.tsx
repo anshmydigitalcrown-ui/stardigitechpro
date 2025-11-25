@@ -327,37 +327,37 @@ export default function Home() {
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
                   </span>
-                  <span className="text-sm text-gray-300 font-medium">Leading Digital Marketing Agency in Noida</span>
+                  <span className="text-sm text-white font-medium">Leading Digital Marketing Agency in Noida</span>
                 </div>
                 
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
                   Your Trusted Partner for <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-[#1d7ba8] to-primary">Digital Growth</span>
                 </h2>
                 
-                <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+                <p className="text-white text-lg mb-6 leading-relaxed">
                   STAR DIGITECH PRO is a premier performance marketing agency based in Noida, specializing in data-driven digital marketing solutions. With over 5 years of industry experience and 500+ successful campaigns, we've helped businesses across various sectors achieve remarkable growth.
                 </p>
                 
-                <p className="text-gray-300 text-lg mb-8 leading-relaxed">
+                <p className="text-white text-lg mb-8 leading-relaxed">
                   Our team of certified digital marketing experts combines creativity with analytics to deliver measurable results. We don't just run campaigns – we build long-term partnerships focused on sustainable growth and maximum ROI.
                 </p>
 
                 <div className="grid grid-cols-2 gap-6 mb-8">
                   <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
                     <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#1d7ba8] mb-2">5+</div>
-                    <div className="text-sm text-gray-400">Years of Excellence</div>
+                    <div className="text-sm text-white">Years of Excellence</div>
                   </div>
                   <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
                     <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#1d7ba8] mb-2">500+</div>
-                    <div className="text-sm text-gray-400">Successful Campaigns</div>
+                    <div className="text-sm text-white">Successful Campaigns</div>
                   </div>
                   <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
                     <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#1d7ba8] mb-2">200+</div>
-                    <div className="text-sm text-gray-400">Happy Clients</div>
+                    <div className="text-sm text-white">Happy Clients</div>
                   </div>
                   <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-4 border border-slate-700">
                     <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#1d7ba8] mb-2">300%</div>
-                    <div className="text-sm text-gray-400">Average ROI Growth</div>
+                    <div className="text-sm text-white">Average ROI Growth</div>
                   </div>
                 </div>
 
@@ -383,7 +383,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-white mb-2">Performance-Focused</h3>
-                      <p className="text-gray-300 text-sm leading-relaxed">
+                      <p className="text-white text-sm leading-relaxed">
                         We focus on metrics that matter – conversions, leads, and revenue growth. Every campaign is optimized for maximum performance.
                       </p>
                     </div>
@@ -397,7 +397,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-white mb-2">Innovative Solutions</h3>
-                      <p className="text-gray-300 text-sm leading-relaxed">
+                      <p className="text-white text-sm leading-relaxed">
                         Stay ahead with cutting-edge marketing strategies, latest tools, and innovative approaches tailored to your industry.
                       </p>
                     </div>
@@ -411,7 +411,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-white mb-2">Transparent Reporting</h3>
-                      <p className="text-gray-300 text-sm leading-relaxed">
+                      <p className="text-white text-sm leading-relaxed">
                         Get complete visibility into your campaigns with detailed reports, real-time dashboards, and regular performance reviews.
                       </p>
                     </div>
@@ -425,7 +425,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-white mb-2">Dedicated Support</h3>
-                      <p className="text-gray-300 text-sm leading-relaxed">
+                      <p className="text-white text-sm leading-relaxed">
                         Work with a dedicated account manager who understands your business and is committed to your success.
                       </p>
                     </div>
