@@ -1,11 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
-export const metadata = {
-  title: "Contact Us | Performance Marketing in Noida",
-  description: "Get in touch with our performance marketing experts in Noida. Request a free consultation and discover how we can help grow your business.",
-};
+import type { ChangeEvent, FormEvent } from "react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -21,7 +17,7 @@ export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<{type: 'success' | 'error', message: string} | null>(null);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
@@ -29,7 +25,7 @@ export default function ContactPage() {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus(null);
