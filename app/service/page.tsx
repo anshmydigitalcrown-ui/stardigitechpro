@@ -206,6 +206,19 @@ export default function ServicePage() {
                     ))}
                   </ul>
                 </div>
+                <div className="mt-8 flex justify-center">
+                  <Link
+                    href="/contact"
+                    className="group relative inline-flex items-center justify-center px-8 py-3.5 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-2xl hover:shadow-primary/50 hover:scale-105"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      Book Now
+                      <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      </svg>
+                    </span>
+                  </Link>
+                </div>
               </div>
             ))}
           </div>
