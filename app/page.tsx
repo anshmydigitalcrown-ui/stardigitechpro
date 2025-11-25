@@ -193,24 +193,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary to-secondary text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Ready to Scale Your Business?
-          </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Let's discuss how our performance marketing strategies can drive measurable growth for your business in Noida.
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-white text-primary font-semibold py-4 px-8 rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl"
-          >
-            Schedule Free Consultation
-          </Link>
-        </div>
-      </section>
     </>
   );
 }
