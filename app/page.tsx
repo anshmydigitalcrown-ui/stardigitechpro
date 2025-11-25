@@ -517,6 +517,86 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Our Core Values Section */}
+      <section className="py-20 bg-[#020617]">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="section-title">Our Core Values</h2>
+            <p className="text-gray-300 text-lg max-w-3xl mx-auto">
+              The principles that guide every decision we make and every campaign we run
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            {/* Value 1 - Results-Driven */}
+            <div className="group bg-slate-800 bg-opacity-50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 text-center">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-primary/20 to-[#1d7ba8]/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <span className="text-5xl">🎯</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">Results-Driven</h3>
+              <p className="text-gray-300 leading-relaxed">
+                We focus on delivering measurable outcomes that directly impact your bottom line
+              </p>
+            </div>
+
+            {/* Value 2 - Transparency */}
+            <div className="group bg-slate-800 bg-opacity-50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 text-center">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-primary/20 to-[#1d7ba8]/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <span className="text-5xl">🤝</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">Transparency</h3>
+              <p className="text-gray-300 leading-relaxed">
+                Clear communication and honest reporting in everything we do
+              </p>
+            </div>
+
+            {/* Value 3 - Innovation */}
+            <div className="group bg-slate-800 bg-opacity-50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 text-center">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-primary/20 to-[#1d7ba8]/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <span className="text-5xl">💡</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">Innovation</h3>
+              <p className="text-gray-300 leading-relaxed">
+                Staying ahead of digital trends to give our clients a competitive edge
+              </p>
+            </div>
+
+            {/* Value 4 - Excellence */}
+            <div className="group bg-slate-800 bg-opacity-50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 text-center">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-primary/20 to-[#1d7ba8]/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <span className="text-5xl">🏆</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">Excellence</h3>
+              <p className="text-gray-300 leading-relaxed">
+                Committed to delivering the highest quality service in every project
+              </p>
+            </div>
+
+            {/* Value 5 - Data-First */}
+            <div className="group bg-slate-800 bg-opacity-50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 text-center">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-primary/20 to-[#1d7ba8]/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <span className="text-5xl">📊</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">Data-First</h3>
+              <p className="text-gray-300 leading-relaxed">
+                Every decision backed by analytics and performance metrics
+              </p>
+            </div>
+
+            {/* Value 6 - Partnership */}
+            <div className="group bg-slate-800 bg-opacity-50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 text-center">
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-primary/20 to-[#1d7ba8]/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <span className="text-5xl">💼</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">Partnership</h3>
+              <p className="text-gray-300 leading-relaxed">
+                We see our clients as partners, invested in their long-term success
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-20 bg-[#020617] bg-opacity-95">
         <div className="container mx-auto px-4">
