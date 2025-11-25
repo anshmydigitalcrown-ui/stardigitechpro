@@ -66,7 +66,7 @@ const Header = () => {
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden text-white focus:outline-none"
-            aria-label="Toggle menu">
+            aria-label="Toggle menu"
           >
             <svg
               className="w-6 h-6"
