@@ -65,7 +65,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden text-white focus:outline-none"
+            className="md:hidden flex items-center justify-center w-10 h-10 text-white bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-slate-600"
             aria-label="Toggle menu"
           >
             <svg
@@ -88,28 +88,28 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-slate-800">
-            <ul className="flex flex-col space-y-4">
+          <div className="md:hidden mt-4 pb-4 border-t border-slate-700">
+            <ul className="flex flex-col space-y-3 pt-4">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
                     onClick={() => setIsMenuOpen(false)}
-                    className={`block font-medium transition-colors duration-300 ${
+                    className={`block font-medium py-2 px-4 rounded-lg transition-all duration-300 ${
                       isActive(link.href)
-                        ? "text-primary"
-                        : "text-gray-300 hover:text-primary"
+                        ? "text-white bg-slate-800 border-l-4 border-primary"
+                        : "text-gray-300 hover:text-white hover:bg-slate-800"
                     }`}
                   >
                     {link.label}
                   </Link>
                 </li>
               ))}
-              <li>
+              <li className="pt-2">
                 <Link
                   href="/contact"
                   onClick={() => setIsMenuOpen(false)}
-                  className="block btn-primary text-center"
+                  className="block btn-primary text-center w-full"
                 >
                   Get Started
                 </Link>
