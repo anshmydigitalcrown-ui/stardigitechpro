@@ -11,8 +11,8 @@ export default function Home() {
             <div className="flex-1 text-center md:text-left">
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
                 Performance Marketing in Noida
-                <span className="text-primary"> | STAR DIGITECH PRO</span>
-                <br />Drive Results with Data-Driven Campaigns
+                <br />
+                <span className="text-primary">Drive Results with Data-Driven Campaigns</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl">
                 Transform your business with performance marketing strategies that deliver measurable ROI. We specialize in data-driven campaigns, conversion optimization, and performance-based advertising tailored for your growth in Noida.
