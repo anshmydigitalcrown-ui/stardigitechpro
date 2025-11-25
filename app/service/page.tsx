@@ -187,7 +187,7 @@ export default function ServicePage() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-20 bg-[#2596be]">
+      <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {services.map((service) => (
@@ -213,7 +213,7 @@ export default function ServicePage() {
       </section>
 
       {/* Process Section */}
-      <section className="py-20 bg-[#2596be] bg-opacity-90">
+      <section className="py-20 bg-[#020617] bg-opacity-90">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Our Process</h2>
@@ -263,7 +263,7 @@ export default function ServicePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-[#2596be] bg-opacity-95 text-white">
+      <section className="py-20 bg-[#020617] bg-opacity-95 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Ready to Transform Your Digital Presence?

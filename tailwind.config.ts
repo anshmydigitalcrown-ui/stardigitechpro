@@ -10,21 +10,21 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#2596be',
-          dark: '#1d7a9e',
-          light: '#4db3d3',
+          DEFAULT: '#020617',
+          dark: '#000000',
+          light: '#1e293b',
         },
         secondary: {
-          DEFAULT: '#2596be',
-          dark: '#1d7a9e',
-          light: '#4db3d3',
+          DEFAULT: '#020617',
+          dark: '#000000',
+          light: '#1e293b',
         },
         accent: {
-          DEFAULT: '#2596be',
-          dark: '#1d7a9e',
-          light: '#4db3d3',
+          DEFAULT: '#020617',
+          dark: '#000000',
+          light: '#1e293b',
         },
-        dark: '#2596be',
+        dark: '#020617',
         light: '#f1f5f9',
       },
     },

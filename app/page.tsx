@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-[#2596be] py-20 md:py-32">
+      <section className="relative bg-[#020617] py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="flex-1 text-center md:text-left">
@@ -47,7 +47,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-[#2596be] bg-opacity-90 text-white border-y border-white border-opacity-20">
+      <section className="py-16 bg-[#020617] bg-opacity-90 text-white border-y border-slate-700">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
@@ -71,7 +71,7 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-20 bg-[#2596be]">
+      <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="section-title">Our Performance Marketing Services</h2>
@@ -81,7 +81,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Service 1 */}
-            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
               <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🎯</div>
               <h3 className="text-xl font-bold text-white mb-3">PPC Management</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
 
             {/* Service 2 */}
-            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
               <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📈</div>
               <h3 className="text-xl font-bold text-white mb-3">SEO Optimization</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
 
             {/* Service 3 */}
-            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
               <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📱</div>
               <h3 className="text-xl font-bold text-white mb-3">Social Media Marketing</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
@@ -117,7 +117,7 @@ export default function Home() {
             </div>
 
             {/* Service 4 */}
-            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
               <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">✍️</div>
               <h3 className="text-xl font-bold text-white mb-3">Content Marketing</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
@@ -129,7 +129,7 @@ export default function Home() {
             </div>
 
             {/* Service 5 */}
-            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
               <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🔄</div>
               <h3 className="text-xl font-bold text-white mb-3">Conversion Rate Optimization</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
@@ -141,7 +141,7 @@ export default function Home() {
             </div>
 
             {/* Service 6 */}
-            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
               <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📊</div>
               <h3 className="text-xl font-bold text-white mb-3">Analytics & Reporting</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
@@ -153,7 +153,7 @@ export default function Home() {
             </div>
 
             {/* Service 7 */}
-            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
               <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📧</div>
               <h3 className="text-xl font-bold text-white mb-3">Email Marketing</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
@@ -165,7 +165,7 @@ export default function Home() {
             </div>
 
             {/* Service 8 */}
-            <div className="group relative bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-2xl border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
               <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🛒</div>
               <h3 className="text-xl font-bold text-white mb-3">E-commerce Marketing</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
@@ -180,7 +180,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-[#2596be] bg-opacity-90">
+      <section className="py-20 bg-[#020617] bg-opacity-90">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Why Choose Us</h2>
