@@ -17,6 +17,27 @@ export default function Home() {
               <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl">
                 Transform your business with performance marketing strategies that deliver measurable ROI. We specialize in data-driven campaigns, conversion optimization, and performance-based advertising tailored for your growth in Noida.
               </p>
+              
+              {/* Mini Stats */}
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 max-w-2xl">
+                <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm rounded-lg p-4 border border-slate-700">
+                  <div className="text-2xl md:text-3xl font-bold text-white mb-1">500+</div>
+                  <div className="text-xs md:text-sm text-gray-400">Successful Campaigns</div>
+                </div>
+                <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm rounded-lg p-4 border border-slate-700">
+                  <div className="text-2xl md:text-3xl font-bold text-white mb-1">300%</div>
+                  <div className="text-xs md:text-sm text-gray-400">Average ROI Growth</div>
+                </div>
+                <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm rounded-lg p-4 border border-slate-700">
+                  <div className="text-2xl md:text-3xl font-bold text-white mb-1">200+</div>
+                  <div className="text-xs md:text-sm text-gray-400">Happy Clients</div>
+                </div>
+                <div className="bg-slate-800 bg-opacity-50 backdrop-blur-sm rounded-lg p-4 border border-slate-700">
+                  <div className="text-2xl md:text-3xl font-bold text-white mb-1">5+</div>
+                  <div className="text-xs md:text-sm text-gray-400">Years of Excellence</div>
+                </div>
+              </div>
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <Link href="/contact" className="btn-primary">
                   Get Free Consultation
