@@ -27,6 +27,17 @@ const config: Config = {
         dark: '#020617',
         light: '#f1f5f9',
       },
+      backgroundSize: {
+        'size-200': '200% 200%',
+      },
+      backgroundPosition: {
+        'pos-0': '0% 0%',
+        'pos-100': '100% 100%',
+      },
+      animation: {
+        'pulse': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'bounce': 'bounce 2s infinite',
+      },
     },
   },
   plugins: [],
