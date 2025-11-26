@@ -7,6 +7,25 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
+      {/* Breadcrumb Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://stardigitechpro.vercel.app'
+              }
+            ]
+          })
+        }}
+      />
+      
       {/* Hero Section */}
       <section className="relative bg-[#020617] py-20 md:py-32 overflow-hidden">
         {/* Animated Background Elements */}
@@ -104,11 +123,12 @@ export default function Home() {
                 <div className="relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl p-2 border border-primary/20">
                   <Image
                     src="/hero.webg.webp"
-                    alt="Performance Marketing Services"
+                    alt="Performance Marketing Services Delhi - Data-Driven Digital Marketing Solutions"
                     width={600}
                     height={600}
                     className="relative rounded-xl shadow-2xl hover:scale-[1.02] transition-transform duration-500"
                     priority
+                    loading="eager"
                   />
                 </div>
                 
@@ -140,10 +160,11 @@ export default function Home() {
               <div className="w-full mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center p-4">
                 <Image
                   src="/service/PPC Management.webp.webp"
-                  alt="PPC Management"
+                  alt="PPC Management Services Delhi - Google Ads & Paid Advertising"
                   width={400}
                   height={400}
                   className="rounded-xl group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">PPC Management</h3>
@@ -169,10 +190,11 @@ export default function Home() {
               <div className="w-full mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center p-4">
                 <Image
                   src="/service/SEO Optimization.webp.webp"
-                  alt="SEO Optimization"
+                  alt="SEO Optimization Services Delhi - Organic Search Rankings"
                   width={400}
                   height={400}
                   className="rounded-xl group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">SEO Optimization</h3>
@@ -199,10 +221,11 @@ export default function Home() {
               <div className="w-full mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center p-4">
                 <Image
                   src="/service/Social Media Marketing.webp.webp"
-                  alt="Social Media Marketing"
+                  alt="Social Media Marketing Services Delhi - Facebook, Instagram & LinkedIn Ads"
                   width={400}
                   height={400}
                   className="rounded-xl group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Social Media Marketing</h3>
@@ -229,10 +252,11 @@ export default function Home() {
               <div className="w-full mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center p-4">
                 <Image
                   src="/service/Content Marketing.webp.webp"
-                  alt="Content Marketing"
+                  alt="Content Marketing Services Delhi - Strategic Content Creation"
                   width={400}
                   height={400}
                   className="rounded-xl group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Content Marketing</h3>
@@ -259,10 +283,11 @@ export default function Home() {
               <div className="w-full mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center p-4">
                 <Image
                   src="/service/Conversion Rate Optimization.webp.webp"
-                  alt="Conversion Rate Optimization"
+                  alt="Conversion Rate Optimization Delhi - CRO Services"
                   width={400}
                   height={400}
                   className="rounded-xl group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Conversion Rate Optimization</h3>
@@ -289,10 +314,11 @@ export default function Home() {
               <div className="w-full mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center p-4">
                 <Image
                   src="/service/Analytics & Reporting.webp.webp"
-                  alt="Analytics & Reporting"
+                  alt="Analytics & Reporting Services Delhi - Data-Driven Insights"
                   width={400}
                   height={400}
                   className="rounded-xl group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Analytics & Reporting</h3>
@@ -319,10 +345,11 @@ export default function Home() {
               <div className="w-full mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center p-4">
                 <Image
                   src="/service/Email Marketing.webp.webp"
-                  alt="Email Marketing"
+                  alt="Email Marketing Services Delhi - Targeted Email Campaigns"
                   width={400}
                   height={400}
                   className="rounded-xl group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Email Marketing</h3>
@@ -349,10 +376,11 @@ export default function Home() {
               <div className="w-full mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center p-4">
                 <Image
                   src="/service/E-commerce Marketing.webp.webp"
-                  alt="E-commerce Marketing"
+                  alt="E-commerce Marketing Services Delhi - Online Store Growth"
                   width={400}
                   height={400}
                   className="rounded-xl group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">E-commerce Marketing</h3>
@@ -379,10 +407,11 @@ export default function Home() {
               <div className="w-full mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center p-4">
                 <Image
                   src="/service/Video Marketing.webp.webp"
-                  alt="Video Marketing"
+                  alt="Video Marketing Services Delhi - YouTube & Social Media Videos"
                   width={400}
                   height={400}
                   className="rounded-xl group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Video Marketing</h3>

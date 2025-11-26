@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="flex items-center space-x-3 mb-4">
               <Image
                 src="/logo.webp.webp"
-                alt="STAR DIGITECH PRO"
+                alt="STAR DIGITECH PRO - Digital Marketing Agency Delhi"
                 width={50}
                 height={50}
                 className="rounded-lg"
@@ -21,7 +21,7 @@ const Footer = () => {
               <span className="text-xl font-bold">STAR DIGITECH PRO</span>
             </div>
             <p className="text-gray-300 mb-4">
-              Leading digital marketing agency in Noida, delivering ROI-focused marketing solutions to help businesses grow online.
+              Leading digital marketing agency in Delhi, delivering ROI-focused marketing solutions to help businesses grow online.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-primary transition-colors">

@@ -10,6 +10,62 @@ export const metadata: Metadata = {
 export default function PPCManagementPage() {
   return (
     <>
+      {/* Service Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            serviceType: 'PPC Management Services',
+            provider: {
+              '@type': 'Organization',
+              name: 'STAR DIGITECH PRO',
+              url: 'https://stardigitechpro.vercel.app'
+            },
+            areaServed: 'Delhi, India',
+            description: 'Expert PPC management services in Delhi including Google Ads, Facebook Ads, and LinkedIn advertising with proven ROI.',
+            offers: {
+              '@type': 'Offer',
+              availability: 'https://schema.org/InStock',
+              price: '0',
+              priceCurrency: 'INR'
+            }
+          })
+        }}
+      />
+      
+      {/* Breadcrumb Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://stardigitechpro.vercel.app'
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Services',
+                item: 'https://stardigitechpro.vercel.app/service'
+              },
+              {
+                '@type': 'ListItem',
+                position: 3,
+                name: 'PPC Management',
+                item: 'https://stardigitechpro.vercel.app/services/ppc-management'
+              }
+            ]
+          })
+        }}
+      />
+      
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-b from-[#020617] to-slate-900 overflow-hidden">
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>

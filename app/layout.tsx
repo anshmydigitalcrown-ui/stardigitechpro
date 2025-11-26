@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     url: 'https://stardigitechpro.vercel.app',
-    title: 'STAR DIGITECH PRO | Performance Marketing in Noida',
-    description: 'Leading performance marketing agency in Noida offering ROI-focused marketing solutions, data-driven campaigns, and performance-based advertising strategies.',
+    title: 'STAR DIGITECH PRO | Performance Marketing in Delhi',
+    description: 'Leading performance marketing agency in Delhi offering ROI-focused marketing solutions, data-driven campaigns, and performance-based advertising strategies.',
     siteName: 'STAR DIGITECH PRO',
     images: [{
       url: '/logo.jpg',
@@ -42,8 +42,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'STAR DIGITECH PRO | Performance Marketing in Noida',
-    description: 'Leading performance marketing agency in Noida offering ROI-focused marketing solutions, data-driven campaigns, and performance-based advertising strategies.',
+    title: 'STAR DIGITECH PRO | Performance Marketing in Delhi',
+    description: 'Leading performance marketing agency in Delhi offering ROI-focused marketing solutions, data-driven campaigns, and performance-based advertising strategies.',
     images: ['/logo.jpg'],
   },
   verification: {
@@ -63,8 +63,93 @@ export default function RootLayout({
     <html lang="en" dir="ltr">
       <head>
         <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/logo.jpg" />
+        <link rel="icon" href="/logo.jpg" type="image/jpeg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/logo.jpg" />
         <meta name="format-detection" content="telephone=no" />
+        <meta name="theme-color" content="#1d7ba8" />
+        
+        {/* Organization Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: 'STAR DIGITECH PRO',
+              url: 'https://stardigitechpro.vercel.app',
+              logo: 'https://stardigitechpro.vercel.app/logo.jpg',
+              description: 'Leading performance marketing agency in Delhi offering ROI-focused marketing solutions',
+              address: {
+                '@type': 'PostalAddress',
+                streetAddress: 'Connaught Place',
+                addressLocality: 'Delhi',
+                addressRegion: 'DL',
+                postalCode: '110001',
+                addressCountry: 'IN'
+              },
+              contactPoint: {
+                '@type': 'ContactPoint',
+                telephone: '+91-XXX-XXX-XXXX',
+                contactType: 'customer service',
+                areaServed: 'IN',
+                availableLanguage: ['en', 'hi']
+              },
+              sameAs: [
+                'https://stardigitechpro.vercel.app'
+              ]
+            })
+          }}
+        />
+        
+        {/* LocalBusiness Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'LocalBusiness',
+              '@id': 'https://stardigitechpro.vercel.app/#organization',
+              name: 'STAR DIGITECH PRO',
+              image: 'https://stardigitechpro.vercel.app/logo.jpg',
+              description: 'Premier performance marketing agency in Delhi specializing in data-driven digital marketing, PPC management, SEO, and conversion optimization',
+              url: 'https://stardigitechpro.vercel.app',
+              telephone: '+91-XXX-XXX-XXXX',
+              priceRange: '₹₹',
+              address: {
+                '@type': 'PostalAddress',
+                streetAddress: 'Connaught Place',
+                addressLocality: 'Delhi',
+                addressRegion: 'DL',
+                postalCode: '110001',
+                addressCountry: 'IN'
+              },
+              geo: {
+                '@type': 'GeoCoordinates',
+                latitude: 28.6315,
+                longitude: 77.2167
+              },
+              openingHoursSpecification: [
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+                  opens: '09:00',
+                  closes: '18:00'
+                },
+                {
+                  '@type': 'OpeningHoursSpecification',
+                  dayOfWeek: 'Saturday',
+                  opens: '10:00',
+                  closes: '16:00'
+                }
+              ],
+              aggregateRating: {
+                '@type': 'AggregateRating',
+                ratingValue: '4.9',
+                reviewCount: '150'
+              }
+            })
+          }}
+        />
       </head>
       <body className={inter.className}>
         <Header />

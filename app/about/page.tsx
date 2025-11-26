@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL('https://stardigitechpro.vercel.app'),
   title: "About Us | STAR DIGITECH PRO",
-  description: "Learn about our mission, values, and team dedicated to delivering exceptional digital marketing results in Noida.",
+  description: "Learn about our mission, values, and team dedicated to delivering exceptional digital marketing results in Delhi.",
   openGraph: {
     title: "About Us | STAR DIGITECH PRO",
     description: "Learn about our mission, values, and team dedicated to delivering exceptional digital marketing results in Delhi.",
