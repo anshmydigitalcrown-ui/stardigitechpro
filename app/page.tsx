@@ -656,6 +656,171 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Get In Touch Section */}
+      <section className="py-20 bg-[#020617]">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              Get In Touch
+            </h2>
+            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+              Ready to transform your digital presence? Contact us today for a free consultation
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Left Column - Map and Contact Info */}
+            <div className="space-y-6">
+              {/* Map */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm rounded-2xl border border-slate-700/50 overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83923192682!2d77.06889754725782!3d28.52758200617607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1701234567890!5m2!1sen!2sin"
+                  width="100%"
+                  height="350"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full"
+                ></iframe>
+              </div>
+
+              {/* Contact Cards */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                {/* Phone */}
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                  <div className="flex items-center gap-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl flex items-center justify-center">
+                      <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="text-white font-bold mb-1">Phone</h3>
+                      <p className="text-gray-300 text-sm">+91 (XXX) XXX-XXXX</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Email */}
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                  <div className="flex items-center gap-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl flex items-center justify-center">
+                      <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="text-white font-bold mb-1">Email</h3>
+                      <p className="text-gray-300 text-sm">info@stardigitechpro.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Column - Contact Form */}
+            <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50">
+              <form className="space-y-6">
+                {/* Full Name */}
+                <div>
+                  <label htmlFor="fullName" className="block text-white font-medium mb-2">
+                    Full Name <span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Enter your name"
+                    required
+                    className="w-full bg-slate-900/50 border border-slate-700 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition-colors duration-300"
+                  />
+                </div>
+
+                {/* Email Address */}
+                <div>
+                  <label htmlFor="email" className="block text-white font-medium mb-2">
+                    Email Address <span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                    className="w-full bg-slate-900/50 border border-slate-700 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition-colors duration-300"
+                  />
+                </div>
+
+                {/* Phone Number */}
+                <div>
+                  <label htmlFor="phone" className="block text-white font-medium mb-2">
+                    Phone Number <span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    required
+                    className="w-full bg-slate-900/50 border border-slate-700 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition-colors duration-300"
+                  />
+                </div>
+
+                {/* Service Interested In */}
+                <div>
+                  <label htmlFor="service" className="block text-white font-medium mb-2">
+                    Service Interested In <span className="text-red-500">*</span>
+                  </label>
+                  <select
+                    id="service"
+                    name="service"
+                    required
+                    className="w-full bg-slate-900/50 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors duration-300"
+                  >
+                    <option value="">Select a service</option>
+                    <option value="seo">SEO Optimization</option>
+                    <option value="ppc">PPC Management</option>
+                    <option value="social-media">Social Media Marketing</option>
+                    <option value="content">Content Marketing</option>
+                    <option value="email">Email Marketing</option>
+                    <option value="analytics">Analytics & Reporting</option>
+                    <option value="conversion">Conversion Rate Optimization</option>
+                    <option value="influencer">Influencer Marketing</option>
+                    <option value="video">Video Marketing</option>
+                  </select>
+                </div>
+
+                {/* Message */}
+                <div>
+                  <label htmlFor="message" className="block text-white font-medium mb-2">
+                    Message <span className="text-gray-400">(Optional)</span>
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows={4}
+                    placeholder="Tell us about your project..."
+                    className="w-full bg-slate-900/50 border border-slate-700 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition-colors duration-300 resize-none"
+                  ></textarea>
+                </div>
+
+                {/* Submit Button */}
+                <button
+                  type="submit"
+                  className="w-full bg-gradient-to-r from-primary to-[#1d7ba8] text-white font-bold py-4 rounded-lg hover:shadow-xl hover:shadow-primary/50 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
+                >
+                  Book Now
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section at bottom */}
       <section className="py-20 bg-[#020617] bg-opacity-95 text-white">
         <div className="container mx-auto px-4 text-center">
