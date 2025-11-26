@@ -86,6 +86,16 @@ export default function ServicePage() {
       {/* Your Trusted Partner Section */}
       <section className="py-20 bg-[#020617] overflow-hidden">
         <div className="container mx-auto px-4">
+          {/* Section Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
+              About STAR DIGITECH PRO
+            </h2>
+            <p className="text-xl md:text-2xl text-gray-300">
+              Your Trusted Partner for Digital Growth
+            </p>
+          </div>
+
           <div className="flex flex-col lg:flex-row items-start gap-12">
             {/* Left Column - Content */}
             <div className="flex-1">
