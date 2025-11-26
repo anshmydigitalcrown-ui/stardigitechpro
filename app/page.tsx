@@ -133,13 +133,13 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {/* Service 1 - PPC Management */}
-            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
+              <div className="relative w-full h-56 mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center">
                 <Image
                   src="/service/PPC Management.webp.webp"
                   alt="PPC Management"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">PPC Management</h3>
@@ -162,13 +162,13 @@ export default function Home() {
             </div>
 
             {/* Service 2 - SEO Optimization */}
-            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
+              <div className="relative w-full h-56 mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center">
                 <Image
                   src="/service/SEO Optimization.webp.webp"
                   alt="SEO Optimization"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">SEO Optimization</h3>
@@ -191,13 +191,13 @@ export default function Home() {
             </div>
 
             {/* Service 3 - Social Media Marketing */}
-            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
+              <div className="relative w-full h-56 mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center">
                 <Image
                   src="/service/Social Media Marketing.webp.webp"
                   alt="Social Media Marketing"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Social Media Marketing</h3>
@@ -220,13 +220,13 @@ export default function Home() {
             </div>
 
             {/* Service 4 - Content Marketing */}
-            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
+              <div className="relative w-full h-56 mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center">
                 <Image
                   src="/service/Content Marketing.webp.webp"
                   alt="Content Marketing"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Content Marketing</h3>
@@ -249,13 +249,13 @@ export default function Home() {
             </div>
 
             {/* Service 5 - Conversion Rate Optimization */}
-            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
+              <div className="relative w-full h-56 mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center">
                 <Image
                   src="/service/Conversion Rate Optimization.webp.webp"
                   alt="Conversion Rate Optimization"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Conversion Rate Optimization</h3>
@@ -278,13 +278,13 @@ export default function Home() {
             </div>
 
             {/* Service 6 - Analytics & Reporting */}
-            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
+              <div className="relative w-full h-56 mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center">
                 <Image
                   src="/service/Analytics & Reporting.webp.webp"
                   alt="Analytics & Reporting"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Analytics & Reporting</h3>
@@ -307,13 +307,13 @@ export default function Home() {
             </div>
 
             {/* Service 7 - Email Marketing */}
-            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
+              <div className="relative w-full h-56 mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center">
                 <Image
                   src="/service/Email Marketing.webp.webp"
                   alt="Email Marketing"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Email Marketing</h3>
@@ -336,13 +336,13 @@ export default function Home() {
             </div>
 
             {/* Service 8 - E-commerce Marketing */}
-            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
+              <div className="relative w-full h-56 mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center">
                 <Image
                   src="/service/E-commerce Marketing.webp.webp"
                   alt="E-commerce Marketing"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">E-commerce Marketing</h3>
@@ -365,13 +365,13 @@ export default function Home() {
             </div>
 
             {/* Service 9 - Video Marketing */}
-            <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
+              <div className="relative w-full h-56 mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center">
                 <Image
                   src="/service/Video Marketing.webp.webp"
                   alt="Video Marketing"
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Video Marketing</h3>
