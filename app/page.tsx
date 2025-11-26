@@ -949,12 +949,12 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <div className="inline-block mb-4">
-              <span className="bg-gradient-to-r from-primary/20 to-[#1d7ba8]/20 text-primary px-6 py-2 rounded-full text-sm font-semibold border border-primary/30">
+              <span className="bg-gradient-to-r from-primary/20 to-[#1d7ba8]/20 text-white px-6 py-2 rounded-full text-sm font-semibold border border-primary/30">
                 Why Choose Us
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-clip-text text-transparent">
+              <span className="text-white">
                 Why STAR DIGITECH PRO is Your Best Choice
               </span>
             </h2>
@@ -1032,15 +1032,15 @@ export default function Home() {
             {/* Bottom Stats/Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-primary/10 to-[#1d7ba8]/10 backdrop-blur-sm p-6 rounded-xl border border-primary/20 text-center">
-                <div className="text-4xl font-bold text-primary mb-2">24/7</div>
+                <div className="text-4xl font-bold text-white mb-2">24/7</div>
                 <p className="text-white font-semibold">Support Available</p>
               </div>
               <div className="bg-gradient-to-br from-primary/10 to-[#1d7ba8]/10 backdrop-blur-sm p-6 rounded-xl border border-primary/20 text-center">
-                <div className="text-4xl font-bold text-primary mb-2">100%</div>
+                <div className="text-4xl font-bold text-white mb-2">100%</div>
                 <p className="text-white font-semibold">Transparent Reporting</p>
               </div>
               <div className="bg-gradient-to-br from-primary/10 to-[#1d7ba8]/10 backdrop-blur-sm p-6 rounded-xl border border-primary/20 text-center">
-                <div className="text-4xl font-bold text-primary mb-2">∞</div>
+                <div className="text-4xl font-bold text-white mb-2">∞</div>
                 <p className="text-white font-semibold">Customized Solutions</p>
               </div>
             </div>
