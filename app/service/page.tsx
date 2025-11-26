@@ -87,6 +87,16 @@ export default function ServicePage() {
       {/* Services Grid */}
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">
+          {/* Section Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              Our Performance Marketing Services
+            </h2>
+            <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
+              Comprehensive digital marketing solutions designed to drive measurable results and accelerate your business growth
+            </p>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Service 1 - PPC Management */}
             <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
