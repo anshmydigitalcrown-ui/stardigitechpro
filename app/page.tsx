@@ -126,7 +126,7 @@ export default function Home() {
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="section-title">Our Performance Marketing Services</h2>
+            <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4">Our Performance Marketing Services</h2>
             <p className="text-white text-lg max-w-3xl mx-auto">
               Comprehensive digital marketing solutions designed to drive measurable results and accelerate your business growth
             </p>
