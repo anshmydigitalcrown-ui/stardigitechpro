@@ -27,15 +27,15 @@ export default function SEOOptimizationPage() {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-clip-text text-transparent">
-                Dominate Search Results
-              </span>
+              <span className="text-white">Performance Marketing in Noida:</span>
               <br />
-              <span className="text-white">With Expert SEO</span>
+              <span className="bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-clip-text text-transparent">
+                Expert SEO Services
+              </span>
             </h1>
             
             <p className="text-xl text-white leading-relaxed mb-8 max-w-3xl mx-auto">
-              Increase your organic visibility and drive qualified traffic with our comprehensive SEO strategies. From technical optimization to content strategy, we help you rank higher and reach more customers.
+              Dominate search results with comprehensive SEO strategies designed for Noida businesses. From technical optimization to content strategy, we help you rank higher and drive qualified traffic through performance marketing excellence.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
