@@ -4,7 +4,7 @@ import Image from "next/image";
 // Performance Marketing Landing Page
 export default function Home() {
   return (
-    <>
+    <div>
       {/* Hero Section */}
       <section className="relative bg-[#020617] py-20 md:py-32 overflow-hidden">
         {/* Animated Background Elements */}
@@ -1188,6 +1188,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
