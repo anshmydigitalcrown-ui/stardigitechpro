@@ -96,7 +96,7 @@ export default function AboutPage() {
             <div className="flex justify-center mt-12">
               <div className="relative w-full max-w-md">
                 <Image
-                  src="/digital-marketing.webp"
+                  src="/about.webp.webp"
                   alt="Digital Marketing Solutions"
                   width={400}
                   height={400}
