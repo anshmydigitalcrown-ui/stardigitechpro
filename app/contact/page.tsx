@@ -318,14 +318,14 @@ export default function ContactPage() {
               <div className="relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 p-3 rounded-2xl border border-[#1d7ba8]/30 shadow-2xl shadow-[#1d7ba8]/10 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#1d7ba8]/5 to-transparent"></div>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14007.99429022088!2d77.21493031539502!3d28.63124472345024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b1a2b3c7%3A0x4713e8632a3b1c0!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224567.84991569844!2d77.2090212!3d28.5355161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1732632000000!5m2!1sen!2sin"
                   width="100%"
-                  height="450"
+                  height="500"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  className="rounded-xl"
+                  className="rounded-xl w-full h-[500px]"
                 ></iframe>
               </div>
             </div>
