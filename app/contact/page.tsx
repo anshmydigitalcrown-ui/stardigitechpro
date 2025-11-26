@@ -78,8 +78,14 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div>
-              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
-                <h2 className="text-3xl font-bold text-white mb-6">Send Us a Message</h2>
+              <div className="relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 p-8 rounded-2xl border border-[#1d7ba8]/30 shadow-2xl shadow-[#1d7ba8]/10">
+                {/* Decorative gradient overlay */}
+                <div className="absolute top-0 right-0 w-32 h-32 bg-[#1d7ba8]/5 rounded-full blur-3xl"></div>
+                <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#1d7ba8]/5 rounded-full blur-2xl"></div>
+                
+                <div className="relative z-10">
+                  <h2 className="text-3xl font-bold text-white mb-2">Send Us a Message</h2>
+                  <div className="w-16 h-1 bg-gradient-to-r from-[#1d7ba8] to-transparent mb-6"></div>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-white mb-2">
@@ -220,21 +226,27 @@ export default function ContactPage() {
                     {isSubmitting ? 'Sending...' : 'Send Message'}
                   </button>
                 </form>
+                </div>
               </div>
             </div>
 
             {/* Contact Information */}
             <div className="space-y-8">
-              <div>
-                <h2 className="text-3xl font-bold text-white mb-6">Get In Touch</h2>
-                <p className="text-gray-300 mb-8">
-                  We're here to answer your questions and help you achieve your digital marketing goals. Reach out to us through any of the following channels.
-                </p>
+              <div className="relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 p-8 rounded-2xl border border-[#1d7ba8]/30 shadow-2xl shadow-[#1d7ba8]/10">
+                {/* Decorative elements */}
+                <div className="absolute top-0 left-0 w-24 h-24 bg-[#1d7ba8]/5 rounded-full blur-2xl"></div>
+                
+                <div className="relative z-10">
+                  <h2 className="text-3xl font-bold text-white mb-2">Get In Touch</h2>
+                  <div className="w-16 h-1 bg-gradient-to-r from-[#1d7ba8] to-transparent mb-6"></div>
+                  <p className="text-gray-300 mb-8">
+                    We're here to answer your questions and help you achieve your digital marketing goals. Reach out to us through any of the following channels.
+                  </p>
 
                 <div className="space-y-6">
                   {/* Office Location */}
-                  <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-[#1d7ba8]/10 rounded-lg flex items-center justify-center">
+                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-slate-800/30 hover:bg-slate-800/50 transition-all duration-300 border border-slate-700/30 hover:border-[#1d7ba8]/30">
+                    <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#1d7ba8]/20 to-[#1d7ba8]/10 rounded-lg flex items-center justify-center shadow-lg shadow-[#1d7ba8]/20">
                       <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                         <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
@@ -251,8 +263,8 @@ export default function ContactPage() {
                   </div>
 
                   {/* Email */}
-                  <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-[#1d7ba8]/10 rounded-lg flex items-center justify-center">
+                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-slate-800/30 hover:bg-slate-800/50 transition-all duration-300 border border-slate-700/30 hover:border-[#1d7ba8]/30">
+                    <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#1d7ba8]/20 to-[#1d7ba8]/10 rounded-lg flex items-center justify-center shadow-lg shadow-[#1d7ba8]/20">
                       <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                       </svg>
@@ -267,8 +279,8 @@ export default function ContactPage() {
                   </div>
 
                   {/* Phone */}
-                  <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-[#1d7ba8]/10 rounded-lg flex items-center justify-center">
+                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-slate-800/30 hover:bg-slate-800/50 transition-all duration-300 border border-slate-700/30 hover:border-[#1d7ba8]/30">
+                    <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#1d7ba8]/20 to-[#1d7ba8]/10 rounded-lg flex items-center justify-center shadow-lg shadow-[#1d7ba8]/20">
                       <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                       </svg>
@@ -283,8 +295,8 @@ export default function ContactPage() {
                   </div>
 
                   {/* Working Hours */}
-                  <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-[#1d7ba8]/10 rounded-lg flex items-center justify-center">
+                  <div className="flex items-start space-x-4 p-4 rounded-xl bg-slate-800/30 hover:bg-slate-800/50 transition-all duration-300 border border-slate-700/30 hover:border-[#1d7ba8]/30">
+                    <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#1d7ba8]/20 to-[#1d7ba8]/10 rounded-lg flex items-center justify-center shadow-lg shadow-[#1d7ba8]/20">
                       <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                       </svg>
@@ -299,10 +311,12 @@ export default function ContactPage() {
                     </div>
                   </div>
                 </div>
+                </div>
               </div>
 
               {/* Google Maps */}
-              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-2 rounded-2xl border border-slate-700/50 overflow-hidden">
+              <div className="relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 p-3 rounded-2xl border border-[#1d7ba8]/30 shadow-2xl shadow-[#1d7ba8]/10 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-[#1d7ba8]/5 to-transparent"></div>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28034.534646789854!2d77.35399937!3d28.626137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5456ef36d9f%3A0x3b7191b1286136c8!2sSector%2062%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
                   width="100%"
