@@ -1176,6 +1176,155 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SEO Content Section */}
+      <section className="py-20 bg-gradient-to-b from-[#0a1628] to-[#020617]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+                Performance Marketing Agency in Noida: Drive Measurable Results
+              </h2>
+              <p className="text-xl text-gray-300 leading-relaxed">
+                At STAR DIGITECH PRO, we specialize in data-driven performance marketing strategies that deliver real, measurable ROI for businesses across India and beyond.
+              </p>
+            </div>
+
+            <div className="prose prose-invert max-w-none space-y-8">
+              {/* Introduction */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-4">What is Performance Marketing?</h3>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  Performance marketing is a comprehensive digital marketing approach where advertisers only pay for specific actions or results. Unlike traditional advertising methods that charge based on impressions or reach, performance marketing ensures that every rupee spent is tied to tangible outcomes—whether it's clicks, leads, conversions, or sales. This results-oriented methodology has revolutionized how businesses approach digital advertising, making it one of the most cost-effective and accountable forms of marketing available today.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  As a leading performance marketing agency in Noida, we leverage cutting-edge tools, advanced analytics, and industry best practices to create campaigns that don't just generate traffic—they generate qualified leads and drive revenue growth. Our team of certified digital marketing specialists combines creativity with data science to optimize every touchpoint of your customer journey, ensuring maximum return on your marketing investment.
+                </p>
+              </div>
+
+              {/* Core Services */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-6">Our Performance Marketing Services</h3>
+                
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="text-xl font-semibold text-[#1d7ba8] mb-3">Pay-Per-Click (PPC) Advertising</h4>
+                    <p className="text-gray-300 leading-relaxed">
+                      Our PPC management services encompass Google Ads, Bing Ads, and social media advertising platforms. We conduct extensive keyword research, craft compelling ad copy, design high-converting landing pages, and continuously optimize campaigns to reduce cost-per-acquisition while maximizing conversion rates. With our advanced bid management strategies and A/B testing methodologies, we ensure your ads appear in front of the right audience at the right time, delivering qualified traffic that converts.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xl font-semibold text-[#1d7ba8] mb-3">Search Engine Optimization (SEO)</h4>
+                    <p className="text-gray-300 leading-relaxed">
+                      SEO remains one of the most powerful long-term performance marketing strategies. Our comprehensive SEO services include technical website audits, on-page optimization, content strategy development, link building, and local SEO for businesses targeting specific geographic areas. We stay ahead of Google's algorithm updates and implement white-hat techniques that build sustainable organic visibility. From keyword research to content creation and backlink acquisition, we handle every aspect of your SEO campaign to improve your search rankings and drive qualified organic traffic.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xl font-semibold text-[#1d7ba8] mb-3">Social Media Marketing</h4>
+                    <p className="text-gray-300 leading-relaxed">
+                      Social media platforms offer unprecedented opportunities for targeted advertising and audience engagement. Our social media marketing services cover Facebook Ads, Instagram Ads, LinkedIn advertising, Twitter campaigns, and emerging platforms. We create compelling visual content, develop audience personas, implement sophisticated targeting strategies, and run conversion-optimized campaigns that turn social media users into customers. Our approach combines creative storytelling with data-driven optimization to maximize your social media ROI.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xl font-semibold text-[#1d7ba8] mb-3">Conversion Rate Optimization (CRO)</h4>
+                    <p className="text-gray-300 leading-relaxed">
+                      Driving traffic is only half the battle—converting that traffic into customers is where the real value lies. Our CRO services involve comprehensive website analysis, user behavior tracking, heat mapping, A/B testing, and landing page optimization. We identify friction points in your conversion funnel and implement data-backed improvements that increase conversion rates, reduce bounce rates, and improve overall user experience. Through continuous testing and refinement, we help you squeeze maximum value from every visitor.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Why Choose Us */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-6">Why Choose STAR DIGITECH PRO as Your Performance Marketing Partner?</h3>
+                
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 w-6 h-6 bg-[#1d7ba8] rounded-full flex items-center justify-center mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-2">Transparent Reporting and Analytics</h4>
+                      <p className="text-gray-300 leading-relaxed">
+                        We believe in complete transparency. You'll receive detailed reports showing exactly how your budget is being spent and what results it's generating. Our custom dashboards provide real-time insights into campaign performance, allowing you to track ROI, monitor KPIs, and make informed decisions about your marketing strategy.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 w-6 h-6 bg-[#1d7ba8] rounded-full flex items-center justify-center mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-2">Industry-Certified Experts</h4>
+                      <p className="text-gray-300 leading-relaxed">
+                        Our team consists of Google Ads certified professionals, Facebook Blueprint certified marketers, and experienced SEO specialists who stay updated with the latest industry trends and best practices. With years of hands-on experience managing campaigns across diverse industries, we bring proven expertise to every project.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 w-6 h-6 bg-[#1d7ba8] rounded-full flex items-center justify-center mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-2">Customized Strategies for Every Business</h4>
+                      <p className="text-gray-300 leading-relaxed">
+                        We understand that every business is unique. That's why we don't offer cookie-cutter solutions. Instead, we take the time to understand your business goals, target audience, competitive landscape, and budget constraints to develop customized performance marketing strategies that align with your specific objectives and deliver measurable results.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 w-6 h-6 bg-[#1d7ba8] rounded-full flex items-center justify-center mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-semibold text-white mb-2">Proven Track Record of Success</h4>
+                      <p className="text-gray-300 leading-relaxed">
+                        We've helped businesses across various industries achieve remarkable growth through performance marketing. From startups looking to establish their online presence to established enterprises seeking to scale their digital operations, our portfolio showcases consistent results: increased traffic, higher conversion rates, improved ROI, and sustained business growth.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Local Expertise */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-4">Performance Marketing Agency in Noida: Local Expertise, Global Standards</h3>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  Based in Sector 62, Noida, we're perfectly positioned to serve businesses throughout the National Capital Region and across India. Our deep understanding of local markets combined with global best practices allows us to create campaigns that resonate with Indian audiences while maintaining international quality standards. Whether you're a local business looking to dominate your market or a national brand seeking to expand your digital footprint, we have the expertise and resources to help you succeed.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  We understand the unique challenges and opportunities that Indian businesses face in the digital landscape. From navigating regional language preferences to understanding cultural nuances and local search behavior, our team brings invaluable insights that give your campaigns a competitive edge. Our proximity allows us to provide personalized service, quick response times, and the flexibility to meet in person when needed, ensuring seamless collaboration throughout our partnership.
+                </p>
+              </div>
+
+              {/* Getting Started */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-4">Ready to Transform Your Digital Marketing Results?</h3>
+                <p className="text-gray-300 leading-relaxed mb-6">
+                  If you're ready to move beyond vanity metrics and focus on what really matters—measurable business growth—it's time to partner with STAR DIGITECH PRO. Our performance marketing strategies are designed to deliver the results you need: more qualified leads, higher conversion rates, and improved return on investment. We don't just manage campaigns; we become your dedicated partners in growth, working tirelessly to optimize every aspect of your digital marketing presence.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  Contact us today for a free consultation where we'll discuss your business goals, analyze your current marketing efforts, and outline a customized performance marketing strategy tailored to your needs. Let's work together to unlock your business's full potential in the digital marketplace. With our expertise, your dedication, and a data-driven approach, there's no limit to what we can achieve together.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">
