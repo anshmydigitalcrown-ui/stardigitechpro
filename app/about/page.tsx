@@ -573,153 +573,132 @@ export default function ServicePage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-[#020617] bg-opacity-95">
+      <section className="py-20 bg-gradient-to-b from-[#020617] to-[#0a1628]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Frequently Asked Questions</h2>
+            <p className="text-[#1d7ba8] text-sm uppercase tracking-wider font-semibold mb-4">FAQ</p>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Common Questions About Us</h2>
             <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-              Get answers to common questions about our performance marketing services
+              Everything you need to know about working with STAR DIGITECH PRO
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
-            {/* Left Column - 6 FAQs */}
-            <div className="space-y-6">
-              {/* FAQ 1 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">What is performance marketing?</span>
+          <div className="max-w-4xl mx-auto space-y-4">
+            {/* FAQ 1 */}
+            <div className="group bg-gradient-to-r from-slate-800/40 to-slate-900/40 backdrop-blur-sm rounded-xl border border-slate-700/30 hover:border-[#1d7ba8]/50 transition-all duration-300 overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-white mb-3 flex items-center gap-3">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1d7ba8]/20 to-[#1d7ba8]/10 rounded-lg flex items-center justify-center border border-[#1d7ba8]/30">
+                    <svg className="w-5 h-5 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </span>
+                  <span className="flex-1">Who is STAR DIGITECH PRO?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
-                  Performance marketing is a data-driven approach where advertisers pay only for specific actions like clicks, leads, or sales. It focuses on measurable results and ROI optimization.
-                </p>
-              </div>
-
-              {/* FAQ 2 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">How long does it take to see results?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
-                  Initial results can be seen within 2-4 weeks, but significant improvements typically occur after 3-6 months of consistent optimization and strategy refinement.
-                </p>
-              </div>
-
-              {/* FAQ 3 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">What is your pricing model?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
-                  We offer flexible pricing based on your business needs, including monthly retainers, performance-based fees, and project-based pricing. Contact us for a custom quote.
-                </p>
-              </div>
-
-              {/* FAQ 4 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">Do you work with small businesses?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
-                  Yes! We work with businesses of all sizes, from startups to enterprises. Our strategies are tailored to fit your budget and growth objectives.
-                </p>
-              </div>
-
-              {/* FAQ 5 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">Which platforms do you manage?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
-                  We manage campaigns across Google Ads, Facebook, Instagram, LinkedIn, Twitter, YouTube, and other major advertising platforms based on your target audience.
-                </p>
-              </div>
-
-              {/* FAQ 6 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">Can I track campaign performance?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
-                  Absolutely! We provide detailed monthly reports, real-time dashboards, and transparent analytics so you can track every metric and KPI that matters to your business.
+                <p className="text-gray-300 text-base leading-relaxed ml-11">
+                  We are a premier performance marketing agency based in Noida with over 5 years of experience. We specialize in data-driven digital marketing strategies that deliver measurable results and ROI for businesses of all sizes.
                 </p>
               </div>
             </div>
 
-            {/* Right Column - 6 FAQs */}
-            <div className="space-y-6">
-              {/* FAQ 7 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
+            {/* FAQ 2 */}
+            <div className="group bg-gradient-to-r from-slate-800/40 to-slate-900/40 backdrop-blur-sm rounded-xl border border-slate-700/30 hover:border-[#1d7ba8]/50 transition-all duration-300 overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-white mb-3 flex items-center gap-3">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1d7ba8]/20 to-[#1d7ba8]/10 rounded-lg flex items-center justify-center border border-[#1d7ba8]/30">
+                    <svg className="w-5 h-5 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </span>
                   <span className="flex-1">What makes you different from other agencies?</span>
                 </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
-                  We focus on data-driven results, transparent reporting, and personalized strategies. Our team has proven expertise in Noida's market with 500+ successful campaigns.
-                </p>
-              </div>
-
-              {/* FAQ 8 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">Do you provide SEO services?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
-                  Yes, we offer comprehensive SEO services including technical audits, on-page optimization, link building, and local SEO to boost your organic visibility.
-                </p>
-              </div>
-
-              {/* FAQ 9 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">What is your contract duration?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
-                  We typically recommend 6-12 month contracts for best results, but we also offer flexible month-to-month options. No long-term commitments required.
-                </p>
-              </div>
-
-              {/* FAQ 10 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">How do you measure success?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
-                  We measure success through KPIs like conversion rates, cost per acquisition, ROI, click-through rates, and other metrics aligned with your specific business goals.
-                </p>
-              </div>
-
-              {/* FAQ 11 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">Do you offer free consultations?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
-                  Yes! We provide a free initial consultation to understand your business, analyze your current marketing efforts, and propose a tailored strategy.
-                </p>
-              </div>
-
-              {/* FAQ 12 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">Can you help with social media marketing?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
-                  Absolutely! We create and manage engaging social media campaigns across all major platforms to build your brand presence and drive conversions.
+                <p className="text-gray-300 text-base leading-relaxed ml-11">
+                  Our focus on data-driven results, transparent reporting, and personalized strategies sets us apart. With 500+ successful campaigns and a proven track record in Noida's market, we deliver measurable ROI, not just promises.
                 </p>
               </div>
             </div>
+
+            {/* FAQ 3 */}
+            <div className="group bg-gradient-to-r from-slate-800/40 to-slate-900/40 backdrop-blur-sm rounded-xl border border-slate-700/30 hover:border-[#1d7ba8]/50 transition-all duration-300 overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-white mb-3 flex items-center gap-3">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1d7ba8]/20 to-[#1d7ba8]/10 rounded-lg flex items-center justify-center border border-[#1d7ba8]/30">
+                    <svg className="w-5 h-5 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </span>
+                  <span className="flex-1">What industries do you serve?</span>
+                </h3>
+                <p className="text-gray-300 text-base leading-relaxed ml-11">
+                  We work with businesses across various industries including e-commerce, real estate, healthcare, education, technology, and professional services. Our strategies are customized to fit each industry's unique challenges and opportunities.
+                </p>
+              </div>
+            </div>
+
+            {/* FAQ 4 */}
+            <div className="group bg-gradient-to-r from-slate-800/40 to-slate-900/40 backdrop-blur-sm rounded-xl border border-slate-700/30 hover:border-[#1d7ba8]/50 transition-all duration-300 overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-white mb-3 flex items-center gap-3">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1d7ba8]/20 to-[#1d7ba8]/10 rounded-lg flex items-center justify-center border border-[#1d7ba8]/30">
+                    <svg className="w-5 h-5 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </span>
+                  <span className="flex-1">Do you work with small businesses?</span>
+                </h3>
+                <p className="text-gray-300 text-base leading-relaxed ml-11">
+                  Absolutely! We work with businesses of all sizes, from startups to large enterprises. Our flexible pricing models and scalable strategies ensure that every business can benefit from professional digital marketing services.
+                </p>
+              </div>
+            </div>
+
+            {/* FAQ 5 */}
+            <div className="group bg-gradient-to-r from-slate-800/40 to-slate-900/40 backdrop-blur-sm rounded-xl border border-slate-700/30 hover:border-[#1d7ba8]/50 transition-all duration-300 overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-white mb-3 flex items-center gap-3">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1d7ba8]/20 to-[#1d7ba8]/10 rounded-lg flex items-center justify-center border border-[#1d7ba8]/30">
+                    <svg className="w-5 h-5 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </span>
+                  <span className="flex-1">How do you ensure transparency?</span>
+                </h3>
+                <p className="text-gray-300 text-base leading-relaxed ml-11">
+                  We provide detailed monthly reports, real-time dashboards, and regular performance reviews. You'll have complete visibility into campaign metrics, budget allocation, and ROI. Your dedicated account manager is always available for questions and updates.
+                </p>
+              </div>
+            </div>
+
+            {/* FAQ 6 */}
+            <div className="group bg-gradient-to-r from-slate-800/40 to-slate-900/40 backdrop-blur-sm rounded-xl border border-slate-700/30 hover:border-[#1d7ba8]/50 transition-all duration-300 overflow-hidden">
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-white mb-3 flex items-center gap-3">
+                  <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#1d7ba8]/20 to-[#1d7ba8]/10 rounded-lg flex items-center justify-center border border-[#1d7ba8]/30">
+                    <svg className="w-5 h-5 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </span>
+                  <span className="flex-1">How can I get started?</span>
+                </h3>
+                <p className="text-gray-300 text-base leading-relaxed ml-11">
+                  Getting started is easy! Contact us through our website, WhatsApp, or phone for a free consultation. We'll discuss your business goals, analyze your current marketing efforts, and create a customized strategy tailored to your needs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA */}
+          <div className="text-center mt-12">
+            <p className="text-gray-300 text-lg mb-6">Still have questions?</p>
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-[#1d7ba8] to-[#0f5a7a] text-white font-semibold px-8 py-4 rounded-xl hover:shadow-2xl hover:shadow-[#1d7ba8]/30 transition-all duration-300 hover:scale-105"
+            >
+              Get in Touch
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
