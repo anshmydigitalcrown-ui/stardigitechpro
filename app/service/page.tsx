@@ -359,6 +359,136 @@ export default function ServicePage() {
         </div>
       </section>
 
+      {/* Your Trusted Partner Section */}
+      <section className="py-20 bg-[#020617] overflow-hidden">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col lg:flex-row items-start gap-12">
+            {/* Left Column - Content */}
+            <div className="flex-1">
+              <div className="mb-6">
+                <p className="text-gray-400 text-sm uppercase tracking-wider mb-4">
+                  Leading Digital Marketing Agency in Noida
+                </p>
+                <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+                  Your Trusted Partner<br />for Digital Growth
+                </h2>
+              </div>
+
+              <div className="space-y-4 mb-8">
+                <p className="text-gray-300 text-lg leading-relaxed">
+                  STAR DIGITECH PRO is a premier performance marketing agency based in Noida, specializing in data-driven digital marketing solutions. With over 5 years of industry experience and 500+ successful campaigns, we've helped businesses across various sectors achieve remarkable growth.
+                </p>
+                <p className="text-gray-300 text-lg leading-relaxed">
+                  Our team of certified digital marketing experts combines creativity with analytics to deliver measurable results. We don't just run campaigns – we build long-term partnerships focused on sustainable growth and maximum ROI.
+                </p>
+              </div>
+
+              {/* Stats Grid */}
+              <div className="grid grid-cols-2 gap-4 mb-8">
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-xl border border-slate-700/50">
+                  <div className="text-4xl font-bold text-white mb-2">5+</div>
+                  <div className="text-gray-400 text-sm">Years of Excellence</div>
+                </div>
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-xl border border-slate-700/50">
+                  <div className="text-4xl font-bold text-white mb-2">500+</div>
+                  <div className="text-gray-400 text-sm">Successful Campaigns</div>
+                </div>
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-xl border border-slate-700/50">
+                  <div className="text-4xl font-bold text-white mb-2">200+</div>
+                  <div className="text-gray-400 text-sm">Happy Clients</div>
+                </div>
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-xl border border-slate-700/50">
+                  <div className="text-4xl font-bold text-white mb-2">300%</div>
+                  <div className="text-gray-400 text-sm">Average ROI Growth</div>
+                </div>
+              </div>
+
+              {/* CTA Button */}
+              <Link
+                href="/about"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-[#1d7ba8] text-white font-semibold px-8 py-4 rounded-lg hover:shadow-xl hover:shadow-primary/50 transition-all duration-300 hover:scale-105"
+              >
+                Learn More About Us
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </Link>
+            </div>
+
+            {/* Right Column - Feature Cards */}
+            <div className="flex-1 space-y-6">
+              {/* Performance-Focused */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-red-500/20 to-red-600/20 rounded-xl flex items-center justify-center border border-red-500/30">
+                    <svg className="w-7 h-7 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-white mb-2">Performance-Focused</h3>
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      We focus on metrics that matter – conversions, leads, and revenue growth. Every campaign is optimized for maximum performance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Innovative Solutions */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-yellow-500/20 to-yellow-600/20 rounded-xl flex items-center justify-center border border-yellow-500/30">
+                    <svg className="w-7 h-7 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-white mb-2">Innovative Solutions</h3>
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      Stay ahead with cutting-edge marketing strategies, latest tools, and innovative approaches tailored to your industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Transparent Reporting */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-blue-500/20 to-blue-600/20 rounded-xl flex items-center justify-center border border-blue-500/30">
+                    <svg className="w-7 h-7 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-white mb-2">Transparent Reporting</h3>
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      Get complete visibility into your campaigns with detailed reports, real-time dashboards, and regular performance reviews.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Dedicated Support */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-orange-500/20 to-orange-600/20 rounded-xl flex items-center justify-center border border-orange-500/30">
+                    <svg className="w-7 h-7 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-white mb-2">Dedicated Support</h3>
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      Work with a dedicated account manager who understands your business and is committed to your success.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Process Section */}
       <section className="py-20 bg-[#020617] bg-opacity-90">
         <div className="container mx-auto px-4">
