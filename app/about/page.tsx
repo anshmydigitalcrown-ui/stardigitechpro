@@ -73,11 +73,11 @@ export default function ServicePage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Our Performance Marketing Services In Noida
+              About STAR DIGITECH PRO
             </h1>
             
             <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              Comprehensive digital marketing solutions designed to drive measurable results and accelerate your business growth
+              Your trusted performance marketing partner in Noida, dedicated to transforming businesses through data-driven strategies and measurable results
             </p>
           </div>
         </div>
