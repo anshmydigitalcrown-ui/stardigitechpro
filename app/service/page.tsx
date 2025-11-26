@@ -923,6 +923,125 @@ export default function ServicePage() {
         </div>
       </section>
 
+      {/* SEO Content Section */}
+      <section className="py-20 bg-gradient-to-b from-[#0a1628] to-[#020617]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+                Comprehensive Digital Marketing Services in Noida
+              </h2>
+              <p className="text-xl text-gray-300 leading-relaxed">
+                Your trusted partner for results-driven digital marketing strategies that accelerate business growth and maximize ROI
+              </p>
+            </div>
+
+            <div className="prose prose-invert max-w-none space-y-8">
+              {/* Introduction */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-4">Transform Your Business with Expert Digital Marketing Solutions</h3>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  In today's competitive digital landscape, businesses need more than just an online presence—they need a strategic, data-driven approach to digital marketing that delivers measurable results. At STAR DIGITECH PRO, we offer a comprehensive suite of digital marketing services designed to help businesses of all sizes achieve their growth objectives, increase brand visibility, and maximize return on investment.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  Our team of certified digital marketing specialists brings years of hands-on experience across diverse industries, combining creative excellence with analytical precision to create campaigns that don't just generate traffic—they generate qualified leads, conversions, and sustainable business growth. Whether you're a startup looking to establish your digital footprint or an established enterprise seeking to scale your online operations, we have the expertise, tools, and proven strategies to help you succeed.
+                </p>
+              </div>
+
+              {/* PPC Services */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-6">Pay-Per-Click (PPC) Advertising Excellence</h3>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  Our PPC management services are designed to deliver immediate visibility and drive qualified traffic to your website. We specialize in creating and managing high-performance campaigns across Google Ads, Bing Ads, and social media advertising platforms including Facebook, Instagram, LinkedIn, and Twitter. Our comprehensive PPC approach includes detailed keyword research and selection, competitor analysis, compelling ad copywriting, strategic bid management, and continuous A/B testing to optimize performance.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  We understand that every click represents an investment, which is why we focus relentlessly on improving quality scores, reducing cost-per-click, and maximizing conversion rates. Our team creates targeted campaigns that reach your ideal customers at the right moment in their buying journey, ensuring that your advertising budget delivers maximum impact. With transparent reporting and regular optimization, we continuously refine your campaigns to improve ROI and drive sustainable growth.
+                </p>
+              </div>
+
+              {/* SEO Services */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-6">Search Engine Optimization (SEO) for Long-Term Success</h3>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  SEO remains one of the most powerful and cost-effective digital marketing strategies for building sustainable online visibility. Our comprehensive SEO services encompass technical website optimization, on-page SEO, content strategy and creation, link building, local SEO, and ongoing performance monitoring. We stay ahead of search engine algorithm updates and implement white-hat techniques that build lasting organic visibility and authority in your industry.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  From conducting thorough website audits to identify technical issues, to developing content strategies that target high-value keywords, to building high-quality backlinks that boost domain authority—we handle every aspect of your SEO campaign with meticulous attention to detail. Our local SEO services are particularly valuable for businesses targeting specific geographic areas, helping you dominate local search results and attract customers in your service area.
+                </p>
+              </div>
+
+              {/* Social Media Marketing */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-6">Social Media Marketing That Drives Engagement</h3>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  Social media platforms offer unparalleled opportunities to connect with your target audience, build brand awareness, and drive conversions. Our social media marketing services cover strategy development, content creation, community management, paid social advertising, influencer partnerships, and performance analytics. We create engaging content that resonates with your audience, fosters meaningful interactions, and builds loyal communities around your brand.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  Whether you need to establish a strong presence on Facebook and Instagram, leverage LinkedIn for B2B lead generation, or engage younger audiences on emerging platforms, we develop customized social media strategies that align with your business objectives. Our data-driven approach ensures that every post, campaign, and interaction contributes to your overall marketing goals while building authentic relationships with your customers.
+                </p>
+              </div>
+
+              {/* Content Marketing */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-6">Content Marketing That Converts</h3>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  Quality content is the foundation of successful digital marketing. Our content marketing services include content strategy development, blog writing, video production, infographic design, email newsletters, case studies, whitepapers, and more. We create compelling, valuable content that educates your audience, establishes your authority, and guides prospects through the buyer's journey from awareness to conversion.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  Our content creators work closely with SEO specialists to ensure that every piece of content is optimized for search engines while remaining engaging and valuable to readers. From informative blog posts that attract organic traffic to persuasive landing page copy that converts visitors into customers, we craft content that drives results across all stages of the marketing funnel.
+                </p>
+              </div>
+
+              {/* Additional Services */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-6">Specialized Services for Maximum Impact</h3>
+                
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="text-xl font-semibold text-[#1d7ba8] mb-2">Conversion Rate Optimization (CRO)</h4>
+                    <p className="text-gray-300 leading-relaxed">
+                      Driving traffic is only half the battle—converting that traffic into customers is where real value lies. Our CRO services involve comprehensive website analysis, user behavior tracking, A/B testing, landing page optimization, and checkout process refinement. We identify and eliminate friction points in your conversion funnel, implementing data-backed improvements that increase conversion rates and maximize the value of every visitor.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xl font-semibold text-[#1d7ba8] mb-2">Analytics and Reporting</h4>
+                    <p className="text-gray-300 leading-relaxed">
+                      Data-driven decision making is at the core of our approach. We provide comprehensive analytics and reporting services that give you complete visibility into campaign performance, user behavior, and ROI. Our custom dashboards and detailed reports help you understand what's working, identify opportunities for improvement, and make informed decisions about your marketing investments.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xl font-semibold text-[#1d7ba8] mb-2">Email Marketing</h4>
+                    <p className="text-gray-300 leading-relaxed">
+                      Email remains one of the highest-ROI digital marketing channels. Our email marketing services include list building and segmentation, email template design, automated drip campaigns, newsletter creation, and performance optimization. We create targeted email campaigns that nurture leads, maintain customer relationships, and drive repeat business.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xl font-semibold text-[#1d7ba8] mb-2">E-commerce Marketing</h4>
+                    <p className="text-gray-300 leading-relaxed">
+                      For online retailers, we offer specialized e-commerce marketing services including product feed optimization, shopping campaign management, marketplace advertising (Amazon, Flipkart), retargeting strategies, and customer retention programs. Our e-commerce expertise helps online stores increase sales, improve average order value, and build customer loyalty.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Why Choose Us */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-6">Why Choose STAR DIGITECH PRO for Your Digital Marketing Needs?</h3>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  With countless digital marketing agencies competing for your business, what sets STAR DIGITECH PRO apart? Our commitment to transparency, results, and partnership. We don't just execute campaigns—we become invested partners in your success, treating your marketing budget as if it were our own. Our team brings certified expertise across all major digital marketing platforms, combined with a proven track record of delivering measurable results for businesses across diverse industries.
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  Located in Noida, we're perfectly positioned to serve businesses throughout the National Capital Region and across India. Our deep understanding of local markets, combined with global best practices and cutting-edge tools, allows us to create campaigns that resonate with Indian audiences while maintaining international quality standards. Whether you need a single service or a comprehensive digital marketing strategy, we have the expertise, resources, and dedication to help you achieve your business goals and dominate your market online.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-20 bg-gradient-to-b from-[#0a1628] to-[#020617]">
         <div className="container mx-auto px-4">
