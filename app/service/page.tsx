@@ -279,7 +279,7 @@ export default function ServicePage() {
             <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
               <div className="w-full mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center p-4">
                 <Image
-                  src="/service/Analytics _ Reporting.webp.webp"
+                  src="/service/Analytics & Reporting.webp.webp"
                   alt="Analytics & Reporting"
                   width={400}
                   height={400}
@@ -335,20 +335,20 @@ export default function ServicePage() {
               </div>
             </div>
 
-            {/* Service 8 - Influencer Marketing */}
+            {/* Service 8 - E-commerce Marketing */}
             <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
               <div className="w-full mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center p-4">
                 <Image
-                  src="/service/Influencer Marketing.webp.webp"
-                  alt="Influencer Marketing"
+                  src="/service/E-commerce Marketing.webp.webp"
+                  alt="E-commerce Marketing"
                   width={400}
                   height={400}
                   className="rounded-xl group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <h3 className="text-xl font-bold text-white mb-3">Influencer Marketing</h3>
+              <h3 className="text-xl font-bold text-white mb-3">E-commerce Marketing</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
-                Leverage influencer partnerships to expand reach and build authentic connections
+                Boost your online store's performance with specialized e-commerce strategies
               </p>
               <div className="mt-6 flex justify-center">
                 <Link
