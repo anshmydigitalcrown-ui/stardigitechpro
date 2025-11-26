@@ -1,17 +1,19 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL('https://stardigitechpro.vercel.app'),
   title: "Our Services | STAR DIGITECH PRO",
   description: "Explore our comprehensive digital marketing services including PPC, SEO, social media marketing, content marketing, and more.",
   openGraph: {
     title: "Our Services | STAR DIGITECH PRO",
     description: "Explore our comprehensive digital marketing services including PPC, SEO, social media marketing, content marketing, and more.",
-    url: 'https://stardigitechpro.vercel.app/service',
+    url: '/service',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://stardigitechpro.vercel.app/service',
+    canonical: '/service',
   },
 };
 

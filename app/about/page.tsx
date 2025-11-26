@@ -1,17 +1,19 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "Our Services | STAR DIGITECH PRO",
-  description: "Explore our comprehensive digital marketing services including PPC, SEO, social media marketing, content marketing, and more.",
+export const metadata: Metadata = {
+  metadataBase: new URL('https://stardigitechpro.vercel.app'),
+  title: "About Us | STAR DIGITECH PRO",
+  description: "Learn about our mission, values, and team dedicated to delivering exceptional digital marketing results in Noida.",
   openGraph: {
-    title: "Our Services | STAR DIGITECH PRO",
-    description: "Explore our comprehensive digital marketing services including PPC, SEO, social media marketing, content marketing, and more.",
-    url: 'https://stardigitechpro.vercel.app/service',
+    title: "About Us | STAR DIGITECH PRO",
+    description: "Learn about our mission, values, and team dedicated to delivering exceptional digital marketing results in Noida.",
+    url: '/about',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://stardigitechpro.vercel.app/service',
+    canonical: '/about',
   },
 };
 
