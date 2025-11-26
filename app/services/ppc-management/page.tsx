@@ -340,6 +340,116 @@ export default function PPCManagementPage() {
         </div>
       </section>
 
+      {/* Why Choose STAR DIGITECH PRO Section */}
+      <section className="py-20 bg-gradient-to-b from-slate-900/50 to-[#020617] relative overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#1d7ba8]/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+        </div>
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center mb-16">
+            <div className="inline-block mb-4">
+              <span className="bg-gradient-to-r from-primary/20 to-[#1d7ba8]/20 text-primary px-6 py-2 rounded-full text-sm font-semibold border border-primary/30">
+                Why Choose Us
+              </span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-clip-text text-transparent">
+                Why STAR DIGITECH PRO is Your Best Choice
+              </span>
+            </h2>
+            <p className="text-white text-lg max-w-3xl mx-auto leading-relaxed">
+              In today's competitive digital landscape, choosing the right PPC management partner can make all the difference between success and mediocrity.
+            </p>
+          </div>
+
+          {/* Main Content */}
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
+              {/* Left Content */}
+              <div className="space-y-6">
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-primary/20 to-[#1d7ba8]/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <span className="text-2xl">🎯</span>
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-white mb-3">Proven Track Record</h3>
+                      <p className="text-white text-opacity-90 leading-relaxed">
+                        At STAR DIGITECH PRO, we don't just promise results—we deliver them. With years of experience managing PPC campaigns across diverse industries, we've helped hundreds of businesses achieve exceptional ROI. Our portfolio showcases consistent improvements in click-through rates, conversion rates, and cost-per-acquisition. We combine cutting-edge bidding strategies with time-tested methodologies to ensure your PPC success.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-primary/20 to-[#1d7ba8]/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <span className="text-2xl">💡</span>
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-white mb-3">Data-Driven Optimization</h3>
+                      <p className="text-white text-opacity-90 leading-relaxed">
+                        We believe in the power of data. Every PPC decision we make is backed by comprehensive analytics, A/B testing, and performance metrics. Our team uses advanced tools like Google Analytics, Google Tag Manager, and platform-specific insights to track, measure, and optimize every aspect of your campaigns. From keyword performance to ad copy effectiveness, we leverage data to maximize your ROI.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Content */}
+              <div className="space-y-6">
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-primary/20 to-[#1d7ba8]/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <span className="text-2xl">👥</span>
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-white mb-3">Certified PPC Experts</h3>
+                      <p className="text-white text-opacity-90 leading-relaxed">
+                        Our team comprises Google Ads certified professionals with expertise across all major advertising platforms. From search campaigns to display networks, shopping ads to video advertising—we have the talent and knowledge to handle every aspect of your PPC strategy. We invest continuously in training and certifications to stay ahead of platform updates and industry best practices.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-primary/20 to-[#1d7ba8]/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <span className="text-2xl">🤝</span>
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-white mb-3">Transparent Partnership</h3>
+                      <p className="text-white text-opacity-90 leading-relaxed">
+                        We believe in building lasting relationships based on trust and transparency. You'll receive detailed performance reports, regular strategy updates, and direct access to your dedicated PPC account manager. We don't hide behind jargon—we explain everything in clear terms so you understand exactly how your campaigns are performing and where your ad spend is going. Your success is our success.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Bottom Stats/Features */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-gradient-to-br from-primary/10 to-[#1d7ba8]/10 backdrop-blur-sm p-6 rounded-xl border border-primary/20 text-center">
+                <div className="text-4xl font-bold text-primary mb-2">24/7</div>
+                <p className="text-white font-semibold">Campaign Monitoring</p>
+              </div>
+              <div className="bg-gradient-to-br from-primary/10 to-[#1d7ba8]/10 backdrop-blur-sm p-6 rounded-xl border border-primary/20 text-center">
+                <div className="text-4xl font-bold text-primary mb-2">100%</div>
+                <p className="text-white font-semibold">Transparent Reporting</p>
+              </div>
+              <div className="bg-gradient-to-br from-primary/10 to-[#1d7ba8]/10 backdrop-blur-sm p-6 rounded-xl border border-primary/20 text-center">
+                <div className="text-4xl font-bold text-primary mb-2">∞</div>
+                <p className="text-white font-semibold">Custom Strategies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">
