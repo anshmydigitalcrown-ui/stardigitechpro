@@ -12,11 +12,11 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <Image
-                src="/logo.jpg"
+                src="/logo.webp.webp"
                 alt="STAR DIGITECH PRO"
                 width={50}
                 height={50}
-                className=""
+                className="rounded-lg"
               />
               <span className="text-xl font-bold">STAR DIGITECH PRO</span>
             </div>
