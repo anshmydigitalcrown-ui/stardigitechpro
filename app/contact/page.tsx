@@ -319,34 +319,92 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 bg-[#020617] bg-opacity-90">
+      {/* Contact Content Section */}
+      <section className="py-20 bg-gradient-to-b from-[#0a1628] to-[#020617]">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="section-title text-center mb-12">Frequently Asked Questions</h2>
-            <div className="space-y-6">
-              <div className="card">
-                <h3 className="text-xl font-bold text-white mb-2">How quickly can we get started?</h3>
-                <p className="text-gray-300">
-                  Once we understand your goals and requirements, we can typically launch initial campaigns within 1-2 weeks.
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+                Let's Transform Your Digital Presence Together
+              </h2>
+              <div className="w-24 h-1 bg-gradient-to-r from-[#1d7ba8] to-[#1a6d96] mx-auto mb-8"></div>
+            </div>
+
+            <div className="space-y-8">
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
+                <p className="text-gray-300 leading-relaxed text-lg mb-6">
+                  At STAR DIGITECH PRO, we believe that every successful digital marketing campaign begins with a conversation. Whether you're a startup looking to make your first digital footprint, an established business seeking to scale your online presence, or an enterprise aiming to optimize your marketing ROI, we're here to help you achieve your goals.
+                </p>
+                <p className="text-gray-300 leading-relaxed text-lg">
+                  Our team of certified digital marketing specialists is passionate about driving measurable results for businesses across Noida and beyond. With years of experience in performance marketing, SEO, PPC, social media marketing, and conversion optimization, we bring a wealth of expertise and proven strategies to every partnership. We don't just work for you—we work with you as dedicated partners in your success.
                 </p>
               </div>
-              <div className="card">
-                <h3 className="text-xl font-bold text-white mb-2">What is your minimum contract period?</h3>
-                <p className="text-gray-300">
-                  We recommend a minimum 3-month engagement to see meaningful results, though we offer flexible terms based on your needs.
-                </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-6 rounded-2xl border border-slate-700/50">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-[#1d7ba8]/20 rounded-lg flex items-center justify-center mr-4">
+                      <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </div>
+                    <h3 className="text-xl font-bold text-white">Free Consultation</h3>
+                  </div>
+                  <p className="text-gray-300 leading-relaxed">
+                    Start with a complimentary consultation where we'll discuss your business objectives, current challenges, and growth opportunities. No obligations, just honest advice and actionable insights tailored to your unique situation.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-6 rounded-2xl border border-slate-700/50">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-[#1d7ba8]/20 rounded-lg flex items-center justify-center mr-4">
+                      <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      </svg>
+                    </div>
+                    <h3 className="text-xl font-bold text-white">Quick Response Time</h3>
+                  </div>
+                  <p className="text-gray-300 leading-relaxed">
+                    We value your time. Our team typically responds to all inquiries within 24 hours on business days. For urgent matters, don't hesitate to call us directly during business hours for immediate assistance.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-6 rounded-2xl border border-slate-700/50">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-[#1d7ba8]/20 rounded-lg flex items-center justify-center mr-4">
+                      <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                      </svg>
+                    </div>
+                    <h3 className="text-xl font-bold text-white">Custom Proposals</h3>
+                  </div>
+                  <p className="text-gray-300 leading-relaxed">
+                    Every business is unique, and so are our solutions. After understanding your needs, we'll create a customized proposal with clear strategies, transparent pricing, and realistic timelines that align with your budget and objectives.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-6 rounded-2xl border border-slate-700/50">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-[#1d7ba8]/20 rounded-lg flex items-center justify-center mr-4">
+                      <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                      </svg>
+                    </div>
+                    <h3 className="text-xl font-bold text-white">Dedicated Support</h3>
+                  </div>
+                  <p className="text-gray-300 leading-relaxed">
+                    Once you partner with us, you'll have access to a dedicated account manager who understands your business inside and out, ensuring seamless communication and consistent results throughout our collaboration.
+                  </p>
+                </div>
               </div>
-              <div className="card">
-                <h3 className="text-xl font-bold text-white mb-2">Do you work with businesses outside Noida?</h3>
-                <p className="text-gray-300">
-                  Yes! While we're based in Noida, we serve clients across India and internationally through our digital services.
+
+              <div className="bg-gradient-to-br from-[#1d7ba8]/10 to-slate-900/50 p-8 rounded-2xl border border-[#1d7ba8]/30 text-center">
+                <h3 className="text-2xl font-bold text-white mb-4">Ready to Get Started?</h3>
+                <p className="text-gray-300 leading-relaxed text-lg mb-6">
+                  Take the first step towards transforming your digital marketing results. Fill out the contact form above, give us a call, or visit our office in Sector 62, Noida. We're excited to learn about your business and explore how we can help you achieve your digital marketing goals.
                 </p>
-              </div>
-              <div className="card">
-                <h3 className="text-xl font-bold text-white mb-2">What makes you different from other agencies?</h3>
-                <p className="text-gray-300">
-                  Our focus on transparent reporting, data-driven strategies, and proven ROI sets us apart. We treat your budget as our own.
+                <p className="text-[#1d7ba8] font-semibold text-lg">
+                  Let's create something amazing together!
                 </p>
               </div>
             </div>
