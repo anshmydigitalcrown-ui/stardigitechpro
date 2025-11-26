@@ -88,24 +88,9 @@ export default function AboutPage() {
               About STAR DIGITECH PRO
             </h1>
             
-            <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-8">
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
               We're a team of passionate digital marketing experts dedicated to helping businesses in Noida achieve exceptional growth through performance-driven strategies
             </p>
-
-            {/* Hero Image */}
-            <div className="flex justify-center mt-12">
-              <div className="relative w-full max-w-md">
-                <Image
-                  src="/about.webp.webp"
-                  alt="Digital Marketing Solutions"
-                  width={400}
-                  height={400}
-                  className="rounded-2xl shadow-2xl shadow-primary/20 w-full h-auto"
-                  priority
-                  quality={100}
-                />
-              </div>
-            </div>
           </div>
         </div>
       </section>
