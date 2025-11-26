@@ -821,6 +821,125 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About STAR DIGITECH PRO Section */}
+      <section className="py-20 bg-[#020617]">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              About STAR DIGITECH PRO
+            </h2>
+            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+              Your Trusted Partner for Digital Growth
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Left Column */}
+            <div className="space-y-8">
+              {/* Who We Are */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-4">Who We Are</h3>
+                <div className="space-y-4 text-gray-300 leading-relaxed">
+                  <p>
+                    STAR DIGITECH PRO is a leading performance marketing agency based in Noida, specializing in data-driven digital marketing strategies that deliver measurable results. With over 500+ successful campaigns and a proven track record of 300% average ROI, we help businesses of all sizes achieve their growth objectives.
+                  </p>
+                  <p>
+                    Our team of certified digital marketing experts combines creativity with analytics to craft customized solutions for SEO, PPC, social media marketing, and more. We don't just run campaigns – we build long-term partnerships focused on your success.
+                  </p>
+                </div>
+              </div>
+
+              {/* Our Mission */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50">
+                <h3 className="text-2xl font-bold text-white mb-4">Our Mission</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  To empower businesses with cutting-edge digital marketing strategies that drive growth, maximize ROI, and create lasting impact in the digital landscape. We believe in transparency, innovation, and delivering results that exceed expectations.
+                </p>
+              </div>
+            </div>
+
+            {/* Right Column - Why Businesses Trust Us */}
+            <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50">
+              <h3 className="text-2xl font-bold text-white mb-6">Why Businesses Trust Us</h3>
+              <div className="space-y-6">
+                {/* Proven Expertise */}
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-primary/20 to-primary/10 rounded-lg flex items-center justify-center mt-1">
+                    <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold text-white mb-2">Proven Expertise</h4>
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      5+ years of experience with 500+ successful campaigns across industries
+                    </p>
+                  </div>
+                </div>
+
+                {/* Measurable Results */}
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-primary/20 to-primary/10 rounded-lg flex items-center justify-center mt-1">
+                    <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold text-white mb-2">Measurable Results</h4>
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      Average 300% ROI with transparent reporting and real-time analytics
+                    </p>
+                  </div>
+                </div>
+
+                {/* Dedicated Support */}
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-primary/20 to-primary/10 rounded-lg flex items-center justify-center mt-1">
+                    <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold text-white mb-2">Dedicated Support</h4>
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      200+ satisfied clients with dedicated account managers and 24/7 support
+                    </p>
+                  </div>
+                </div>
+
+                {/* Innovation First */}
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-primary/20 to-primary/10 rounded-lg flex items-center justify-center mt-1">
+                    <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-bold text-white mb-2">Innovation First</h4>
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                      Cutting-edge strategies using the latest tools and technologies
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Learn More Button */}
+              <div className="mt-8">
+                <Link
+                  href="/about"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-[#1d7ba8] text-white font-semibold px-6 py-3 rounded-lg hover:shadow-xl hover:shadow-primary/50 transition-all duration-300 hover:scale-105"
+                >
+                  Learn More About Us
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section at bottom */}
       <section className="py-20 bg-[#020617] bg-opacity-95 text-white">
         <div className="container mx-auto px-4 text-center">
