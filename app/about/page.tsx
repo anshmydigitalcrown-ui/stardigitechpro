@@ -80,6 +80,15 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
             {/* Left Content */}
             <div className="space-y-6">
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-primary/20 to-transparent border border-primary/30 rounded-full px-4 py-2 mb-6">
+                <span className="relative flex h-3 w-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
+                </span>
+                <span className="text-sm text-gray-300 font-medium">#1 Performance Marketing Agency in Noida</span>
+              </div>
+              
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
                 About STAR DIGITECH PRO
               </h1>
