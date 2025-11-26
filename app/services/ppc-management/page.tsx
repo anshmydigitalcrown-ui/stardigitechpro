@@ -20,13 +20,13 @@ export default function PPCManagementPage() {
               <span className="text-primary font-semibold">PPC Management</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">
-              Performance Marketing in Noida:{' '}
+              Our Digital Marketing Services:{' '}
               <span className="bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-clip-text text-transparent">
                 Strategic PPC Management
               </span>
             </h1>
             <p className="text-white text-lg md:text-xl mb-8 max-w-3xl mx-auto">
-              Drive qualified traffic and maximize conversions with expert performance marketing strategies. Data-driven PPC campaigns across Google Ads, Facebook, LinkedIn, and more tailored for Noida businesses.
+              Drive qualified traffic and maximize conversions with data-driven paid advertising campaigns across Google Ads, Facebook, LinkedIn, and more.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
