@@ -1113,24 +1113,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section at bottom */}
-      <section className="py-20 bg-[#020617] bg-opacity-95 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Ready to Transform Your Digital Presence?
-          </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Join the 200+ businesses in Noida who trust us with their digital marketing
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-white text-primary font-semibold py-4 px-8 rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg"
-          >
-            Get Started Today
-          </Link>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">

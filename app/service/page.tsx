@@ -356,32 +356,6 @@ export default function ServicePage() {
           </div>
         </div>
       </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-[#020617] bg-opacity-95 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Ready to Transform Your Digital Presence?
-          </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Let's create a custom marketing strategy that drives real results for your business
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contact"
-              className="inline-block bg-white text-primary font-semibold py-4 px-8 rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg"
-            >
-              Get Started Today
-            </Link>
-            <Link
-              href="/about"
-              className="inline-block bg-transparent border-2 border-white text-white font-semibold py-4 px-8 rounded-lg hover:bg-white hover:text-primary transition-all duration-300"
-            >
-              Learn About Us
-            </Link>
-          </div>
-        </div>
-      </section>
     </>
   );
 }
