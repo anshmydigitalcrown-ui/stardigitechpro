@@ -420,7 +420,7 @@ export default function Home() {
               </p>
               <div className="mt-6 flex justify-center">
                 <Link
-                  href="/contact"
+                  href="/services/video-marketing"
                   className="group relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-xl hover:shadow-primary/50 hover:scale-105"
                 >
                   <span className="relative z-10 flex items-center gap-2">
