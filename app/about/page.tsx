@@ -69,18 +69,6 @@ export default function ServicePage() {
           <div className="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full mix-blend-multiply blur-3xl opacity-10 animate-pulse"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#1d7ba8] rounded-full mix-blend-multiply blur-3xl opacity-10 animate-pulse delay-700"></div>
         </div>
-
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-5xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              About STAR DIGITECH PRO
-            </h1>
-            
-            <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              Your trusted performance marketing partner in Noida, dedicated to transforming businesses through data-driven strategies and measurable results
-            </p>
-          </div>
-        </div>
       </section>
 
       {/* Your Trusted Partner Section */}
