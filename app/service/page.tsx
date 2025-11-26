@@ -861,80 +861,105 @@ export default function ServicePage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-[#020617] bg-opacity-95">
+      <section className="py-20 bg-gradient-to-b from-[#0a1628] to-[#020617]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
+            <p className="text-[#1d7ba8] text-sm uppercase tracking-wider font-semibold mb-4">FAQ</p>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Frequently Asked Questions</h2>
             <p className="text-gray-300 text-lg max-w-3xl mx-auto">
               Get answers to common questions about our performance marketing services
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto">
             {/* Left Column - 6 FAQs */}
             <div className="space-y-6">
               {/* FAQ 1 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">What is performance marketing?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+              <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-700/40 hover:border-[#1d7ba8]/60 transition-all duration-300 p-6 hover:shadow-xl hover:shadow-[#1d7ba8]/10">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">What is performance marketing?</h3>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
                   Performance marketing is a data-driven approach where advertisers pay only for specific actions like clicks, leads, or sales. It focuses on measurable results and ROI optimization.
                 </p>
               </div>
 
               {/* FAQ 2 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">How long does it take to see results?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+              <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-700/40 hover:border-[#1d7ba8]/60 transition-all duration-300 p-6 hover:shadow-xl hover:shadow-[#1d7ba8]/10">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">How long does it take to see results?</h3>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
                   Initial results can be seen within 2-4 weeks, but significant improvements typically occur after 3-6 months of consistent optimization and strategy refinement.
                 </p>
               </div>
 
               {/* FAQ 3 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">What is your pricing model?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+              <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-700/40 hover:border-[#1d7ba8]/60 transition-all duration-300 p-6 hover:shadow-xl hover:shadow-[#1d7ba8]/10">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">What is your pricing model?</h3>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
                   We offer flexible pricing based on your business needs, including monthly retainers, performance-based fees, and project-based pricing. Contact us for a custom quote.
                 </p>
               </div>
 
               {/* FAQ 4 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">Do you work with small businesses?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+              <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-700/40 hover:border-[#1d7ba8]/60 transition-all duration-300 p-6 hover:shadow-xl hover:shadow-[#1d7ba8]/10">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">Do you work with small businesses?</h3>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
                   Yes! We work with businesses of all sizes, from startups to enterprises. Our strategies are tailored to fit your budget and growth objectives.
                 </p>
               </div>
 
               {/* FAQ 5 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">Which platforms do you manage?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+              <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-700/40 hover:border-[#1d7ba8]/60 transition-all duration-300 p-6 hover:shadow-xl hover:shadow-[#1d7ba8]/10">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">Which platforms do you manage?</h3>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
                   We manage campaigns across Google Ads, Facebook, Instagram, LinkedIn, Twitter, YouTube, and other major advertising platforms based on your target audience.
                 </p>
               </div>
 
               {/* FAQ 6 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">Can I track campaign performance?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+              <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-700/40 hover:border-[#1d7ba8]/60 transition-all duration-300 p-6 hover:shadow-xl hover:shadow-[#1d7ba8]/10">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">Can I track campaign performance?</h3>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
                   Absolutely! We provide detailed monthly reports, real-time dashboards, and transparent analytics so you can track every metric and KPI that matters to your business.
                 </p>
               </div>
@@ -943,67 +968,91 @@ export default function ServicePage() {
             {/* Right Column - 6 FAQs */}
             <div className="space-y-6">
               {/* FAQ 7 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">What makes you different from other agencies?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+              <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-700/40 hover:border-[#1d7ba8]/60 transition-all duration-300 p-6 hover:shadow-xl hover:shadow-[#1d7ba8]/10">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">What makes you different from other agencies?</h3>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
                   We focus on data-driven results, transparent reporting, and personalized strategies. Our team has proven expertise in Noida's market with 500+ successful campaigns.
                 </p>
               </div>
 
               {/* FAQ 8 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">Do you provide SEO services?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+              <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-700/40 hover:border-[#1d7ba8]/60 transition-all duration-300 p-6 hover:shadow-xl hover:shadow-[#1d7ba8]/10">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">Do you provide SEO services?</h3>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
                   Yes, we offer comprehensive SEO services including technical audits, on-page optimization, link building, and local SEO to boost your organic visibility.
                 </p>
               </div>
 
               {/* FAQ 9 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">What is your contract duration?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+              <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-700/40 hover:border-[#1d7ba8]/60 transition-all duration-300 p-6 hover:shadow-xl hover:shadow-[#1d7ba8]/10">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">What is your contract duration?</h3>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
                   We typically recommend 6-12 month contracts for best results, but we also offer flexible month-to-month options. No long-term commitments required.
                 </p>
               </div>
 
               {/* FAQ 10 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">How do you measure success?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+              <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-700/40 hover:border-[#1d7ba8]/60 transition-all duration-300 p-6 hover:shadow-xl hover:shadow-[#1d7ba8]/10">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">How do you measure success?</h3>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
                   We measure success through KPIs like conversion rates, cost per acquisition, ROI, click-through rates, and other metrics aligned with your specific business goals.
                 </p>
               </div>
 
               {/* FAQ 11 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">Do you offer free consultations?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+              <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-700/40 hover:border-[#1d7ba8]/60 transition-all duration-300 p-6 hover:shadow-xl hover:shadow-[#1d7ba8]/10">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">Do you offer free consultations?</h3>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
                   Yes! We provide a free initial consultation to understand your business, analyze your current marketing efforts, and propose a tailored strategy.
                 </p>
               </div>
 
               {/* FAQ 12 */}
-              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10">
-                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
-                  <span className="text-primary flex-shrink-0 text-2xl font-extrabold">Q</span>
-                  <span className="flex-1">Can you help with social media marketing?</span>
-                </h3>
-                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+              <div className="group bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-700/40 hover:border-[#1d7ba8]/60 transition-all duration-300 p-6 hover:shadow-xl hover:shadow-[#1d7ba8]/10">
+                <div className="flex items-start gap-4 mb-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center shadow-lg">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">Can you help with social media marketing?</h3>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed">
                   Absolutely! We create and manage engaging social media campaigns across all major platforms to build your brand presence and drive conversions.
                 </p>
               </div>
