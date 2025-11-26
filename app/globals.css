@@ -8,9 +8,32 @@
   --background-end-rgb: 2, 6, 23;
 }
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-start-rgb));
+  overflow-x: hidden;
+}
+
+/* Performance optimizations */
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reduce motion for accessibility and performance */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 @layer components {
@@ -29,4 +52,15 @@ body {
   .card {
     @apply bg-[#020617] bg-opacity-80 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-slate-700;
   }
+}
+
+/* Will-change optimization for animations */
+.animate-pulse,
+[class*="hover:scale"],
+[class*="group-hover"] {
+  will-change: transform;
+}
+
+.animate-pulse {
+  animation-duration: 3s;
 }
