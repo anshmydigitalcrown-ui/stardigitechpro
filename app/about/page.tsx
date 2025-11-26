@@ -75,53 +75,61 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-[#0a1628] via-[#1a2847] to-[#020617] py-24 md:py-32 overflow-hidden">
+      <section className="relative bg-[#020617] py-20 md:py-32 overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-10 left-1/4 w-96 h-96 bg-primary rounded-full mix-blend-multiply blur-3xl opacity-20 animate-pulse"></div>
-          <div className="absolute bottom-10 right-1/4 w-96 h-96 bg-secondary rounded-full mix-blend-multiply blur-3xl opacity-15 animate-pulse delay-700"></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent rounded-full mix-blend-multiply blur-3xl opacity-10 animate-pulse delay-1000"></div>
+          <div className="absolute top-20 left-10 w-96 h-96 bg-[#1d7ba8] rounded-full mix-blend-multiply blur-3xl opacity-10 animate-pulse"></div>
+          <div className="absolute bottom-10 right-20 w-[500px] h-[500px] bg-blue-500 rounded-full mix-blend-multiply blur-3xl opacity-10 animate-pulse" style={{animationDelay: '1s'}}></div>
+          <div className="absolute top-1/2 left-1/3 w-80 h-80 bg-[#1d7ba8] rounded-full mix-blend-multiply blur-3xl opacity-5 animate-pulse" style={{animationDelay: '2s'}}></div>
         </div>
-
-        {/* Grid Pattern Overlay */}
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-40"></div>
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto text-center">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-6 py-2 mb-8">
-              <span className="text-2xl">✨</span>
-              <span className="text-sm font-medium text-primary">Trusted by 200+ Businesses</span>
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#1d7ba8]/20 to-transparent border border-[#1d7ba8]/30 rounded-full px-6 py-3 mb-8 backdrop-blur-sm">
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#1d7ba8] opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-[#1d7ba8]"></span>
+              </span>
+              <span className="text-sm font-semibold text-gray-200 tracking-wide">Trusted by 200+ Businesses in Noida</span>
             </div>
 
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-white mb-8 leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white mb-6 leading-tight">
               About{" "}
-              <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#1d7ba8] to-white">
                 STAR DIGITECH PRO
               </span>
             </h1>
             
-            <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-10">
+            <div className="flex items-center justify-center gap-3 mb-8">
+              <div className="h-1 w-20 bg-gradient-to-r from-transparent via-[#1d7ba8] to-transparent rounded-full"></div>
+              <p className="text-base md:text-lg text-gray-400 font-medium uppercase tracking-widest">
+                Performance Marketing Agency
+              </p>
+              <div className="h-1 w-20 bg-gradient-to-r from-transparent via-[#1d7ba8] to-transparent rounded-full"></div>
+            </div>
+            
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-12">
               We're a team of passionate digital marketing experts dedicated to helping businesses in Noida achieve exceptional growth through performance-driven strategies
             </p>
 
             {/* Stats Row */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mt-12">
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4">
-                <div className="text-3xl font-bold text-primary mb-1">200+</div>
-                <div className="text-sm text-gray-400">Clients</div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-4xl mx-auto mt-12">
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-800/40 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50 hover:border-[#1d7ba8]/50 transition-all duration-300 hover:shadow-lg hover:shadow-[#1d7ba8]/20 hover:scale-105">
+                <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-[#1d7ba8] mb-2">200+</div>
+                <div className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors">Happy Clients</div>
               </div>
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4">
-                <div className="text-3xl font-bold text-secondary mb-1">500+</div>
-                <div className="text-sm text-gray-400">Campaigns</div>
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-800/40 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50 hover:border-[#1d7ba8]/50 transition-all duration-300 hover:shadow-lg hover:shadow-[#1d7ba8]/20 hover:scale-105">
+                <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-[#1d7ba8] mb-2">500+</div>
+                <div className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors">Successful Campaigns</div>
               </div>
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4">
-                <div className="text-3xl font-bold text-accent mb-1">5+</div>
-                <div className="text-sm text-gray-400">Years</div>
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-800/40 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50 hover:border-[#1d7ba8]/50 transition-all duration-300 hover:shadow-lg hover:shadow-[#1d7ba8]/20 hover:scale-105">
+                <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-[#1d7ba8] mb-2">5+</div>
+                <div className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors">Years of Excellence</div>
               </div>
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4">
-                <div className="text-3xl font-bold text-primary mb-1">98%</div>
-                <div className="text-sm text-gray-400">Satisfaction</div>
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-800/40 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50 hover:border-[#1d7ba8]/50 transition-all duration-300 hover:shadow-lg hover:shadow-[#1d7ba8]/20 hover:scale-105">
+                <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-[#1d7ba8] mb-2">300%</div>
+                <div className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors">Average ROI Growth</div>
               </div>
             </div>
           </div>
