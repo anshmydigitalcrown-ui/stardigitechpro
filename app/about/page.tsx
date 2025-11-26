@@ -77,13 +77,45 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary/10 via-slate-800 to-secondary/10 py-20">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              About STAR DIGITECH PRO
-            </h1>
-            <p className="text-lg md:text-xl text-gray-300">
-              We're a team of passionate digital marketing experts dedicated to helping businesses in Noida achieve exceptional growth through performance-driven strategies.
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
+            {/* Left Content */}
+            <div className="space-y-6">
+              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+                About STAR DIGITECH PRO
+              </h1>
+              <p className="text-lg md:text-xl text-gray-300">
+                We're a team of passionate digital marketing experts dedicated to helping businesses in Noida achieve exceptional growth through performance-driven strategies.
+              </p>
+              <div className="flex flex-wrap gap-4 pt-4">
+                <div className="flex items-center space-x-2">
+                  <span className="text-2xl">🏆</span>
+                  <span className="text-white font-semibold">5+ Years Experience</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <span className="text-2xl">👥</span>
+                  <span className="text-white font-semibold">200+ Happy Clients</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Image */}
+            <div className="relative">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <Image
+                  src="/about.webp.webp"
+                  alt="STAR DIGITECH PRO Team - Digital Marketing Experts"
+                  width={600}
+                  height={500}
+                  className="w-full h-auto object-cover"
+                  priority
+                />
+              </div>
+              {/* Floating Stats Card */}
+              <div className="absolute -bottom-6 -left-6 bg-primary text-white p-6 rounded-xl shadow-xl">
+                <div className="text-3xl font-bold">98%</div>
+                <div className="text-sm">Client Satisfaction</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
