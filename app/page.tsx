@@ -310,6 +310,28 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
+
+              {/* Service 9 */}
+              <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🎬</div>
+                <h3 className="text-xl font-bold text-white mb-3">Video Marketing</h3>
+                <p className="text-white text-opacity-90 text-sm mb-4">
+                  Engage audiences with powerful video content across YouTube, social media, and your website
+                </p>
+                <div className="mt-6 flex justify-center">
+                  <Link
+                    href="/contact"
+                    className="group relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-xl hover:shadow-primary/50 hover:scale-105"
+                  >
+                    <span className="relative z-10 flex items-center gap-2">
+                      Book Now
+                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                      </svg>
+                    </span>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
