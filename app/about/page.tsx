@@ -108,6 +108,7 @@ export default function AboutPage() {
                   height={500}
                   className="w-full h-auto object-cover"
                   priority
+                  unoptimized
                 />
               </div>
               {/* Floating Stats Card */}
