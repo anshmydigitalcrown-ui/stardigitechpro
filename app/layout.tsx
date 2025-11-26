@@ -8,6 +8,7 @@ import FloatingButtons from "@/components/FloatingButtons";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://stardigitechpro.vercel.app'),
   title: "STAR DIGITECH PRO | Performance Marketing in Noida | Digital Marketing Agency",
   description: "Leading performance marketing agency in Noida offering ROI-focused marketing solutions, data-driven campaigns, PPC management, SEO, and performance-based advertising strategies.",
   keywords: "performance marketing Noida, performance marketing agency, digital marketing Noida, PPC management Noida, ROI-focused marketing, conversion optimization, performance advertising, SEO services Noida, STAR DIGITECH PRO",
