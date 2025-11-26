@@ -189,7 +189,10 @@ export default function Home() {
                     </svg>
                   </span>
                 </Link>
-              </div>}
+              </div>
+            </div>
+
+            {/* Service 3 - Social Media Marketing */}
             <div className="group relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20">
               <div className="w-full mb-4 rounded-xl overflow-hidden bg-slate-900/50 flex items-center justify-center p-4">
                 <Image
