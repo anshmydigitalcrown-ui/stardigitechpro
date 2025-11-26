@@ -213,6 +213,95 @@ export default function ServicePage() {
         </div>
       </section>
 
+      {/* Who We Are & Our Mission Section */}
+      <section className="py-20 bg-gradient-to-b from-[#020617] to-[#0a1628]">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-7xl mx-auto">
+            {/* Who We Are */}
+            <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 backdrop-blur-sm p-8 md:p-10 rounded-2xl border border-slate-700/30">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Who We Are</h2>
+              <div className="space-y-4">
+                <p className="text-gray-300 text-base leading-relaxed">
+                  STAR DIGITECH PRO is a leading performance marketing agency based in Noida, specializing in data-driven digital marketing strategies that deliver measurable results. With over 500+ successful campaigns and a proven track record of 300% average ROI, we help businesses of all sizes achieve their growth objectives.
+                </p>
+                <p className="text-gray-300 text-base leading-relaxed">
+                  Our team of certified digital marketing experts combines creativity with analytics to craft customized solutions for SEO, PPC, social media marketing, and more. We don't just run campaigns – we build long-term partnerships focused on your success.
+                </p>
+              </div>
+            </div>
+
+            {/* Our Mission */}
+            <div className="bg-gradient-to-br from-slate-800/40 to-slate-900/40 backdrop-blur-sm p-8 md:p-10 rounded-2xl border border-slate-700/30">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Our Mission</h2>
+              <p className="text-gray-300 text-base leading-relaxed mb-8">
+                To empower businesses with cutting-edge digital marketing strategies that drive growth, maximize ROI, and create lasting impact in the digital landscape. We believe in transparency, innovation, and delivering results that exceed expectations.
+              </p>
+              
+              {/* Why Businesses Trust Us */}
+              <div className="bg-gradient-to-br from-slate-700/30 to-slate-800/30 backdrop-blur-sm p-6 rounded-xl border border-slate-600/30">
+                <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+                  <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  Why Businesses Trust Us
+                </h3>
+                <div className="space-y-3">
+                  <div className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-[#1d7ba8] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div>
+                      <p className="text-white font-semibold text-sm">Proven Expertise</p>
+                      <p className="text-gray-400 text-sm">5+ years of experience with 500+ successful campaigns across industries</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-[#1d7ba8] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div>
+                      <p className="text-white font-semibold text-sm">Measurable Results</p>
+                      <p className="text-gray-400 text-sm">Average 300% ROI with transparent reporting and real-time analytics</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-[#1d7ba8] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div>
+                      <p className="text-white font-semibold text-sm">Dedicated Support</p>
+                      <p className="text-gray-400 text-sm">200+ satisfied clients with dedicated account managers and 24/7 support</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-[#1d7ba8] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <div>
+                      <p className="text-white font-semibold text-sm">Innovation First</p>
+                      <p className="text-gray-400 text-sm">Cutting-edge strategies using the latest tools and technologies</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA Button */}
+          <div className="text-center mt-12">
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-[#1d7ba8] to-[#0f5a7a] text-white font-semibold px-8 py-4 rounded-xl hover:shadow-2xl hover:shadow-[#1d7ba8]/30 transition-all duration-300 hover:scale-105"
+            >
+              Learn More About Us
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us Section */}
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">
