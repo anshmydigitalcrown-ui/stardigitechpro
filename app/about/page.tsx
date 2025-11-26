@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Learn about our mission, values, and team dedicated to delivering exceptional digital marketing results in Noida.",
   openGraph: {
     title: "About Us | STAR DIGITECH PRO",
-    description: "Learn about our mission, values, and team dedicated to delivering exceptional digital marketing results in Noida.",
+    description: "Learn about our mission, values, and team dedicated to delivering exceptional digital marketing results in Delhi.",
     url: '/about',
     type: 'website',
   },
@@ -31,7 +31,7 @@ export default function ServicePage() {
               '@type': 'Organization',
               name: 'STAR DIGITECH PRO',
             },
-            areaServed: 'Noida, India',
+            areaServed: 'Delhi, India',
             hasOfferCatalog: {
               '@type': 'OfferCatalog',
               name: 'Digital Marketing Services',
@@ -88,7 +88,7 @@ export default function ServicePage() {
             <div className="flex-1">
               <div className="mb-6">
                 <p className="text-gray-400 text-sm uppercase tracking-wider mb-4">
-                  Leading Digital Marketing Agency in Noida
+                  Leading Digital Marketing Agency in Delhi
                 </p>
                 <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
                   Your Trusted Partner<br />for Digital Growth
@@ -97,7 +97,7 @@ export default function ServicePage() {
 
               <div className="space-y-4 mb-8">
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  STAR DIGITECH PRO is a premier performance marketing agency based in Noida, specializing in data-driven digital marketing solutions. With over 5 years of industry experience and 500+ successful campaigns, we've helped businesses across various sectors achieve remarkable growth.
+                  STAR DIGITECH PRO is a premier performance marketing agency based in Delhi, specializing in data-driven digital marketing solutions. With over 5 years of industry experience and 500+ successful campaigns, we've helped businesses across various sectors achieve remarkable growth.
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed">
                   Our team of certified digital marketing experts combines creativity with analytics to deliver measurable results. We don't just run campaigns – we build long-term partnerships focused on sustainable growth and maximum ROI.
@@ -483,7 +483,7 @@ export default function ServicePage() {
               <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">Who We Are</h3>
               <div className="space-y-4">
                 <p className="text-gray-300 text-base leading-relaxed">
-                  STAR DIGITECH PRO is a leading performance marketing agency based in Noida, specializing in data-driven digital marketing strategies that deliver measurable results. With over 500+ successful campaigns and a proven track record of 300% average ROI, we help businesses of all sizes achieve their growth objectives.
+                  STAR DIGITECH PRO is a leading performance marketing agency based in Delhi, specializing in data-driven digital marketing strategies that deliver measurable results. With over 500+ successful campaigns and a proven track record of 300% average ROI, we help businesses of all sizes achieve their growth objectives.
                 </p>
                 <p className="text-gray-300 text-base leading-relaxed">
                   Our team of certified digital marketing experts combines creativity with analytics to craft customized solutions for SEO, PPC, social media marketing, and more. We don't just run campaigns – we build long-term partnerships focused on your success.
@@ -755,7 +755,7 @@ export default function ServicePage() {
                 <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">Who is STAR DIGITECH PRO?</h3>
               </div>
               <p className="text-gray-300 text-sm leading-relaxed">
-                We are a premier performance marketing agency based in Noida with over 5 years of experience, specializing in data-driven digital marketing strategies.
+                We are a premier performance marketing agency based in Delhi with over 5 years of experience, specializing in data-driven digital marketing strategies.
               </p>
             </div>
 

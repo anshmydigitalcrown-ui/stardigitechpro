@@ -3,8 +3,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'PPC Management Services | STAR DIGITECH PRO',
-  description: 'Expert PPC management services in Noida. Strategic paid advertising campaigns to drive qualified traffic and maximize conversions with proven ROI.',
-  keywords: 'PPC management, pay per click, Google Ads, paid advertising, Noida',
+  description: 'Expert PPC management services in Delhi. Strategic paid advertising campaigns to drive qualified traffic and maximize conversions with proven ROI.',
+  keywords: 'PPC management, pay per click, Google Ads, paid advertising, Delhi',
 };
 
 export default function PPCManagementPage() {

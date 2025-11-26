@@ -255,8 +255,8 @@ export default function ContactPage() {
                     <div>
                       <h3 className="text-lg font-semibold text-white mb-1">Office Address</h3>
                       <p className="text-gray-300">
-                        Sector 62, Noida<br />
-                        Uttar Pradesh - 201309<br />
+                        Connaught Place, Delhi<br />
+                        New Delhi - 110001<br />
                         India
                       </p>
                     </div>
@@ -318,7 +318,7 @@ export default function ContactPage() {
               <div className="relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 p-3 rounded-2xl border border-[#1d7ba8]/30 shadow-2xl shadow-[#1d7ba8]/10 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#1d7ba8]/5 to-transparent"></div>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28034.534646789854!2d77.35399937!3d28.626137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5456ef36d9f%3A0x3b7191b1286136c8!2sSector%2062%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14007.99429022088!2d77.21493031539502!3d28.63124472345024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b1a2b3c7%3A0x4713e8632a3b1c0!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
                   width="100%"
                   height="450"
                   style={{ border: 0 }}
@@ -486,7 +486,7 @@ export default function ContactPage() {
                 <div className="relative z-10">
                   <h3 className="text-3xl font-bold text-white mb-4">Ready to Get Started?</h3>
                   <p className="text-gray-300 leading-relaxed text-lg mb-6">
-                    Take the first step towards transforming your digital marketing results. Fill out the contact form above, give us a call, or visit our office in Sector 62, Noida. We're excited to learn about your business and explore how we can help you achieve your digital marketing goals.
+                    Take the first step towards transforming your digital marketing results. Fill out the contact form above, give us a call, or visit our office in Connaught Place, Delhi. We're excited to learn about your business and explore how we can help you achieve your digital marketing goals.
                   </p>
                   <p className="text-[#1d7ba8] font-semibold text-xl">
                     Let's create something amazing together!

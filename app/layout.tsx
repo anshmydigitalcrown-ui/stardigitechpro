@@ -9,9 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://stardigitechpro.vercel.app'),
-  title: "STAR DIGITECH PRO | Performance Marketing in Noida | Digital Marketing Agency",
-  description: "Leading performance marketing agency in Noida offering ROI-focused marketing solutions, data-driven campaigns, PPC management, SEO, and performance-based advertising strategies.",
-  keywords: "performance marketing Noida, performance marketing agency, digital marketing Noida, PPC management Noida, ROI-focused marketing, conversion optimization, performance advertising, SEO services Noida, STAR DIGITECH PRO",
+  title: "STAR DIGITECH PRO | Performance Marketing in Delhi | Digital Marketing Agency",
+  description: "Leading performance marketing agency in Delhi offering ROI-focused marketing solutions, data-driven campaigns, PPC management, SEO, and performance-based advertising strategies.",
+  keywords: "performance marketing Delhi, performance marketing agency, digital marketing Delhi, PPC management Delhi, ROI-focused marketing, conversion optimization, performance advertising, SEO services Delhi, STAR DIGITECH PRO",
   authors: [{ name: "STAR DIGITECH PRO" }],
   creator: "STAR DIGITECH PRO",
   publisher: "STAR DIGITECH PRO",

@@ -32,7 +32,7 @@ export default function ServicePage() {
               '@type': 'Organization',
               name: 'STAR DIGITECH PRO',
             },
-            areaServed: 'Noida, India',
+            areaServed: 'Delhi, India',
             hasOfferCatalog: {
               '@type': 'OfferCatalog',
               name: 'Digital Marketing Services',
@@ -74,7 +74,7 @@ export default function ServicePage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Our Performance Marketing Services In Noida
+              Our Performance Marketing Services In Delhi
             </h1>
             
             <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
@@ -379,7 +379,7 @@ export default function ServicePage() {
             <div className="flex-1">
               <div className="mb-6">
                 <p className="text-gray-400 text-sm uppercase tracking-wider mb-4">
-                  Leading Digital Marketing Agency in Noida
+                  Leading Digital Marketing Agency in Delhi
                 </p>
                 <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
                   Your Trusted Partner<br />for Digital Growth
@@ -388,7 +388,7 @@ export default function ServicePage() {
 
               <div className="space-y-4 mb-8">
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  STAR DIGITECH PRO is a premier performance marketing agency based in Noida, specializing in data-driven digital marketing solutions. With over 5 years of industry experience and 500+ successful campaigns, we've helped businesses across various sectors achieve remarkable growth.
+                  STAR DIGITECH PRO is a premier performance marketing agency based in Delhi, specializing in data-driven digital marketing solutions. With over 5 years of industry experience and 500+ successful campaigns, we've helped businesses across various sectors achieve remarkable growth.
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed">
                   Our team of certified digital marketing experts combines creativity with analytics to deliver measurable results. We don't just run campaigns – we build long-term partnerships focused on sustainable growth and maximum ROI.
@@ -929,7 +929,7 @@ export default function ServicePage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                Comprehensive Digital Marketing Services in Noida
+                Comprehensive Digital Marketing Services in Delhi
               </h2>
               <p className="text-xl text-gray-300 leading-relaxed">
                 Your trusted partner for results-driven digital marketing strategies that accelerate business growth and maximize ROI
@@ -1160,7 +1160,7 @@ export default function ServicePage() {
                   <h3 className="text-lg font-bold text-white flex-1 group-hover:text-[#1d7ba8] transition-colors duration-300">What makes you different from other agencies?</h3>
                 </div>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  We focus on data-driven results, transparent reporting, and personalized strategies. Our team has proven expertise in Noida's market with 500+ successful campaigns.
+                  We focus on data-driven results, transparent reporting, and personalized strategies. Our team has proven expertise in Delhi's market with 500+ successful campaigns.
                 </p>
               </div>
 

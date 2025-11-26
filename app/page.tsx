@@ -25,11 +25,11 @@ export default function Home() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
                 </span>
-                <span className="text-sm text-gray-300 font-medium">#1 Performance Marketing Agency in Noida</span>
+                <span className="text-sm text-gray-300 font-medium">#1 Performance Marketing Agency in Delhi</span>
               </div>
 
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                Performance Marketing in <span className="text-white">Noida</span>
+                Performance Marketing in <span className="text-white">Delhi</span>
                 <br />
                 <span className="text-3xl md:text-4xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
                   Drive Results with Data-Driven Campaigns
@@ -45,7 +45,7 @@ export default function Home() {
               </div>
               
               <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
-                Transform your business with performance marketing strategies that deliver measurable ROI. We specialize in data-driven campaigns, conversion optimization, and performance-based advertising tailored for your growth in Noida.
+                Transform your business with performance marketing strategies that deliver measurable ROI. We specialize in data-driven campaigns, conversion optimization, and performance-based advertising tailored for your growth in Delhi.
               </p>
               
               {/* Mini Stats */}
@@ -415,7 +415,7 @@ export default function Home() {
             <div className="flex-1">
               <div className="mb-6">
                 <p className="text-gray-400 text-sm uppercase tracking-wider mb-4">
-                  Leading Digital Marketing Agency in Noida
+                  Leading Digital Marketing Agency in Delhi
                 </p>
                 <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
                   Your Trusted Partner<br />for Digital Growth
@@ -424,7 +424,7 @@ export default function Home() {
 
               <div className="space-y-4 mb-8">
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  STAR DIGITECH PRO is a premier performance marketing agency based in Noida, specializing in data-driven digital marketing solutions. With over 5 years of industry experience and 500+ successful campaigns, we've helped businesses across various sectors achieve remarkable growth.
+                  STAR DIGITECH PRO is a premier performance marketing agency based in Delhi, specializing in data-driven digital marketing solutions. With over 5 years of industry experience and 500+ successful campaigns, we've helped businesses across various sectors achieve remarkable growth.
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed">
                   Our team of certified digital marketing experts combines creativity with analytics to deliver measurable results. We don't just run campaigns – we build long-term partnerships focused on sustainable growth and maximum ROI.
@@ -673,7 +673,7 @@ export default function Home() {
               {/* Map */}
               <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm rounded-2xl border border-slate-700/50 overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83923192682!2d77.06889754725782!3d28.52758200617607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1701234567890!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83923192682!2d77.06889754725782!3d28.644800267573294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1701234567890!5m2!1sen!2sin"
                   width="100%"
                   height="350"
                   style={{ border: 0 }}
@@ -840,7 +840,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-white mb-4">Who We Are</h3>
                 <div className="space-y-4 text-gray-300 leading-relaxed">
                   <p>
-                    STAR DIGITECH PRO is a leading performance marketing agency based in Noida, specializing in data-driven digital marketing strategies that deliver measurable results. With over 500+ successful campaigns and a proven track record of 300% average ROI, we help businesses of all sizes achieve their growth objectives.
+                    STAR DIGITECH PRO is a leading performance marketing agency based in Delhi, specializing in data-driven digital marketing strategies that deliver measurable results. With over 500+ successful campaigns and a proven track record of 300% average ROI, we help businesses of all sizes achieve their growth objectives.
                   </p>
                   <p>
                     Our team of certified digital marketing experts combines creativity with analytics to craft customized solutions for SEO, PPC, social media marketing, and more. We don't just run campaigns – we build long-term partnerships focused on your success.
@@ -1181,7 +1181,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                Performance Marketing Agency in Noida: Drive Measurable Results
+                Performance Marketing Agency in Delhi: Drive Measurable Results
               </h2>
               <p className="text-xl text-gray-300 leading-relaxed">
                 At STAR DIGITECH PRO, we specialize in data-driven performance marketing strategies that deliver real, measurable ROI for businesses across India and beyond.
@@ -1196,7 +1196,7 @@ export default function Home() {
                   Performance marketing is a comprehensive digital marketing approach where advertisers only pay for specific actions or results. Unlike traditional advertising methods that charge based on impressions or reach, performance marketing ensures that every rupee spent is tied to tangible outcomes—whether it's clicks, leads, conversions, or sales. This results-oriented methodology has revolutionized how businesses approach digital advertising, making it one of the most cost-effective and accountable forms of marketing available today.
                 </p>
                 <p className="text-gray-300 leading-relaxed">
-                  As a leading performance marketing agency in Noida, we leverage cutting-edge tools, advanced analytics, and industry best practices to create campaigns that don't just generate traffic—they generate qualified leads and drive revenue growth. Our team of certified digital marketing specialists combines creativity with data science to optimize every touchpoint of your customer journey, ensuring maximum return on your marketing investment.
+                  As a leading performance marketing agency in Delhi, we leverage cutting-edge tools, advanced analytics, and industry best practices to create campaigns that don't just generate traffic—they generate qualified leads and drive revenue growth. Our team of certified digital marketing specialists combines creativity with data science to optimize every touchpoint of your customer journey, ensuring maximum return on your marketing investment.
                 </p>
               </div>
 
@@ -1300,9 +1300,9 @@ export default function Home() {
 
               {/* Local Expertise */}
               <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
-                <h3 className="text-2xl font-bold text-white mb-4">Performance Marketing Agency in Noida: Local Expertise, Global Standards</h3>
+                <h3 className="text-2xl font-bold text-white mb-4">Performance Marketing Agency in Delhi: Local Expertise, Global Standards</h3>
                 <p className="text-gray-300 leading-relaxed mb-4">
-                  Based in Sector 62, Noida, we're perfectly positioned to serve businesses throughout the National Capital Region and across India. Our deep understanding of local markets combined with global best practices allows us to create campaigns that resonate with Indian audiences while maintaining international quality standards. Whether you're a local business looking to dominate your market or a national brand seeking to expand your digital footprint, we have the expertise and resources to help you succeed.
+                  Based in Delhi, we're perfectly positioned to serve businesses throughout the National Capital Region and across India. Our deep understanding of local markets combined with global best practices allows us to create campaigns that resonate with Indian audiences while maintaining international quality standards. Whether you're a local business looking to dominate your market or a national brand seeking to expand your digital footprint, we have the expertise and resources to help you succeed.
                 </p>
                 <p className="text-gray-300 leading-relaxed">
                   We understand the unique challenges and opportunities that Indian businesses face in the digital landscape. From navigating regional language preferences to understanding cultural nuances and local search behavior, our team brings invaluable insights that give your campaigns a competitive edge. Our proximity allows us to provide personalized service, quick response times, and the flexibility to meet in person when needed, ensuring seamless collaboration throughout our partnership.
@@ -1372,10 +1372,10 @@ export default function Home() {
               {/* FAQ 4 */}
               <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
                 <h3 className="text-xl font-bold text-white mb-3">
-                  Do you work with businesses outside Noida?
+                  Do you work with businesses outside Delhi?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  Yes! While we're based in Noida, we serve clients across India and internationally. Our digital marketing services can be delivered remotely, and we use advanced collaboration tools to ensure seamless communication.
+                  Yes! While we're based in Delhi, we serve clients across India and internationally. Our digital marketing services can be delivered remotely, and we use advanced collaboration tools to ensure seamless communication.
                 </p>
               </div>
 
