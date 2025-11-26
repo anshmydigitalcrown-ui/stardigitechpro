@@ -75,57 +75,22 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 via-slate-800 to-secondary/10 py-20">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
-            {/* Left Content */}
-            <div className="space-y-6">
-              {/* Badge */}
-              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-primary/20 to-transparent border border-primary/30 rounded-full px-4 py-2 mb-6">
-                <span className="relative flex h-3 w-3">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
-                </span>
-                <span className="text-sm text-gray-300 font-medium">#1 Performance Marketing Agency in Noida</span>
-              </div>
-              
-              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-                About STAR DIGITECH PRO
-              </h1>
-              <p className="text-lg md:text-xl text-gray-300">
-                We're a team of passionate digital marketing experts dedicated to helping businesses in Noida achieve exceptional growth through performance-driven strategies.
-              </p>
-              <div className="flex flex-wrap gap-4 pt-4">
-                <div className="flex items-center space-x-2">
-                  <span className="text-2xl">🏆</span>
-                  <span className="text-white font-semibold">5+ Years Experience</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <span className="text-2xl">👥</span>
-                  <span className="text-white font-semibold">200+ Happy Clients</span>
-                </div>
-              </div>
-            </div>
+      <section className="relative bg-gradient-to-b from-[#0a1628] via-[#0f1e35] to-[#020617] py-20 md:py-28 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full mix-blend-multiply blur-3xl opacity-10 animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#1d7ba8] rounded-full mix-blend-multiply blur-3xl opacity-10 animate-pulse delay-700"></div>
+        </div>
 
-            {/* Right Image */}
-            <div className="relative">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <Image
-                  src="/about.webp.webp"
-                  alt="STAR DIGITECH PRO Team - Digital Marketing Experts"
-                  width={600}
-                  height={500}
-                  className="w-full h-auto object-cover"
-                  priority
-                  unoptimized
-                />
-              </div>
-              {/* Floating Stats Card */}
-              <div className="absolute -bottom-6 -left-6 bg-primary text-white p-6 rounded-xl shadow-xl">
-                <div className="text-3xl font-bold">98%</div>
-                <div className="text-sm">Client Satisfaction</div>
-              </div>
-            </div>
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-5xl mx-auto text-center">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+              About STAR DIGITECH PRO
+            </h1>
+            
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+              We're a team of passionate digital marketing experts dedicated to helping businesses in Noida achieve exceptional growth through performance-driven strategies
+            </p>
           </div>
         </div>
       </section>
