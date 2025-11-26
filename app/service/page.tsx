@@ -687,48 +687,56 @@ export default function ServicePage() {
       </section>
 
       {/* Process Section */}
-      <section className="py-20 bg-[#020617] bg-opacity-90">
+      <section className="py-20 bg-gradient-to-b from-[#0a0f1e] to-[#020617]">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="section-title">Our Process</h2>
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Process</h2>
             <p className="text-gray-300 text-lg max-w-2xl mx-auto">
               A proven methodology that delivers consistent results
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
-                1
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center group">
+              <div className="relative mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-primary/40 backdrop-blur-sm border-2 border-primary/50 rounded-full flex items-center justify-center text-3xl font-bold mx-auto text-white group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-primary/20">
+                  1
+                </div>
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Discovery</h3>
-              <p className="text-gray-300">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300">Discovery</h3>
+              <p className="text-gray-300 text-sm leading-relaxed">
                 We analyze your business, goals, and target audience to create a customized strategy
               </p>
             </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-secondary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
-                2
+            <div className="text-center group">
+              <div className="relative mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-primary/40 backdrop-blur-sm border-2 border-primary/50 rounded-full flex items-center justify-center text-3xl font-bold mx-auto text-white group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-primary/20">
+                  2
+                </div>
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Strategy</h3>
-              <p className="text-gray-300">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300">Strategy</h3>
+              <p className="text-gray-300 text-sm leading-relaxed">
                 Develop comprehensive marketing plans with clear KPIs and timelines
               </p>
             </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-accent text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
-                3
+            <div className="text-center group">
+              <div className="relative mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-primary/40 backdrop-blur-sm border-2 border-primary/50 rounded-full flex items-center justify-center text-3xl font-bold mx-auto text-white group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-primary/20">
+                  3
+                </div>
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Execution</h3>
-              <p className="text-gray-300">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300">Execution</h3>
+              <p className="text-gray-300 text-sm leading-relaxed">
                 Launch and manage campaigns with continuous monitoring and optimization
               </p>
             </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
-                4
+            <div className="text-center group">
+              <div className="relative mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-primary/40 backdrop-blur-sm border-2 border-primary/50 rounded-full flex items-center justify-center text-3xl font-bold mx-auto text-white group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-primary/20">
+                  4
+                </div>
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">Reporting</h3>
-              <p className="text-gray-300">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors duration-300">Reporting</h3>
+              <p className="text-gray-300 text-sm leading-relaxed">
                 Provide transparent reports and data-driven insights for continuous improvement
               </p>
             </div>
