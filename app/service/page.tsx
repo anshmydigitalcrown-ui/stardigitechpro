@@ -756,6 +756,69 @@ export default function ServicePage() {
         </div>
       </section>
 
+      {/* Why Choose Us Section */}
+      <section className="py-20 bg-[#020617]">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              Why Choose Us
+            </h2>
+            <p className="text-gray-300 text-lg max-w-3xl mx-auto">
+              Partner with a team that delivers real results through proven strategies and dedicated support
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="group relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50 hover:border-[#1d7ba8]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#1d7ba8]/20 hover:-translate-y-1">
+              <div className="bg-[#1d7ba8]/10 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#1d7ba8]/20 transition-all duration-300">
+                <svg className="w-8 h-8 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-white mb-3">Data-Driven Approach</h3>
+              <p className="text-gray-400 leading-relaxed">
+                Every decision backed by analytics and real-time insights. We don't guess—we measure, analyze, and optimize for maximum ROI.
+              </p>
+            </div>
+
+            <div className="group relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50 hover:border-[#1d7ba8]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#1d7ba8]/20 hover:-translate-y-1">
+              <div className="bg-[#1d7ba8]/10 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#1d7ba8]/20 transition-all duration-300">
+                <svg className="w-8 h-8 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-white mb-3">Proven Track Record</h3>
+              <p className="text-gray-400 leading-relaxed">
+                100+ successful campaigns across diverse industries. Our portfolio speaks volumes—delivering consistent growth and exceeding targets.
+              </p>
+            </div>
+
+            <div className="group relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50 hover:border-[#1d7ba8]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#1d7ba8]/20 hover:-translate-y-1">
+              <div className="bg-[#1d7ba8]/10 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#1d7ba8]/20 transition-all duration-300">
+                <svg className="w-8 h-8 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-white mb-3">Expert Team</h3>
+              <p className="text-gray-400 leading-relaxed">
+                Certified professionals with years of experience in SEO, PPC, social media, and content marketing. Your success is our expertise.
+              </p>
+            </div>
+
+            <div className="group relative bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50 hover:border-[#1d7ba8]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#1d7ba8]/20 hover:-translate-y-1">
+              <div className="bg-[#1d7ba8]/10 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#1d7ba8]/20 transition-all duration-300">
+                <svg className="w-8 h-8 text-[#1d7ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-white mb-3">24/7 Support</h3>
+              <p className="text-gray-400 leading-relaxed">
+                Round-the-clock availability for your campaigns. Whether it's an urgent update or a quick question, we're always here to help.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Our Core Values Section */}
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">
