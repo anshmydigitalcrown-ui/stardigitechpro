@@ -62,7 +62,7 @@ export default function ServicePage() {
         }}
       />
       {/* Hero Section */}
-      <section className="relative bg-[#020617] py-32 overflow-hidden">
+      <section className="relative bg-[#020617] py-20 md:py-32 overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full mix-blend-multiply blur-3xl opacity-10 animate-pulse"></div>
@@ -81,19 +81,19 @@ export default function ServicePage() {
               <span className="text-sm text-gray-300 font-medium">Performance Marketing Services</span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Performance Marketing Services<br />In Noida
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+              Performance Marketing Services In Noida
             </h1>
             
-            <div className="flex items-center justify-center gap-3 mb-8">
-              <div className="h-1 w-16 bg-gradient-to-r from-primary to-transparent rounded-full"></div>
-              <p className="text-sm md:text-base text-gray-400 font-medium uppercase tracking-wider">
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="h-1 w-12 sm:w-16 bg-gradient-to-r from-primary to-transparent rounded-full"></div>
+              <p className="text-xs sm:text-sm md:text-base text-gray-400 font-medium uppercase tracking-wider">
                 Our Digital Marketing Services
               </p>
-              <div className="h-1 w-16 bg-gradient-to-l from-primary to-transparent rounded-full"></div>
+              <div className="h-1 w-12 sm:w-16 bg-gradient-to-l from-primary to-transparent rounded-full"></div>
             </div>
             
-            <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-10">
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-8 md:mb-10">
               Comprehensive performance marketing solutions designed to accelerate your business growth in Noida and beyond
             </p>
 
@@ -101,7 +101,7 @@ export default function ServicePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
                 href="/contact"
-                className="group relative inline-flex items-center justify-center px-8 py-4 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-xl hover:shadow-primary/50 hover:scale-105"
+                className="w-full sm:w-auto group relative inline-flex items-center justify-center px-8 py-4 overflow-hidden font-bold text-white bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-lg transition-all duration-500 ease-out shadow-lg hover:shadow-xl hover:shadow-primary/50 hover:scale-105"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   Get Started
@@ -112,7 +112,7 @@ export default function ServicePage() {
               </Link>
               <Link
                 href="/about"
-                className="inline-flex items-center gap-2 px-8 py-4 font-semibold text-white border-2 border-primary rounded-lg hover:bg-primary/10 transition-all duration-300 hover:scale-105"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 font-semibold text-white border-2 border-primary rounded-lg hover:bg-primary/10 transition-all duration-300 hover:scale-105"
               >
                 Learn More
               </Link>
