@@ -134,7 +134,14 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {/* Service 1 - PPC Management */}
             <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🎯</div>
+              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+                <Image
+                  src="/service/PPC Management.webp.webp"
+                  alt="PPC Management"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <h3 className="text-xl font-bold text-white mb-3">PPC Management</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
                 Strategic paid advertising campaigns to drive qualified traffic and maximize conversions
@@ -156,7 +163,14 @@ export default function Home() {
 
             {/* Service 2 - SEO Optimization */}
             <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📈</div>
+              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+                <Image
+                  src="/service/SEO Optimization.webp.webp"
+                  alt="SEO Optimization"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <h3 className="text-xl font-bold text-white mb-3">SEO Optimization</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
                 Boost organic rankings with proven SEO strategies that increase visibility and traffic
@@ -178,7 +192,14 @@ export default function Home() {
 
             {/* Service 3 - Social Media Marketing */}
             <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📱</div>
+              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+                <Image
+                  src="/service/Social Media Marketing.webp.webp"
+                  alt="Social Media Marketing"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <h3 className="text-xl font-bold text-white mb-3">Social Media Marketing</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
                 Engage your audience and build brand loyalty across all social media platforms
@@ -200,7 +221,14 @@ export default function Home() {
 
             {/* Service 4 - Content Marketing */}
             <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">✍️</div>
+              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+                <Image
+                  src="/service/Content Marketing.webp.webp"
+                  alt="Content Marketing"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <h3 className="text-xl font-bold text-white mb-3">Content Marketing</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
                 Create compelling content that resonates with your audience and drives conversions
@@ -222,7 +250,14 @@ export default function Home() {
 
             {/* Service 5 - Conversion Rate Optimization */}
             <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🔄</div>
+              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+                <Image
+                  src="/service/Conversion Rate Optimization.webp.webp"
+                  alt="Conversion Rate Optimization"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <h3 className="text-xl font-bold text-white mb-3">Conversion Rate Optimization</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
                 Turn more visitors into customers with data-driven CRO strategies
@@ -244,7 +279,14 @@ export default function Home() {
 
             {/* Service 6 - Analytics & Reporting */}
             <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📊</div>
+              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+                <Image
+                  src="/service/Analytics & Reporting.webp.webp"
+                  alt="Analytics & Reporting"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <h3 className="text-xl font-bold text-white mb-3">Analytics & Reporting</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
                 Make informed decisions with comprehensive analytics and transparent reporting
@@ -266,7 +308,14 @@ export default function Home() {
 
             {/* Service 7 - Email Marketing */}
             <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">📧</div>
+              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+                <Image
+                  src="/service/Email Marketing.webp.webp"
+                  alt="Email Marketing"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <h3 className="text-xl font-bold text-white mb-3">Email Marketing</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
                 Nurture leads and maintain customer relationships with targeted email campaigns
@@ -288,7 +337,14 @@ export default function Home() {
 
             {/* Service 8 - E-commerce Marketing */}
             <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🛒</div>
+              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+                <Image
+                  src="/service/E-commerce Marketing.webp.webp"
+                  alt="E-commerce Marketing"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <h3 className="text-xl font-bold text-white mb-3">E-commerce Marketing</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
                 Boost your online store's performance with specialized e-commerce strategies
@@ -310,7 +366,14 @@ export default function Home() {
 
             {/* Service 9 - Video Marketing */}
             <div className="group relative bg-slate-800 bg-opacity-50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700 hover:bg-slate-700 hover:bg-opacity-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">🎬</div>
+              <div className="relative w-full h-48 mb-4 rounded-xl overflow-hidden">
+                <Image
+                  src="/service/Video Marketing.webp.webp"
+                  alt="Video Marketing"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <h3 className="text-xl font-bold text-white mb-3">Video Marketing</h3>
               <p className="text-white text-opacity-90 text-sm mb-4">
                 Engage audiences with powerful video content across YouTube, social media, and your website
