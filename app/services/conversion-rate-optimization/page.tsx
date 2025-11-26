@@ -262,6 +262,156 @@ export default function ConversionRateOptimizationPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-gradient-to-b from-[#020617] to-slate-900">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-gray-300 text-lg">
+                Got questions about CRO? We've got answers.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* FAQ 1 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What is Conversion Rate Optimization?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  CRO is the systematic process of increasing the percentage of website visitors who take desired actions (purchases, sign-ups, downloads) through data analysis, user research, and A/B testing.
+                </p>
+              </div>
+
+              {/* FAQ 2 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How quickly can I see CRO results?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Initial improvements can be seen within 4-8 weeks. However, comprehensive CRO is ongoing—continuous testing and optimization yield compounding results over 3-6 months.
+                </p>
+              </div>
+
+              {/* FAQ 3 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What's a good conversion rate?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Average conversion rates vary by industry (1-5% is typical). What matters most is improving YOUR baseline. Even a 1-2% increase can significantly impact revenue when scaled.
+                </p>
+              </div>
+
+              {/* FAQ 4 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How do you conduct A/B tests?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We create variations of page elements, split traffic between versions, measure performance statistically, and implement winning variations. All tests are properly designed for valid results.
+                </p>
+              </div>
+
+              {/* FAQ 5 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Do I need a lot of traffic for CRO?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  While more traffic enables faster testing, CRO benefits sites of all sizes. We start with qualitative research and high-impact changes before moving to extensive A/B testing.
+                </p>
+              </div>
+
+              {/* FAQ 6 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What tools do you use for CRO?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We use industry-leading tools like Google Analytics, Hotjar, Optimizely, VWO, Crazy Egg, and more for analytics, heatmaps, session recordings, and A/B testing.
+                </p>
+              </div>
+
+              {/* FAQ 7 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Can CRO help my e-commerce store?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Absolutely! E-commerce benefits hugely from CRO. We optimize product pages, checkout flows, cart abandonment, and more to increase sales and average order value.
+                </p>
+              </div>
+
+              {/* FAQ 8 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How much does CRO cost?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  CRO investment varies by site complexity and testing needs. Packages start from ₹30,000/month. Given the revenue impact, CRO typically delivers exceptional ROI.
+                </p>
+              </div>
+
+              {/* FAQ 9 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What pages should I optimize first?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Start with high-traffic, high-value pages: homepage, product pages, checkout, and landing pages. We analyze data to prioritize pages with the biggest potential impact.
+                </p>
+              </div>
+
+              {/* FAQ 10 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Will CRO affect my SEO?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  When done properly, CRO complements SEO. We ensure optimizations don't harm rankings and often improve user experience metrics that positively impact SEO.
+                </p>
+              </div>
+
+              {/* FAQ 11 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Do you provide CRO training?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Yes! We can train your team on CRO fundamentals, testing methodologies, and tools so you can continue optimizing in-house while we provide strategic guidance.
+                </p>
+              </div>
+
+              {/* FAQ 12 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What makes your CRO approach different?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We combine data-driven insights, user psychology, and rigorous testing. No guesswork—every change is backed by research and validated through testing for sustainable growth.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">

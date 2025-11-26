@@ -662,6 +662,156 @@ export default function PPCManagementPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-[#020617]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-gray-300 text-lg">
+                Got questions about PPC Management? We've got answers.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* FAQ 1 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What is PPC advertising?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  PPC (Pay-Per-Click) is an online advertising model where you pay only when someone clicks your ad. It's a cost-effective way to drive targeted traffic to your website through platforms like Google Ads, Facebook, and LinkedIn.
+                </p>
+              </div>
+
+              {/* FAQ 2 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How much should I budget for PPC?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  PPC budgets vary based on industry, competition, and goals. We recommend starting with at least ₹30,000-₹50,000/month to see meaningful results, but we can create strategies for various budget levels.
+                </p>
+              </div>
+
+              {/* FAQ 3 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How long does it take to see results?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  You can start seeing traffic and conversions within days of launching your campaign. However, we typically need 30-60 days to optimize campaigns for best performance and ROI.
+                </p>
+              </div>
+
+              {/* FAQ 4 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Which platform is best for my business?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  It depends on your target audience and goals. Google Ads works for search intent, Facebook/Instagram for B2C, and LinkedIn for B2B. We analyze your business and recommend the right platform mix.
+                </p>
+              </div>
+
+              {/* FAQ 5 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Do I own the ad accounts?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Yes! We set up campaigns in your own Google Ads, Facebook, or other platform accounts. You maintain full ownership and access to all data and campaign assets.
+                </p>
+              </div>
+
+              {/* FAQ 6 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What's your management fee structure?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Our management fees are transparent and based on your ad spend and campaign complexity. We'll provide a detailed proposal after understanding your requirements and goals.
+                </p>
+              </div>
+
+              {/* FAQ 7 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Can you help with landing pages?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Absolutely! We design and optimize landing pages specifically for your PPC campaigns to maximize conversion rates and ensure your ad spend delivers the best possible ROI.
+                </p>
+              </div>
+
+              {/* FAQ 8 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What reporting will I receive?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We provide detailed monthly reports covering all key metrics: clicks, conversions, cost per acquisition, ROI, and more. You'll also have 24/7 access to real-time dashboards.
+                </p>
+              </div>
+
+              {/* FAQ 9 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Is there a minimum contract period?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We typically recommend a 3-month minimum to properly optimize campaigns, but we offer flexible terms based on your needs. No long-term lock-in required.
+                </p>
+              </div>
+
+              {/* FAQ 10 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How do you handle click fraud?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We implement advanced fraud detection, regularly monitor for suspicious activity, use IP exclusions, and work with platform fraud protection tools to protect your budget.
+                </p>
+              </div>
+
+              {/* FAQ 11 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Can you work with my existing campaigns?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Yes! We can audit and take over existing campaigns, identify areas for improvement, and optimize them for better performance without starting from scratch.
+                </p>
+              </div>
+
+              {/* FAQ 12 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What makes your PPC services different?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We combine data-driven strategies, continuous optimization, transparent reporting, and dedicated account management to deliver exceptional ROI. Our focus is on your business growth, not just clicks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-b from-[#020617] to-slate-900">
         <div className="container mx-auto px-4">

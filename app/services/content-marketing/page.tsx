@@ -261,6 +261,156 @@ export default function ContentMarketingPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-gradient-to-b from-[#020617] to-slate-900">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-gray-300 text-lg">
+                Got questions about Content Marketing? We've got answers.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* FAQ 1 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What is content marketing?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Content marketing is a strategic approach focused on creating and distributing valuable, relevant content to attract and engage a target audience, ultimately driving profitable customer actions.
+                </p>
+              </div>
+
+              {/* FAQ 2 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How often should I publish content?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Consistency is key. We recommend 2-4 quality blog posts per month minimum, along with regular social media content. The frequency depends on your resources, goals, and audience expectations.
+                </p>
+              </div>
+
+              {/* FAQ 3 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What types of content do you create?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We create blog posts, articles, whitepapers, case studies, infographics, videos, social media content, email newsletters, ebooks, and more—tailored to your audience and business goals.
+                </p>
+              </div>
+
+              {/* FAQ 4 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How do you measure content success?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We track metrics like website traffic, engagement rates, time on page, social shares, lead generation, conversions, and SEO rankings to measure content performance and ROI.
+                </p>
+              </div>
+
+              {/* FAQ 5 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Do you handle content promotion?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Yes! Creating great content is just the start. We promote it through social media, email marketing, influencer outreach, paid promotion, and SEO to maximize reach and engagement.
+                </p>
+              </div>
+
+              {/* FAQ 6 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Can you write for technical industries?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Absolutely! Our writers have experience across various industries including tech, healthcare, finance, and B2B sectors. We research thoroughly to understand your industry and audience.
+                </p>
+              </div>
+
+              {/* FAQ 7 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What's your content creation process?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We follow a structured process: strategy development, topic research, content creation, editing, SEO optimization, approval, publishing, and promotion—ensuring quality at every step.
+                </p>
+              </div>
+
+              {/* FAQ 8 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How much does content marketing cost?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Costs vary based on content volume, complexity, and distribution needs. We offer packages starting from ₹20,000/month for small businesses to comprehensive enterprise solutions.
+                </p>
+              </div>
+
+              {/* FAQ 9 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Will content marketing help my SEO?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Definitely! Quality content is a cornerstone of SEO. We create SEO-optimized content that targets relevant keywords, earns backlinks, and improves your search engine rankings.
+                </p>
+              </div>
+
+              {/* FAQ 10 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Can I approve content before publishing?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Yes! We provide drafts for your review and approval before any content goes live. Your feedback is incorporated to ensure the final product meets your expectations.
+                </p>
+              </div>
+
+              {/* FAQ 11 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How long until I see results?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Content marketing is a long-term strategy. You may see initial engagement within weeks, but significant traffic and lead generation typically takes 3-6 months of consistent effort.
+                </p>
+              </div>
+
+              {/* FAQ 12 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Do you offer content strategy consulting?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Yes! We develop comprehensive content strategies aligned with your business goals, including content calendars, distribution plans, and performance frameworks for maximum impact.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">

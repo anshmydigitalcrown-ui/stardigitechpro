@@ -250,6 +250,156 @@ export default function EmailMarketingPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-gradient-to-b from-[#020617] to-slate-900">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-gray-300 text-lg">
+                Got questions about Email Marketing? We've got answers.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* FAQ 1 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Is email marketing still effective in 2024?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Absolutely! Email marketing delivers an average ROI of $42 for every $1 spent. It's one of the most cost-effective channels for nurturing leads and driving conversions.
+                </p>
+              </div>
+
+              {/* FAQ 2 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How often should I send emails?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Frequency depends on your audience and content. Generally, 1-4 emails per month works well. We test and optimize sending frequency based on engagement data to find your sweet spot.
+                </p>
+              </div>
+
+              {/* FAQ 3 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What email platform do you recommend?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We work with all major platforms including Mailchimp, HubSpot, ActiveCampaign, Klaviyo, and SendGrid. We recommend platforms based on your business size, budget, and specific needs.
+                </p>
+              </div>
+
+              {/* FAQ 4 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How do you grow email lists?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We use lead magnets, optimized signup forms, pop-ups, landing pages, content upgrades, and social media campaigns to attract and convert subscribers organically and ethically.
+                </p>
+              </div>
+
+              {/* FAQ 5 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Can you design email templates?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Yes! We design custom, mobile-responsive email templates that align with your brand, look great across all devices, and are optimized for conversions.
+                </p>
+              </div>
+
+              {/* FAQ 6 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What's email segmentation?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Segmentation divides your email list into targeted groups based on demographics, behavior, purchase history, or engagement. This allows personalized messaging that dramatically improves results.
+                </p>
+              </div>
+
+              {/* FAQ 7 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How do you avoid spam folders?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We follow best practices: authenticate domains (SPF, DKIM), maintain clean lists, avoid spam triggers, optimize content, and monitor sender reputation to ensure high deliverability.
+                </p>
+              </div>
+
+              {/* FAQ 8 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What's a good email open rate?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Average open rates vary by industry but typically range from 15-25%. We focus on continuous improvement through A/B testing subject lines, send times, and personalization.
+                </p>
+              </div>
+
+              {/* FAQ 9 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Can you set up automated email sequences?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Yes! We create sophisticated automation workflows: welcome series, abandoned cart emails, re-engagement campaigns, post-purchase sequences, and more—all personalized and optimized.
+                </p>
+              </div>
+
+              {/* FAQ 10 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How do you measure email campaign success?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We track open rates, click-through rates, conversion rates, revenue per email, list growth, unsubscribe rates, and ROI to measure performance and continuously optimize campaigns.
+                </p>
+              </div>
+
+              {/* FAQ 11 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How much does email marketing cost?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Costs depend on list size and campaign complexity. Basic email marketing starts from ₹15,000/month including strategy, design, copywriting, and management. Platform costs are separate.
+                </p>
+              </div>
+
+              {/* FAQ 12 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Do you handle GDPR and CAN-SPAM compliance?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Yes! We ensure all email campaigns comply with GDPR, CAN-SPAM, and other regulations through proper consent management, unsubscribe mechanisms, and privacy best practices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">

@@ -313,6 +313,156 @@ export default function SocialMediaMarketingPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-[#020617]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-gray-300 text-lg">
+                Got questions about Social Media Marketing? We've got answers.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* FAQ 1 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Which social media platforms should my business be on?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  It depends on your audience. B2B companies thrive on LinkedIn, B2C brands excel on Instagram/Facebook, visual businesses love Pinterest, and younger audiences are on TikTok. We analyze your target market and recommend the right mix.
+                </p>
+              </div>
+
+              {/* FAQ 2 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How often should I post on social media?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Consistency matters more than frequency. Generally, 3-5 times per week for Facebook/Instagram, daily for Twitter, and 2-3 times weekly for LinkedIn. We create a custom posting schedule based on your audience's activity.
+                </p>
+              </div>
+
+              {/* FAQ 3 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Do you create social media content?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Yes! We handle everything: content strategy, copywriting, graphic design, video editing, scheduling, and posting. All content aligns with your brand voice and marketing goals.
+                </p>
+              </div>
+
+              {/* FAQ 4 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How long does it take to see results?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Organic social growth takes time. You'll see initial engagement within weeks, but significant follower growth and business impact typically takes 3-6 months of consistent, quality content.
+                </p>
+              </div>
+
+              {/* FAQ 5 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Can you manage my social media ads?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Absolutely! We create and manage paid campaigns on Facebook, Instagram, LinkedIn, Twitter, and TikTok—targeting the right audience with compelling creatives to drive conversions.
+                </p>
+              </div>
+
+              {/* FAQ 6 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How do you handle negative comments?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We monitor comments closely and respond professionally and promptly. We have protocols for handling complaints, addressing concerns, and turning negative situations into positive customer experiences.
+                </p>
+              </div>
+
+              {/* FAQ 7 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">What's included in your social media packages?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Packages typically include strategy development, content creation, scheduling, posting, community management, engagement, monthly reporting, and ongoing optimization. Customizable based on your needs.
+                </p>
+              </div>
+
+              {/* FAQ 8 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How do you measure social media success?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  We track follower growth, engagement rates, reach, impressions, website traffic, lead generation, conversions, and ROI. Success metrics are customized to your specific business goals.
+                </p>
+              </div>
+
+              {/* FAQ 9 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Can you help with influencer marketing?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Yes! We identify relevant influencers, negotiate partnerships, manage campaigns, and track results to amplify your brand message and reach new audiences authentically.
+                </p>
+              </div>
+
+              {/* FAQ 10 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Do I need to provide content ideas?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Not necessarily! We develop comprehensive content strategies and calendars. However, we love collaborating with clients who want to share ideas, company news, and behind-the-scenes content.
+                </p>
+              </div>
+
+              {/* FAQ 11 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">How much does social media management cost?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Costs vary by platform coverage, posting frequency, and services needed. Basic packages start from ₹20,000/month for 1-2 platforms. Comprehensive multi-platform management ranges from ₹40,000-80,000/month.
+                </p>
+              </div>
+
+              {/* FAQ 12 */}
+              <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300">
+                <h3 className="text-lg font-bold text-white mb-3 flex items-start gap-3">
+                  <span className="text-[#1d7ba8] flex-shrink-0 text-2xl font-extrabold">Q</span>
+                  <span className="flex-1">Can social media actually drive sales?</span>
+                </h3>
+                <p className="text-gray-300 text-sm leading-relaxed pl-10">
+                  Absolutely! When done strategically, social media drives brand awareness, builds trust, nurtures leads, and converts followers into customers. We focus on business outcomes, not just vanity metrics.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-b from-[#020617] to-slate-900">
         <div className="container mx-auto px-4">
