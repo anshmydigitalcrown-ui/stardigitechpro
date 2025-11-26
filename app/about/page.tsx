@@ -69,89 +69,20 @@ export default function ServicePage() {
           <div className="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full mix-blend-multiply blur-3xl opacity-10 animate-pulse"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#1d7ba8] rounded-full mix-blend-multiply blur-3xl opacity-10 animate-pulse delay-700"></div>
         </div>
-      </section>
 
-      {/* Why Choose Us Section */}
-      <section className="py-20 bg-gradient-to-b from-[#020617] to-[#0a1628]">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Why Choose Us
-            </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              We combine creativity, data, and technology to deliver exceptional results that drive your business forward
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Card 1: Data-Driven Approach */}
-            <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/30 hover:border-[#1d7ba8]/50 transition-all duration-300 hover:scale-105 group">
-              <div className="w-16 h-16 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center mb-6 group-hover:shadow-xl group-hover:shadow-[#1d7ba8]/30 transition-all">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-4">Data-Driven Approach</h3>
-              <p className="text-gray-400 leading-relaxed">
-                Every decision backed by analytics and insights to maximize your ROI and campaign performance
-              </p>
-            </div>
-
-            {/* Card 2: Proven Track Record */}
-            <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/30 hover:border-[#1d7ba8]/50 transition-all duration-300 hover:scale-105 group">
-              <div className="w-16 h-16 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center mb-6 group-hover:shadow-xl group-hover:shadow-[#1d7ba8]/30 transition-all">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-4">Proven Track Record</h3>
-              <p className="text-gray-400 leading-relaxed">
-                500+ successful campaigns with an average 300% ROI across diverse industries
-              </p>
-            </div>
-
-            {/* Card 3: Expert Team */}
-            <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/30 hover:border-[#1d7ba8]/50 transition-all duration-300 hover:scale-105 group">
-              <div className="w-16 h-16 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center mb-6 group-hover:shadow-xl group-hover:shadow-[#1d7ba8]/30 transition-all">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-4">Expert Team</h3>
-              <p className="text-gray-400 leading-relaxed">
-                Certified professionals with 5+ years of experience in digital marketing and performance optimization
-              </p>
-            </div>
-
-            {/* Card 4: 24/7 Support */}
-            <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/30 hover:border-[#1d7ba8]/50 transition-all duration-300 hover:scale-105 group">
-              <div className="w-16 h-16 bg-gradient-to-br from-[#1d7ba8] to-[#0f5a7a] rounded-xl flex items-center justify-center mb-6 group-hover:shadow-xl group-hover:shadow-[#1d7ba8]/30 transition-all">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-4">24/7 Support</h3>
-              <p className="text-gray-400 leading-relaxed">
-                Dedicated account managers and round-the-clock support to ensure your campaigns run smoothly
-              </p>
-            </div>
-          </div>
+        <div className="relative container mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+            About STAR DIGITECH PRO
+          </h1>
+          <p className="text-xl md:text-2xl text-gray-300">
+            Your Trusted Partner for Digital Growth
+          </p>
         </div>
       </section>
 
       {/* Your Trusted Partner Section */}
       <section className="py-20 bg-[#020617] overflow-hidden">
         <div className="container mx-auto px-4">
-          {/* Section Header */}
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-              About STAR DIGITECH PRO
-            </h2>
-            <p className="text-xl md:text-2xl text-gray-300">
-              Your Trusted Partner for Digital Growth
-            </p>
-          </div>
-
           {/* Who We Are, Our Mission & Why Businesses Trust Us Section */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
             {/* Who We Are */}
