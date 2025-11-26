@@ -940,6 +940,100 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Our Core Values Section */}
+      <section className="py-20 bg-[#020617]">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              Our Core Values
+            </h2>
+            <p className="text-gray-300 text-lg max-w-3xl mx-auto">
+              The principles that guide every decision we make and every campaign we run
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Results-Driven */}
+            <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+              <div className="flex justify-center mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-red-500/20 to-pink-500/20 rounded-2xl flex items-center justify-center border border-red-500/30 group-hover:scale-110 transition-transform duration-300">
+                  <span className="text-4xl">🎯</span>
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">Results-Driven</h3>
+              <p className="text-gray-300 text-center leading-relaxed">
+                We focus on delivering measurable outcomes that directly impact your bottom line
+              </p>
+            </div>
+
+            {/* Transparency */}
+            <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+              <div className="flex justify-center mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-yellow-500/20 to-orange-500/20 rounded-2xl flex items-center justify-center border border-yellow-500/30 group-hover:scale-110 transition-transform duration-300">
+                  <span className="text-4xl">🤝</span>
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">Transparency</h3>
+              <p className="text-gray-300 text-center leading-relaxed">
+                Clear communication and honest reporting in everything we do
+              </p>
+            </div>
+
+            {/* Innovation */}
+            <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+              <div className="flex justify-center mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-2xl flex items-center justify-center border border-blue-500/30 group-hover:scale-110 transition-transform duration-300">
+                  <span className="text-4xl">💡</span>
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">Innovation</h3>
+              <p className="text-gray-300 text-center leading-relaxed">
+                Staying ahead of digital trends to give our clients a competitive edge
+              </p>
+            </div>
+
+            {/* Excellence */}
+            <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+              <div className="flex justify-center mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-amber-500/20 to-yellow-500/20 rounded-2xl flex items-center justify-center border border-amber-500/30 group-hover:scale-110 transition-transform duration-300">
+                  <span className="text-4xl">🏆</span>
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">Excellence</h3>
+              <p className="text-gray-300 text-center leading-relaxed">
+                Committed to delivering the highest quality service in every project
+              </p>
+            </div>
+
+            {/* Data-First */}
+            <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+              <div className="flex justify-center mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-2xl flex items-center justify-center border border-purple-500/30 group-hover:scale-110 transition-transform duration-300">
+                  <span className="text-4xl">📊</span>
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">Data-First</h3>
+              <p className="text-gray-300 text-center leading-relaxed">
+                Every decision backed by analytics and performance metrics
+              </p>
+            </div>
+
+            {/* Partnership */}
+            <div className="group bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20">
+              <div className="flex justify-center mb-6">
+                <div className="w-20 h-20 bg-gradient-to-br from-rose-500/20 to-red-500/20 rounded-2xl flex items-center justify-center border border-rose-500/30 group-hover:scale-110 transition-transform duration-300">
+                  <span className="text-4xl">💼</span>
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">Partnership</h3>
+              <p className="text-gray-300 text-center leading-relaxed">
+                We see our clients as partners, invested in their long-term success
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section at bottom */}
       <section className="py-20 bg-[#020617] bg-opacity-95 text-white">
         <div className="container mx-auto px-4 text-center">
