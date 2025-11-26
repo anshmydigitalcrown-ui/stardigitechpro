@@ -52,26 +52,33 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 via-slate-800 to-secondary/10 py-20">
-        <div className="container mx-auto px-4">
+      <section className="relative bg-gradient-to-b from-[#0a1628] via-[#0f1e35] to-[#020617] py-20 md:py-28 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-[#1d7ba8] rounded-full mix-blend-multiply blur-3xl opacity-10 animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#1d7ba8] rounded-full mix-blend-multiply blur-3xl opacity-10 animate-pulse delay-700"></div>
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
+            <p className="text-[#1d7ba8] text-sm uppercase tracking-wider font-semibold mb-4">Get In Touch</p>
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Our Performance Marketing Services In Noida
+              Contact Us
             </h1>
-            <p className="text-lg md:text-xl text-gray-300">
-              Comprehensive digital marketing solutions designed to drive measurable results and accelerate your business growth
+            <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
+              Ready to transform your digital marketing? Let's discuss how we can help drive measurable results for your business
             </p>
           </div>
         </div>
       </section>
 
       {/* Contact Form & Info Section */}
-      <section className="py-20">
+      <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div>
-              <div className="card">
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-8 rounded-2xl border border-slate-700/50">
                 <h2 className="text-3xl font-bold text-white mb-6">Send Us a Message</h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
@@ -85,7 +92,7 @@ export default function ContactPage() {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                      className="w-full px-4 py-3 bg-slate-900/50 border border-slate-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1d7ba8] focus:border-transparent transition-all"
                       placeholder="John Doe"
                     />
                   </div>
@@ -102,7 +109,7 @@ export default function ContactPage() {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                        className="w-full px-4 py-3 bg-slate-900/50 border border-slate-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1d7ba8] focus:border-transparent transition-all"
                         placeholder="john@example.com"
                       />
                     </div>
@@ -116,7 +123,7 @@ export default function ContactPage() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                        className="w-full px-4 py-3 bg-slate-900/50 border border-slate-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1d7ba8] focus:border-transparent transition-all"
                         placeholder="+91 9999999999"
                       />
                     </div>
@@ -132,7 +139,7 @@ export default function ContactPage() {
                       name="company"
                       value={formData.company}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                      className="w-full px-4 py-3 bg-slate-900/50 border border-slate-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1d7ba8] focus:border-transparent transition-all"
                       placeholder="Your Company"
                     />
                   </div>
@@ -148,7 +155,7 @@ export default function ContactPage() {
                         value={formData.service}
                         onChange={handleChange}
                         required
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                        className="w-full px-4 py-3 bg-slate-900/50 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-[#1d7ba8] focus:border-transparent transition-all"
                       >
                         <option value="">Select a service</option>
                         <option value="ppc">PPC Management</option>
@@ -171,7 +178,7 @@ export default function ContactPage() {
                         name="budget"
                         value={formData.budget}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                        className="w-full px-4 py-3 bg-slate-900/50 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-[#1d7ba8] focus:border-transparent transition-all"
                       >
                         <option value="">Select budget range</option>
                         <option value="under-50k">Under ₹50,000</option>
@@ -194,7 +201,7 @@ export default function ContactPage() {
                       onChange={handleChange}
                       required
                       rows={5}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent resize-none"
+                      className="w-full px-4 py-3 bg-slate-900/50 border border-slate-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1d7ba8] focus:border-transparent transition-all resize-none"
                       placeholder="Tell us about your project and goals..."
                     ></textarea>
                   </div>
@@ -208,7 +215,7 @@ export default function ContactPage() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="w-full bg-gradient-to-r from-[#1d7ba8] via-[#1a6d96] to-[#1d7ba8] text-white font-semibold py-4 px-8 rounded-lg hover:shadow-lg hover:shadow-[#1d7ba8]/50 transition-all duration-300 transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0"
                   >
                     {isSubmitting ? 'Sending...' : 'Send Message'}
                   </button>
@@ -227,8 +234,8 @@ export default function ContactPage() {
                 <div className="space-y-6">
                   {/* Office Location */}
                   <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                      <svg className="w-6 h-6 text-primary" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <div className="flex-shrink-0 w-12 h-12 bg-[#1d7ba8]/10 rounded-lg flex items-center justify-center">
+                      <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                         <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                       </svg>
@@ -245,8 +252,8 @@ export default function ContactPage() {
 
                   {/* Email */}
                   <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center">
-                      <svg className="w-6 h-6 text-secondary" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <div className="flex-shrink-0 w-12 h-12 bg-[#1d7ba8]/10 rounded-lg flex items-center justify-center">
+                      <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                       </svg>
                     </div>
@@ -261,8 +268,8 @@ export default function ContactPage() {
 
                   {/* Phone */}
                   <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center">
-                      <svg className="w-6 h-6 text-accent" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <div className="flex-shrink-0 w-12 h-12 bg-[#1d7ba8]/10 rounded-lg flex items-center justify-center">
+                      <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                       </svg>
                     </div>
@@ -277,8 +284,8 @@ export default function ContactPage() {
 
                   {/* Working Hours */}
                   <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                      <svg className="w-6 h-6 text-primary" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <div className="flex-shrink-0 w-12 h-12 bg-[#1d7ba8]/10 rounded-lg flex items-center justify-center">
+                      <svg className="w-6 h-6 text-[#1d7ba8]" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                       </svg>
                     </div>
@@ -294,27 +301,18 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Map or Additional Info */}
-              <div className="card bg-gradient-to-br from-primary/5 to-secondary/5">
-                <h3 className="text-xl font-bold text-white mb-4">Why Contact Us?</h3>
-                <ul className="space-y-3 text-gray-300">
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 mt-1">✓</span>
-                    <span>Free initial consultation to understand your needs</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 mt-1">✓</span>
-                    <span>Custom strategy tailored to your business goals</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 mt-1">✓</span>
-                    <span>No obligation proposal with clear pricing</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 mt-1">✓</span>
-                    <span>Quick response time - typically within 24 hours</span>
-                  </li>
-                </ul>
+              {/* Google Maps */}
+              <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 p-2 rounded-2xl border border-slate-700/50 overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28034.534646789854!2d77.35399937!3d28.626137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5456ef36d9f%3A0x3b7191b1286136c8!2sSector%2062%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                  width="100%"
+                  height="450"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="rounded-xl"
+                ></iframe>
               </div>
             </div>
           </div>
