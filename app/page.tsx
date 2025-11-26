@@ -1130,6 +1130,164 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-[#020617]">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+              Find answers to common questions about our digital marketing services
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Left Column - FAQs 1-6 */}
+            <div className="space-y-6">
+              {/* FAQ 1 */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
+                <h3 className="text-xl font-bold text-white mb-3">
+                  What services does STAR DIGITECH PRO offer?
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  We offer comprehensive digital marketing services including SEO Optimization, PPC Management, Social Media Marketing, Content Marketing, Email Marketing, Analytics & Reporting, Conversion Rate Optimization, Influencer Marketing, and Video Marketing.
+                </p>
+              </div>
+
+              {/* FAQ 2 */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
+                <h3 className="text-xl font-bold text-white mb-3">
+                  How long does it take to see results?
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Results vary by service. PPC campaigns can show immediate results, while SEO typically takes 3-6 months for significant improvements. We provide regular reports and transparent updates throughout the process to track progress.
+                </p>
+              </div>
+
+              {/* FAQ 3 */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
+                <h3 className="text-xl font-bold text-white mb-3">
+                  What makes STAR DIGITECH PRO different from other agencies?
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  We combine data-driven strategies with personalized service. Our proven track record of 300% average ROI, transparent reporting, dedicated account managers, and focus on long-term partnerships set us apart from competitors.
+                </p>
+              </div>
+
+              {/* FAQ 4 */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
+                <h3 className="text-xl font-bold text-white mb-3">
+                  Do you work with businesses outside Noida?
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Yes! While we're based in Noida, we serve clients across India and internationally. Our digital marketing services can be delivered remotely, and we use advanced collaboration tools to ensure seamless communication.
+                </p>
+              </div>
+
+              {/* FAQ 5 */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
+                <h3 className="text-xl font-bold text-white mb-3">
+                  What is your pricing structure?
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  We offer customized pricing based on your specific needs, goals, and budget. After an initial consultation, we create a tailored proposal that aligns with your objectives. Contact us for a free consultation and quote.
+                </p>
+              </div>
+
+              {/* FAQ 6 */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
+                <h3 className="text-xl font-bold text-white mb-3">
+                  How do you measure campaign success?
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  We track key performance indicators (KPIs) relevant to your goals: conversions, ROI, traffic, engagement rates, lead quality, and revenue growth. You'll receive detailed reports with real-time analytics and regular performance reviews.
+                </p>
+              </div>
+            </div>
+
+            {/* Right Column - FAQs 7-12 */}
+            <div className="space-y-6">
+              {/* FAQ 7 */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
+                <h3 className="text-xl font-bold text-white mb-3">
+                  Can I choose specific services or do I need a complete package?
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  You have complete flexibility! You can choose individual services or combine multiple services for a comprehensive strategy. We'll recommend the best approach based on your goals and budget during our consultation.
+                </p>
+              </div>
+
+              {/* FAQ 8 */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
+                <h3 className="text-xl font-bold text-white mb-3">
+                  What industries do you specialize in?
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  We have experience across diverse industries including e-commerce, healthcare, real estate, education, hospitality, technology, and more. Our team adapts strategies to fit your industry's unique challenges and opportunities.
+                </p>
+              </div>
+
+              {/* FAQ 9 */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
+                <h3 className="text-xl font-bold text-white mb-3">
+                  Do you provide content creation services?
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Yes! Our content marketing services include blog writing, social media content, video scripts, email campaigns, infographics, and more. All content is SEO-optimized and tailored to your brand voice and target audience.
+                </p>
+              </div>
+
+              {/* FAQ 10 */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
+                <h3 className="text-xl font-bold text-white mb-3">
+                  What is your contract length and cancellation policy?
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  We typically recommend a minimum 3-6 month commitment for optimal results, but contract lengths are flexible. We offer transparent terms with no hidden fees, and cancellation policies are discussed upfront during onboarding.
+                </p>
+              </div>
+
+              {/* FAQ 11 */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
+                <h3 className="text-xl font-bold text-white mb-3">
+                  How often will I receive updates on my campaigns?
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  You'll have 24/7 access to your account dashboard for real-time data. Additionally, we provide weekly updates, monthly detailed reports, and quarterly strategy reviews with your dedicated account manager.
+                </p>
+              </div>
+
+              {/* FAQ 12 */}
+              <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-6 rounded-2xl border border-slate-700/50">
+                <h3 className="text-xl font-bold text-white mb-3">
+                  How do I get started with STAR DIGITECH PRO?
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Simply contact us through our website, phone, or email to schedule a free consultation. We'll discuss your goals, analyze your current digital presence, and create a customized strategy to help you achieve success.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA Button */}
+          <div className="text-center mt-12">
+            <p className="text-gray-300 text-lg mb-6">
+              Still have questions? We're here to help!
+            </p>
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-[#1d7ba8] text-white font-semibold px-8 py-4 rounded-lg hover:shadow-xl hover:shadow-primary/50 transition-all duration-300 hover:scale-105"
+            >
+              Contact Us Today
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
