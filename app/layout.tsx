@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   authors: [{ name: "STAR DIGITECH PRO" }],
   creator: "STAR DIGITECH PRO",
   publisher: "STAR DIGITECH PRO",
+  icons: {
+    icon: '/favicon.webg.webp',
+    shortcut: '/favicon.webg.webp',
+    apple: '/favicon.webg.webp',
+  },
   robots: {
     index: true,
     follow: true,
