@@ -566,6 +566,167 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="py-20 bg-gradient-to-b from-slate-900 to-[#020617] overflow-hidden">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <div className="inline-block mb-4">
+              <span className="bg-gradient-to-r from-primary/20 to-[#1d7ba8]/20 text-[#1d7ba8] px-6 py-2 rounded-full text-sm font-semibold border border-primary/30">
+                Client Success Stories
+              </span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              What Our Clients Say
+            </h2>
+            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+              Don't just take our word for it - hear from businesses we've helped grow
+            </p>
+          </div>
+
+          {/* Horizontal Scrolling Testimonials */}
+          <div className="relative">
+            <div className="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide" style={{scrollbarWidth: 'none', msOverflowStyle: 'none'}}>
+              
+              {/* Testimonial 1 */}
+              <div className="flex-shrink-0 w-full md:w-[500px] snap-center">
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 h-full">
+                  <div className="flex items-center gap-1 mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+                    "STAR DIGITECH PRO transformed our online presence completely. Within 3 months, our organic traffic increased by 250% and our conversion rate doubled. Their team is professional, responsive, and truly understands performance marketing."
+                  </p>
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-[#1d7ba8] flex items-center justify-center text-white font-bold text-lg">
+                      RA
+                    </div>
+                    <div>
+                      <h4 className="text-white font-semibold">Rajesh Agarwal</h4>
+                      <p className="text-gray-400 text-sm">CEO, E-commerce Solutions</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Testimonial 2 */}
+              <div className="flex-shrink-0 w-full md:w-[500px] snap-center">
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 h-full">
+                  <div className="flex items-center gap-1 mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+                    "The ROI we've achieved with their PPC campaigns is outstanding. They reduced our cost per acquisition by 40% while increasing quality leads by 180%. Best digital marketing investment we've made!"
+                  </p>
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-[#1d7ba8] flex items-center justify-center text-white font-bold text-lg">
+                      PS
+                    </div>
+                    <div>
+                      <h4 className="text-white font-semibold">Priya Sharma</h4>
+                      <p className="text-gray-400 text-sm">Marketing Director, Tech Startup</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Testimonial 3 */}
+              <div className="flex-shrink-0 w-full md:w-[500px] snap-center">
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 h-full">
+                  <div className="flex items-center gap-1 mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+                    "Their social media marketing strategy took our brand to the next level. Engagement increased by 300%, and we're now seeing consistent growth in followers and conversions. Highly recommend their services!"
+                  </p>
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-[#1d7ba8] flex items-center justify-center text-white font-bold text-lg">
+                      AK
+                    </div>
+                    <div>
+                      <h4 className="text-white font-semibold">Amit Kumar</h4>
+                      <p className="text-gray-400 text-sm">Founder, Fashion Brand</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Testimonial 4 */}
+              <div className="flex-shrink-0 w-full md:w-[500px] snap-center">
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 h-full">
+                  <div className="flex items-center gap-1 mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+                    "Working with STAR DIGITECH PRO has been a game-changer. Their data-driven approach and transparent reporting give us complete confidence. Revenue from digital channels increased by 220% in just 6 months!"
+                  </p>
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-[#1d7ba8] flex items-center justify-center text-white font-bold text-lg">
+                      NK
+                    </div>
+                    <div>
+                      <h4 className="text-white font-semibold">Neha Kapoor</h4>
+                      <p className="text-gray-400 text-sm">COO, Healthcare Services</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Testimonial 5 */}
+              <div className="flex-shrink-0 w-full md:w-[500px] snap-center">
+                <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50 hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 h-full">
+                  <div className="flex items-center gap-1 mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+                    "Exceptional service and results! Their SEO strategies got us ranking on the first page for our most competitive keywords. The team's expertise in performance marketing is evident in every campaign they execute."
+                  </p>
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-[#1d7ba8] flex items-center justify-center text-white font-bold text-lg">
+                      VG
+                    </div>
+                    <div>
+                      <h4 className="text-white font-semibold">Vikram Gupta</h4>
+                      <p className="text-gray-400 text-sm">Director, Real Estate Group</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            {/* Scroll Indicator */}
+            <div className="text-center mt-8">
+              <p className="text-gray-400 text-sm flex items-center justify-center gap-2">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                </svg>
+                Scroll to see more reviews
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us Section */}
       <section className="py-20 bg-[#020617]">
         <div className="container mx-auto px-4">
