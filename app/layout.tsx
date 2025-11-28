@@ -51,9 +51,10 @@ export const metadata: Metadata = {
     description: 'Leading performance marketing agency in Delhi offering ROI-focused marketing solutions, data-driven campaigns, and performance-based advertising strategies.',
     images: ['/logo.jpg'],
   },
-  verification: {
-    google: 'your-google-verification-code',
-  },
+  // Add Google Search Console verification after claiming your site:
+  // verification: {
+  //   google: 'your-google-verification-code-here',
+  // },
   alternates: {
     canonical: 'https://stardigitechpro.vercel.app',
   },
