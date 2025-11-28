@@ -27,7 +27,7 @@ export default function SEOOptimizationPage() {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-clip-text text-transparent">
+              <span className="text-white">
                 Our Digital Marketing Services:
               </span>
               <br />
