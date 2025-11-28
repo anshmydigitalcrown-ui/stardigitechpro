@@ -34,7 +34,7 @@ export default function SEOOptimizationPage() {
               <span className="text-white">Expert SEO Optimization</span>
             </h1>
             
-            <p className="text-xl text-white leading-relaxed mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-300 leading-relaxed mb-8 max-w-3xl mx-auto">
               Increase your organic visibility and drive qualified traffic with our comprehensive SEO strategies. From technical optimization to content strategy, we help you rank higher and reach more customers.
             </p>
 
@@ -66,7 +66,7 @@ export default function SEOOptimizationPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Why Choose Our SEO Services?
             </h2>
-            <p className="text-white text-lg max-w-3xl mx-auto">
+            <p className="text-gray-300 text-lg max-w-3xl mx-auto">
               Comprehensive SEO solutions that deliver measurable results and sustainable growth
             </p>
           </div>
@@ -78,7 +78,7 @@ export default function SEOOptimizationPage() {
                 <span className="text-4xl">🎯</span>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Targeted Keywords</h3>
-              <p className="text-white leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
                 Strategic keyword research to target high-intent searches that drive qualified traffic and conversions.
               </p>
             </div>
@@ -89,7 +89,7 @@ export default function SEOOptimizationPage() {
                 <span className="text-4xl">⚡</span>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Technical Excellence</h3>
-              <p className="text-white leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
                 Comprehensive technical SEO audits and fixes to ensure your site is optimized for search engines.
               </p>
             </div>
@@ -100,7 +100,7 @@ export default function SEOOptimizationPage() {
                 <span className="text-4xl">📈</span>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Proven Results</h3>
-              <p className="text-white leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
                 Data-driven strategies that have helped businesses achieve first-page rankings and increased organic traffic.
               </p>
             </div>
@@ -111,7 +111,7 @@ export default function SEOOptimizationPage() {
                 <span className="text-4xl">✍️</span>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Content Strategy</h3>
-              <p className="text-white leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
                 SEO-optimized content that engages users and satisfies search intent while building authority.
               </p>
             </div>
@@ -122,7 +122,7 @@ export default function SEOOptimizationPage() {
                 <span className="text-4xl">🔗</span>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Quality Backlinks</h3>
-              <p className="text-white leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
                 White-hat link building strategies to increase domain authority and improve search rankings.
               </p>
             </div>
@@ -133,7 +133,7 @@ export default function SEOOptimizationPage() {
                 <span className="text-4xl">📊</span>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Transparent Reporting</h3>
-              <p className="text-white leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
                 Detailed monthly reports showing ranking improvements, traffic growth, and ROI metrics.
               </p>
             </div>

@@ -73,7 +73,7 @@ export default function ConversionRateOptimizationPage() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6">
               <span className="text-5xl">📈</span>
-              <span className="text-primary font-semibold">Conversion Rate Optimization</span>
+              <span className="text-[#1d7ba8] font-semibold">Conversion Rate Optimization</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">
               Our Digital Marketing Services:{' '}
