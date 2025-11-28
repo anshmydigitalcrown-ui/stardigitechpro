@@ -605,7 +605,6 @@ export default function Home() {
                       RA
                     </div>
                     <div>
-                      <h4 className="text-white font-semibold">Rajesh Agarwal</h4>
                       <p className="text-gray-400 text-sm">CEO, E-commerce Solutions</p>
                     </div>
                   </div>
@@ -630,7 +629,6 @@ export default function Home() {
                       PS
                     </div>
                     <div>
-                      <h4 className="text-white font-semibold">Priya Sharma</h4>
                       <p className="text-gray-400 text-sm">Marketing Director, Tech Startup</p>
                     </div>
                   </div>
@@ -655,7 +653,6 @@ export default function Home() {
                       AK
                     </div>
                     <div>
-                      <h4 className="text-white font-semibold">Amit Kumar</h4>
                       <p className="text-gray-400 text-sm">Founder, Fashion Brand</p>
                     </div>
                   </div>
@@ -680,7 +677,6 @@ export default function Home() {
                       NK
                     </div>
                     <div>
-                      <h4 className="text-white font-semibold">Neha Kapoor</h4>
                       <p className="text-gray-400 text-sm">COO, Healthcare Services</p>
                     </div>
                   </div>
@@ -705,7 +701,6 @@ export default function Home() {
                       VG
                     </div>
                     <div>
-                      <h4 className="text-white font-semibold">Vikram Gupta</h4>
                       <p className="text-gray-400 text-sm">Director, Real Estate Group</p>
                     </div>
                   </div>
