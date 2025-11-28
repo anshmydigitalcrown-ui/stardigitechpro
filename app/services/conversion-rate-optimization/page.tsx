@@ -77,7 +77,7 @@ export default function ConversionRateOptimizationPage() {
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">
               Our Digital Marketing Services:{' '}
-              <span className="bg-gradient-to-r from-primary via-[#1d7ba8] to-primary bg-clip-text text-transparent">
+              <span className="text-white">
                 Data-Driven CRO Solutions
               </span>
             </h1>

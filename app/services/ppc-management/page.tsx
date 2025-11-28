@@ -75,8 +75,8 @@ export default function PPCManagementPage() {
               <span className="text-5xl">🎯</span>
               <span className="text-[#1d7ba8] font-semibold">PPC Management</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6">
-              <span className="text-white">Our Digital Marketing Services:{' '}</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">
+              Our Digital Marketing Services:{' '}
               <span className="text-white">
                 Strategic PPC Management
               </span>
