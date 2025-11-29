@@ -325,7 +325,7 @@ export default function ContactPage() {
               <div className="relative bg-gradient-to-br from-slate-800/80 to-slate-900/80 p-3 rounded-2xl border border-[#1d7ba8]/30 shadow-2xl shadow-[#1d7ba8]/10 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#1d7ba8]/5 to-transparent"></div>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.5707334849786!2d77.07846431508236!3d28.62174998243162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04e6cd3b87b3%3A0x5f6e9c1e3e5f8e5e!2sJanakpuri%2C%20New%20Delhi%2C%20Delhi%20110018!5e0!3m2!1sen!2sin!4v1732847000000!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.5849848764755!2d77.08659307550486!3d28.621264075684304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04d1e91a6f59%3A0x8f4e4e4e4e4e4e4e!2sB-638%2C%20Block%20B1%2C%20Janakpuri%2C%20New%20Delhi%2C%20Delhi%20110058!5e0!3m2!1sen!2sin!4v1732849200000!5m2!1sen!2sin"
                   width="100%"
                   height="500"
                   style={{ border: 0 }}
@@ -333,6 +333,7 @@ export default function ContactPage() {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   className="rounded-xl w-full h-[500px]"
+                  title="STAR DIGITECH PRO Office Location - B1-638 Janakpuri, New Delhi"
                 ></iframe>
               </div>
             </div>
@@ -493,7 +494,7 @@ export default function ContactPage() {
                 <div className="relative z-10">
                   <h3 className="text-3xl font-bold text-white mb-4">Ready to Get Started?</h3>
                   <p className="text-gray-300 leading-relaxed text-lg mb-6">
-                    Take the first step towards transforming your digital marketing results. Fill out the contact form above, give us a call, or visit our office in Connaught Place, Delhi. We're excited to learn about your business and explore how we can help you achieve your digital marketing goals.
+                    Take the first step towards transforming your digital marketing results. Fill out the contact form above, give us a call, or visit our office in Janakpuri, New Delhi. We're excited to learn about your business and explore how we can help you achieve your digital marketing goals.
                   </p>
                   <p className="text-[#1d7ba8] font-semibold text-xl">
                     Let's create something amazing together!
