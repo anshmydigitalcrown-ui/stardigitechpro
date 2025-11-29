@@ -858,7 +858,7 @@ export default function Home() {
               {/* Map */}
               <div className="bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-sm rounded-2xl border border-slate-700/50 overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224567.84991569844!2d77.2090212!3d28.5355161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1732632000000!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.5849848764755!2d77.08659307550486!3d28.621264075684304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04d1e91a6f59%3A0x8f4e4e4e4e4e4e4e!2sB-638%2C%20Block%20B1%2C%20Janakpuri%2C%20New%20Delhi%2C%20Delhi%20110058!5e0!3m2!1sen!2sin!4v1732849200000!5m2!1sen!2sin"
                   width="100%"
                   height="450"
                   style={{ border: 0 }}
@@ -866,6 +866,7 @@ export default function Home() {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   className="w-full h-[450px]"
+                  title="STAR DIGITECH PRO Office Location - B1-638 Janakpuri, New Delhi"
                 ></iframe>
               </div>
 
@@ -881,7 +882,9 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="text-white font-bold mb-1">Phone</h3>
-                      <p className="text-gray-300 text-sm">+91 (XXX) XXX-XXXX</p>
+                      <a href="tel:+918595851017" className="text-gray-300 text-sm hover:text-[#1d7ba8] transition-colors">
+                        +91 85958 51017
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -896,7 +899,9 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="text-white font-bold mb-1">Email</h3>
-                      <p className="text-gray-300 text-sm">info@stardigitechpro.com</p>
+                      <a href="mailto:info@stardigitech.com" className="text-gray-300 text-sm hover:text-[#1d7ba8] transition-colors">
+                        info@stardigitech.com
+                      </a>
                     </div>
                   </div>
                 </div>
