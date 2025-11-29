@@ -62,7 +62,7 @@ const Header = () => {
           <div className="hidden md:flex items-center gap-3">
             {/* WhatsApp Button */}
             <a
-              href="https://wa.me/919999999999"
+              href="https://wa.me/918595851017"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold py-2.5 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg"
@@ -76,7 +76,7 @@ const Header = () => {
 
             {/* Call Button */}
             <a
-              href="tel:+919999999999"
+              href="tel:+918595851017"
               className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg"
               aria-label="Call Us"
             >

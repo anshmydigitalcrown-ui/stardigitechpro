@@ -5,7 +5,7 @@ const FloatingButtons = () => {
     <div className="fixed left-6 bottom-6 z-50 flex flex-col gap-4">
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/919999999999"
+        href="https://wa.me/918595851017"
         target="_blank"
         rel="noopener noreferrer"
         className="group relative flex items-center justify-center w-14 h-14 bg-green-600 hover:bg-green-700 text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-110"
@@ -24,7 +24,7 @@ const FloatingButtons = () => {
 
       {/* Call Floating Button */}
       <a
-        href="tel:+919999999999"
+        href="tel:+918595851017"
         className="group relative flex items-center justify-center w-14 h-14 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-110"
         aria-label="Call Us"
       >
