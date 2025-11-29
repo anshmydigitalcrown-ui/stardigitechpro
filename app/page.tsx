@@ -1692,12 +1692,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-              </a>
-              <p className="text-gray-600">Professional Support</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* FAQ Section */}
       <section className="py-20 bg-[#020617]">
